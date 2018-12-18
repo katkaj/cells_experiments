@@ -6,7 +6,7 @@
   "time step size"          : 100,
   "prediction step size"    : 800,
 
-  "use depth"               : false,
+  "use depth"               : true,
   "use gaussian kernel"     : true,
 
   "discretization x"        : 16,
