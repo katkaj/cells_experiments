@@ -1,6 +1,6 @@
 import sys
-sys.path.insert(0, '../physical_modeling/libs_python')
-import pyphy
+import libs_python.pyphy as pyphy
+
 
 
 dats_to_motion_tensor = pyphy.DatsToMotionTensor("parameters/testing_dats.json", "parameters/motion_tensor.json")

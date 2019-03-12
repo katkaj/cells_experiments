@@ -1,6 +1,5 @@
 import sys
-sys.path.insert(0, '../physical_modeling/libs_python')
-import pyphy
+import libs_python.pyphy as pyphy
 
 
 #1, load data from dats files and create motion tensor with normalised columns
@@ -21,8 +20,9 @@ training_tensor = pyphy.TensorNoSpatial("parameters/no_spatial_tensor.json", tra
 testing_tensor  = pyphy.TensorNoSpatial("parameters/no_spatial_tensor.json", testing_dats_to_motion_tensor.tensor())
 '''
 
+testing_count = 20000
 #3, create dataset
-dataset = pyphy.DatasetTrajectory(training_tensor, training_tensor)
+dataset = pyphy.DatasetTrajectory(training_tensor, training_tensor, testing_count)
 
 
 
