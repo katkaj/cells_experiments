@@ -1,4 +1,5 @@
 import json
+import pandas
 import numpy
 import tensor_load
 import matplotlib.pyplot as plt
@@ -31,17 +32,55 @@ def compute_axis_error(target_matrix, computed_matrix):
 
 def compute_errors(target_tensor, computed_tensor, id = 0, verbose = False):
 
+    json_result = {}
+
     result_x = compute_axis_error(target_tensor[0], computed_tensor[0])
     result_y = compute_axis_error(target_tensor[1], computed_tensor[1])
     result_z = compute_axis_error(target_tensor[2], computed_tensor[2])
     result_total = compute_axis_error(target_tensor, computed_tensor)
 
     print(id, end=" ")
-    #print(result_x[0], result_x[1], result_x[2], result_x[3], end=" ")
-    #print(result_y[0], result_y[1], result_y[2], result_y[3], end=" ")
-    #print(result_z[0], result_z[1], result_z[2], result_z[3], end=" ")
+    #print(result_x[0], result_x[1], result_x[2], result_x[3])
+    #print(result_y[0], result_y[1], result_y[2], result_y[3])
+    #print(result_z[0], result_z[1], result_z[2], result_z[3])
     print(result_total[0], result_total[1], result_total[2], result_total[3], end=" ")
     print()
+
+    json_result["id"] = id
+
+    json_result["x"] = {}
+    json_result["x"]["mean"] = result_x[0]
+    json_result["x"]["sigma"] = result_x[1]
+    json_result["x"]["rms"] = result_x[2]
+    json_result["x"]["rms_relative"] = result_x[3]
+
+    json_result["y"] = {}
+    json_result["y"]["mean"] = result_y[0]
+    json_result["y"]["sigma"] = result_y[1]
+    json_result["y"]["rms"] = result_y[2]
+    json_result["y"]["rms_relative"] = result_y[3]
+
+    json_result["z"] = {}
+    json_result["z"]["mean"] = result_z[0]
+    json_result["z"]["sigma"] = result_z[1]
+    json_result["z"]["rms"] = result_z[2]
+    json_result["z"]["rms_relative"] = result_z[3]
+
+    json_result["total"] = {}
+    json_result["total"]["mean"] = result_total[0]
+    json_result["total"]["sigma"] = result_total[1]
+    json_result["total"]["rms"] = result_total[2]
+    json_result["total"]["rms_relative"] = result_total[3]
+
+    return json_result
+
+def save_results(file_name_prefix, json_result):
+
+    json_file_name = file_name_prefix + ".json"
+
+    json_out_file = open(json_file_name, "w")
+    json.dump(json_result, json_out_file)
+
 
 #program starts here :
 
@@ -54,48 +93,59 @@ target_tensor = tensor_load.TensorLoad("trajectory_result/target.json", load_sta
 
 target_tensor.print_info()
 
-print("loading experiment 0")
-experiment_0_tensor = tensor_load.TensorLoad("trajectory_result/experiment_0.json", load_start_offset, load_reshaped)
 
-print("loading experiment 1")
-experiment_1_tensor = tensor_load.TensorLoad("trajectory_result/experiment_1.json", load_start_offset, load_reshaped)
 
-print("loading experiment 2")
-experiment_2_tensor = tensor_load.TensorLoad("trajectory_result/experiment_2.json", load_start_offset, load_reshaped)
 
-print("loading experiment 3")
-experiment_3_tensor = tensor_load.TensorLoad("trajectory_result/experiment_3.json", load_start_offset, load_reshaped)
+print("loading experiments")
 
-print("loading experiment 4")
-experiment_4_tensor = tensor_load.TensorLoad("trajectory_result/experiment_4.json", load_start_offset, load_reshaped)
+experiment_disc16x16x3_net_4_tensor = tensor_load.TensorLoad("trajectory_result/disc16x16x3/net_4.json", load_start_offset, load_reshaped)
+experiment_disc16x16x3_net_4_depth_tensor = tensor_load.TensorLoad("trajectory_result/disc16x16x3/net_4_depth.json", load_start_offset, load_reshaped)
+experiment_disc16x16x3_net_5_tensor = tensor_load.TensorLoad("trajectory_result/disc16x16x3/net_5.json", load_start_offset, load_reshaped)
+experiment_disc16x16x3_net_5_depth_tensor = tensor_load.TensorLoad("trajectory_result/disc16x16x3/net_5_depth.json", load_start_offset, load_reshaped)
+experiment_disc16x16x3_net_6_tensor = tensor_load.TensorLoad("trajectory_result/disc16x16x3/net_6.json", load_start_offset, load_reshaped)
+experiment_disc16x16x3_net_6_depth_tensor = tensor_load.TensorLoad("trajectory_result/disc16x16x3/net_6_depth.json", load_start_offset, load_reshaped)
+experiment_disc16x16x3_net_7_tensor = tensor_load.TensorLoad("trajectory_result/disc16x16x3/net_7.json", load_start_offset, load_reshaped)
+experiment_disc16x16x3_net_7_depth_tensor = tensor_load.TensorLoad("trajectory_result/disc16x16x3/net_7_depth.json", load_start_offset, load_reshaped)
 
-print("loading experiment 5")
-experiment_5_tensor = tensor_load.TensorLoad("trajectory_result/experiment_5.json", load_start_offset, load_reshaped)
+experiment_disc40x20x3_net_4_tensor = tensor_load.TensorLoad("trajectory_result/disc40x20x3/net_4.json", load_start_offset, load_reshaped)
+experiment_disc40x20x3_net_4_depth_tensor = tensor_load.TensorLoad("trajectory_result/disc40x20x3/net_4_depth.json", load_start_offset, load_reshaped)
+experiment_disc40x20x3_net_5_tensor = tensor_load.TensorLoad("trajectory_result/disc40x20x3/net_5.json", load_start_offset, load_reshaped)
+experiment_disc40x20x3_net_5_depth_tensor = tensor_load.TensorLoad("trajectory_result/disc40x20x3/net_5_depth.json", load_start_offset, load_reshaped)
+experiment_disc40x20x3_net_6_tensor = tensor_load.TensorLoad("trajectory_result/disc40x20x3/net_6.json", load_start_offset, load_reshaped)
+experiment_disc40x20x3_net_6_depth_tensor = tensor_load.TensorLoad("trajectory_result/disc40x20x3/net_6_depth.json", load_start_offset, load_reshaped)
+experiment_disc40x20x3_net_7_tensor = tensor_load.TensorLoad("trajectory_result/disc40x20x3/net_7.json", load_start_offset, load_reshaped)
+experiment_disc40x20x3_net_7_depth_tensor = tensor_load.TensorLoad("trajectory_result/disc40x20x3/net_7_depth.json", load_start_offset, load_reshaped)
 
-print("loading experiment 6")
-experiment_6_tensor = tensor_load.TensorLoad("trajectory_result/experiment_6.json", load_start_offset, load_reshaped)
 
-print("loading experiment 7")
-experiment_7_tensor = tensor_load.TensorLoad("trajectory_result/experiment_7.json", load_start_offset, load_reshaped)
 
-print("\n\n")
+print()
+print("computing errors")
+print()
 
-compute_errors(target_tensor.get(), experiment_0_tensor.get(), 0)
-compute_errors(target_tensor.get(), experiment_1_tensor.get(), 1)
-compute_errors(target_tensor.get(), experiment_2_tensor.get(), 2)
-compute_errors(target_tensor.get(), experiment_3_tensor.get(), 3)
-compute_errors(target_tensor.get(), experiment_4_tensor.get(), 4)
-compute_errors(target_tensor.get(), experiment_5_tensor.get(), 5)
-compute_errors(target_tensor.get(), experiment_6_tensor.get(), 6)
-compute_errors(target_tensor.get(), experiment_7_tensor.get(), 7)
+json_result = {}
+json_result["results"] = []
 
-'''
-0 -9.803 38.882 40.098 15.876 16.103
-1 -36.993 215.021 218.18 45.865 46.714
-2 -3.854 23.106 23.425 9.933 14.158
-3 -0.32 16.087 16.09 7.615 12.418
-4 -1.263 11.439 11.508 4.194 8.447
-5 -0.246 11.274 11.276 4.659 8.72
-6 -0.852 12.262 12.292 4.559 9.245
-7 -1.674 11.9 12.018 4.097 8.288
-'''
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc16x16x3_net_4_tensor.get(), "disc16x16x3_net_4"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc16x16x3_net_4_depth_tensor.get(), "disc16x16x3_net_4_depth"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc16x16x3_net_5_tensor.get(), "disc16x16x3_net_5"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc16x16x3_net_5_depth_tensor.get(), "disc16x16x3_net_5_depth"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc16x16x3_net_6_tensor.get(), "disc16x16x3_net_6"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc16x16x3_net_6_depth_tensor.get(), "disc16x16x3_net_6_depth"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc16x16x3_net_7_tensor.get(), "disc16x16x3_net_7"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc16x16x3_net_7_depth_tensor.get(), "disc16x16x3_net_7_depth"))
+
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc40x20x3_net_4_tensor.get(), "disc40x20x3_net_4"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc40x20x3_net_4_depth_tensor.get(), "disc40x20x3_net_4_depth"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc40x20x3_net_5_tensor.get(), "disc40x20x3_net_5"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc40x20x3_net_5_depth_tensor.get(), "disc40x20x3_net_5_depth"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc40x20x3_net_6_tensor.get(), "disc40x20x3_net_6"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc40x20x3_net_6_depth_tensor.get(), "disc40x20x3_net_6_depth"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc40x20x3_net_7_tensor.get(), "disc40x20x3_net_7"))
+json_result["results"].append(compute_errors(target_tensor.get(), experiment_disc40x20x3_net_7_depth_tensor.get(), "disc40x20x3_net_7_depth"))
+
+
+print("saving results")
+
+save_results("trajectory_result/errors", json_result)
+
+print("program done")

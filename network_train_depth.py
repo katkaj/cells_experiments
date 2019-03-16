@@ -25,6 +25,14 @@ def experiment(tensor_config, network_config):
     experiment = pyphy.RegressionExperiment(dataset, network_config)
     experiment.run()
 
+
+experiment("parameters/disc16x16x3/spatial_tensor.json","networks/disc16x16x3/net_4/")
+experiment("parameters/disc16x16x3/spatial_tensor.json","networks/disc16x16x3/net_5/")
+experiment("parameters/disc16x16x3/spatial_tensor.json","networks/disc16x16x3/net_6/")
+experiment("parameters/disc16x16x3/spatial_tensor.json","networks/disc16x16x3/net_7/")
+
+ 
+'''
 experiment("parameters/disc16x16x3/spatial_tensor_depth.json","networks/disc16x16x3/net_4_depth/")
 experiment("parameters/disc16x16x3/spatial_tensor_depth.json","networks/disc16x16x3/net_5_depth/")
 experiment("parameters/disc16x16x3/spatial_tensor_depth.json","networks/disc16x16x3/net_6_depth/")
@@ -39,5 +47,6 @@ experiment("parameters/disc40x20x3/spatial_tensor_depth.json","networks/disc40x2
 experiment("parameters/disc40x20x3/spatial_tensor_depth.json","networks/disc40x20x3/net_5_depth/")
 experiment("parameters/disc40x20x3/spatial_tensor_depth.json","networks/disc40x20x3/net_6_depth/")
 experiment("parameters/disc40x20x3/spatial_tensor_depth.json","networks/disc40x20x3/net_7_depth/")
+'''
 
 print("program done")
