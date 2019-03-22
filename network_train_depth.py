@@ -25,40 +25,41 @@ def experiment(tensor_config, network_config):
     experiment = pyphy.RegressionExperiment(dataset, network_config)
     experiment.run()
 
+#8x8x3 discretisation, no gaussian kernel, no depth + depth
+experiment("parameters/disc8x8x3/spatial_tensor_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_4/")
+experiment("parameters/disc8x8x3/spatial_tensor_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_5/")
+experiment("parameters/disc8x8x3/spatial_tensor_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_6/")
+experiment("parameters/disc8x8x3/spatial_tensor_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_7/")
 
-experiment("parameters/disc8x8x3/spatial_tensor.json","networks/disc8x8x3/net_4/")
-experiment("parameters/disc8x8x3/spatial_tensor.json","networks/disc8x8x3/net_5/")
-experiment("parameters/disc8x8x3/spatial_tensor.json","networks/disc8x8x3/net_6/")
-experiment("parameters/disc8x8x3/spatial_tensor.json","networks/disc8x8x3/net_7/")
-
-experiment("parameters/disc8x8x3/spatial_tensor_depth.json","networks/disc8x8x3/net_4_depth/")
-experiment("parameters/disc8x8x3/spatial_tensor_depth.json","networks/disc8x8x3/net_5_depth/")
-experiment("parameters/disc8x8x3/spatial_tensor_depth.json","networks/disc8x8x3/net_6_depth/")
-experiment("parameters/disc8x8x3/spatial_tensor_depth.json","networks/disc8x8x3/net_7_depth/")
+experiment("parameters/disc8x8x3/spatial_tensor_depth_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_4_depth/")
+experiment("parameters/disc8x8x3/spatial_tensor_depth_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_5_depth/")
+experiment("parameters/disc8x8x3/spatial_tensor_depth_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_6_depth/")
+experiment("parameters/disc8x8x3/spatial_tensor_depth_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_7_depth/")
 
 
-'''
-experiment("parameters/disc16x16x3/spatial_tensor.json","networks/disc16x16x3/net_4/")
-experiment("parameters/disc16x16x3/spatial_tensor.json","networks/disc16x16x3/net_5/")
-experiment("parameters/disc16x16x3/spatial_tensor.json","networks/disc16x16x3/net_6/")
-experiment("parameters/disc16x16x3/spatial_tensor.json","networks/disc16x16x3/net_7/")
-'''
+#16x16x3 discretisation, no gaussian kernel, no depth + depth
+experiment("parameters/disc16x16x3/spatial_tensor_no_gaussian.json","networks/disc16x16x3_no_gaussian/net_4/")
+experiment("parameters/disc16x16x3/spatial_tensor_no_gaussian.json","networks/disc16x16x3_no_gaussian/net_5/")
+experiment("parameters/disc16x16x3/spatial_tensor_no_gaussian.json","networks/disc16x16x3_no_gaussian/net_6/")
+experiment("parameters/disc16x16x3/spatial_tensor_no_gaussian.json","networks/disc16x16x3_no_gaussian/net_7/")
 
-'''
-experiment("parameters/disc16x16x3/spatial_tensor_depth.json","networks/disc16x16x3/net_4_depth/")
-experiment("parameters/disc16x16x3/spatial_tensor_depth.json","networks/disc16x16x3/net_5_depth/")
-experiment("parameters/disc16x16x3/spatial_tensor_depth.json","networks/disc16x16x3/net_6_depth/")
-experiment("parameters/disc16x16x3/spatial_tensor_depth.json","networks/disc16x16x3/net_7_depth/")
+experiment("parameters/disc16x16x3/spatial_tensor_depth_no_gaussian.json","networks/disc16x16x3_no_gaussian/net_4_depth/")
+experiment("parameters/disc16x16x3/spatial_tensor_depth_no_gaussian.json","networks/disc16x16x3_no_gaussian/net_5_depth/")
+experiment("parameters/disc16x16x3/spatial_tensor_depth_no_gaussian.json","networks/disc16x16x3_no_gaussian/net_6_depth/")
+experiment("parameters/disc16x16x3/spatial_tensor_depth_no_gaussian.json","networks/disc16x16x3_no_gaussian/net_7_depth/")
 
-experiment("parameters/disc40x20x3/spatial_tensor.json","networks/disc40x20x3/net_4/")
-experiment("parameters/disc40x20x3/spatial_tensor.json","networks/disc40x20x3/net_5/")
-experiment("parameters/disc40x20x3/spatial_tensor.json","networks/disc40x20x3/net_6/")
-experiment("parameters/disc40x20x3/spatial_tensor.json","networks/disc40x20x3/net_7/")
 
-experiment("parameters/disc40x20x3/spatial_tensor_depth.json","networks/disc40x20x3/net_4_depth/")
-experiment("parameters/disc40x20x3/spatial_tensor_depth.json","networks/disc40x20x3/net_5_depth/")
-experiment("parameters/disc40x20x3/spatial_tensor_depth.json","networks/disc40x20x3/net_6_depth/")
-experiment("parameters/disc40x20x3/spatial_tensor_depth.json","networks/disc40x20x3/net_7_depth/")
-'''
+#40x20x3 discretisation, no gaussian kernel, no depth + depth
+experiment("parameters/disc40x20x3/spatial_tensor_no_gaussian.json","networks/disc40x20x3_no_gaussian/net_4/")
+experiment("parameters/disc40x20x3/spatial_tensor_no_gaussian.json","networks/disc40x20x3_no_gaussian/net_5/")
+experiment("parameters/disc40x20x3/spatial_tensor_no_gaussian.json","networks/disc40x20x3_no_gaussian/net_6/")
+experiment("parameters/disc40x20x3/spatial_tensor_no_gaussian.json","networks/disc40x20x3_no_gaussian/net_7/")
+
+experiment("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian.json","networks/disc40x20x3_no_gaussian/net_4_depth/")
+experiment("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian.json","networks/disc40x20x3_no_gaussian/net_5_depth/")
+experiment("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian.json","networks/disc40x20x3_no_gaussian/net_6_depth/")
+experiment("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian.json","networks/disc40x20x3_no_gaussian/net_7_depth/")
+
+
 
 print("program done")

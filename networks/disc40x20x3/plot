@@ -1,0 +1,31 @@
+cd net_4
+gnuplot plot_script
+cd ..
+
+cd net_4_depth
+gnuplot plot_script
+cd ..
+
+cd net_5
+gnuplot plot_script
+cd ..
+
+cd net_5_depth
+gnuplot plot_script
+cd ..
+
+cd net_6
+gnuplot plot_script
+cd ..
+
+cd net_6_depth
+gnuplot plot_script
+cd ..
+
+cd net_7
+gnuplot plot_script
+cd ..
+
+cd net_7_depth
+gnuplot plot_script
+cd ..
