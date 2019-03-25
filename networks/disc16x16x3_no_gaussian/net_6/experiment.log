@@ -1,0 +1,534 @@
+initializing
+training size    : 359556
+testing size     : 20000
+epoch count      : 10
+sub epoch size   : 5
+
+epoch_learning_rate_decay   : 8
+learning_rate_decay         : 0.250000
+
+training
+
+
+
+epoch [0 0] from [10 5]
+training time per iterations 4.004074[ms]
+testing on 20000 items
+testing done
+average error 0.002495
+min error     0.000000
+max error     0.284880
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.002495
+
+
+
+epoch [0 1] from [10 5]
+training time per iterations 3.941706[ms]
+testing on 20000 items
+testing done
+average error 0.002245
+min error     0.000000
+max error     0.235361
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.002245
+
+
+
+epoch [0 2] from [10 5]
+training time per iterations 3.941525[ms]
+testing on 20000 items
+testing done
+average error 0.002140
+min error     0.000000
+max error     0.243573
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.002140
+
+
+
+epoch [0 3] from [10 5]
+training time per iterations 3.948228[ms]
+testing on 20000 items
+testing done
+average error 0.002212
+min error     0.000000
+max error     0.249803
+
+
+
+epoch [0 4] from [10 5]
+training time per iterations 3.946879[ms]
+testing on 20000 items
+testing done
+average error 0.002008
+min error     0.000000
+max error     0.250292
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.002008
+
+
+
+epoch [1 0] from [10 5]
+training time per iterations 3.997344[ms]
+testing on 20000 items
+testing done
+average error 0.001928
+min error     0.000000
+max error     0.253386
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.001928
+
+
+
+epoch [1 1] from [10 5]
+training time per iterations 3.965388[ms]
+testing on 20000 items
+testing done
+average error 0.001882
+min error     0.000000
+max error     0.234747
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.001882
+
+
+
+epoch [1 2] from [10 5]
+training time per iterations 3.946573[ms]
+testing on 20000 items
+testing done
+average error 0.001845
+min error     0.000000
+max error     0.247403
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.001845
+
+
+
+epoch [1 3] from [10 5]
+training time per iterations 3.932263[ms]
+testing on 20000 items
+testing done
+average error 0.001934
+min error     0.000000
+max error     0.229845
+
+
+
+epoch [1 4] from [10 5]
+training time per iterations 3.984439[ms]
+testing on 20000 items
+testing done
+average error 0.001995
+min error     0.000000
+max error     0.245613
+
+
+
+epoch [2 0] from [10 5]
+training time per iterations 4.001877[ms]
+testing on 20000 items
+testing done
+average error 0.001850
+min error     0.000000
+max error     0.238508
+
+
+
+epoch [2 1] from [10 5]
+training time per iterations 3.950133[ms]
+testing on 20000 items
+testing done
+average error 0.001930
+min error     0.000000
+max error     0.261318
+
+
+
+epoch [2 2] from [10 5]
+training time per iterations 3.946156[ms]
+testing on 20000 items
+testing done
+average error 0.001946
+min error     0.000000
+max error     0.245773
+
+
+
+epoch [2 3] from [10 5]
+training time per iterations 3.939884[ms]
+testing on 20000 items
+testing done
+average error 0.001916
+min error     0.000000
+max error     0.225109
+
+
+
+epoch [2 4] from [10 5]
+training time per iterations 3.944737[ms]
+testing on 20000 items
+testing done
+average error 0.001788
+min error     0.000000
+max error     0.240406
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.001788
+
+
+
+epoch [3 0] from [10 5]
+training time per iterations 3.986233[ms]
+testing on 20000 items
+testing done
+average error 0.001903
+min error     0.000000
+max error     0.235839
+
+
+
+epoch [3 1] from [10 5]
+training time per iterations 3.942373[ms]
+testing on 20000 items
+testing done
+average error 0.001995
+min error     0.000000
+max error     0.246924
+
+
+
+epoch [3 2] from [10 5]
+training time per iterations 3.980587[ms]
+testing on 20000 items
+testing done
+average error 0.001884
+min error     0.000000
+max error     0.235929
+
+
+
+epoch [3 3] from [10 5]
+training time per iterations 3.976082[ms]
+testing on 20000 items
+testing done
+average error 0.001891
+min error     0.000000
+max error     0.242586
+
+
+
+epoch [3 4] from [10 5]
+training time per iterations 4.011111[ms]
+testing on 20000 items
+testing done
+average error 0.001859
+min error     0.000000
+max error     0.253442
+
+
+
+epoch [4 0] from [10 5]
+training time per iterations 3.948993[ms]
+testing on 20000 items
+testing done
+average error 0.001804
+min error     0.000000
+max error     0.227892
+
+
+
+epoch [4 1] from [10 5]
+training time per iterations 3.941567[ms]
+testing on 20000 items
+testing done
+average error 0.001805
+min error     0.000000
+max error     0.234594
+
+
+
+epoch [4 2] from [10 5]
+training time per iterations 3.955709[ms]
+testing on 20000 items
+testing done
+average error 0.001814
+min error     0.000000
+max error     0.231075
+
+
+
+epoch [4 3] from [10 5]
+training time per iterations 3.996273[ms]
+testing on 20000 items
+testing done
+average error 0.001835
+min error     0.000000
+max error     0.243244
+
+
+
+epoch [4 4] from [10 5]
+training time per iterations 4.010763[ms]
+testing on 20000 items
+testing done
+average error 0.001759
+min error     0.000000
+max error     0.239283
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.001759
+
+
+
+epoch [5 0] from [10 5]
+training time per iterations 3.989682[ms]
+testing on 20000 items
+testing done
+average error 0.001823
+min error     0.000000
+max error     0.230759
+
+
+
+epoch [5 1] from [10 5]
+training time per iterations 4.000834[ms]
+testing on 20000 items
+testing done
+average error 0.001888
+min error     0.000000
+max error     0.245740
+
+
+
+epoch [5 2] from [10 5]
+training time per iterations 4.016604[ms]
+testing on 20000 items
+testing done
+average error 0.001801
+min error     0.000000
+max error     0.233885
+
+
+
+epoch [5 3] from [10 5]
+training time per iterations 3.967154[ms]
+testing on 20000 items
+testing done
+average error 0.001797
+min error     0.000000
+max error     0.240421
+
+
+
+epoch [5 4] from [10 5]
+training time per iterations 4.004686[ms]
+testing on 20000 items
+testing done
+average error 0.001860
+min error     0.000000
+max error     0.217004
+
+
+
+epoch [6 0] from [10 5]
+training time per iterations 3.947268[ms]
+testing on 20000 items
+testing done
+average error 0.001799
+min error     0.000000
+max error     0.238032
+
+
+
+epoch [6 1] from [10 5]
+training time per iterations 3.963872[ms]
+testing on 20000 items
+testing done
+average error 0.001863
+min error     0.000000
+max error     0.240741
+
+
+
+epoch [6 2] from [10 5]
+training time per iterations 3.971479[ms]
+testing on 20000 items
+testing done
+average error 0.001952
+min error     0.000000
+max error     0.245720
+
+
+
+epoch [6 3] from [10 5]
+training time per iterations 3.942902[ms]
+testing on 20000 items
+testing done
+average error 0.001859
+min error     0.000000
+max error     0.218935
+
+
+
+epoch [6 4] from [10 5]
+training time per iterations 3.955723[ms]
+testing on 20000 items
+testing done
+average error 0.001762
+min error     0.000000
+max error     0.229441
+
+
+
+epoch [7 0] from [10 5]
+training time per iterations 3.971812[ms]
+testing on 20000 items
+testing done
+average error 0.001784
+min error     0.000000
+max error     0.250378
+
+
+
+epoch [7 1] from [10 5]
+training time per iterations 3.966556[ms]
+testing on 20000 items
+testing done
+average error 0.001785
+min error     0.000000
+max error     0.228663
+
+
+
+epoch [7 2] from [10 5]
+training time per iterations 3.989918[ms]
+testing on 20000 items
+testing done
+average error 0.001869
+min error     0.000000
+max error     0.238340
+
+
+
+epoch [7 3] from [10 5]
+training time per iterations 3.960548[ms]
+testing on 20000 items
+testing done
+average error 0.001891
+min error     0.000000
+max error     0.239511
+
+
+
+epoch [7 4] from [10 5]
+training time per iterations 3.959408[ms]
+testing on 20000 items
+testing done
+average error 0.001779
+min error     0.000000
+max error     0.231288
+setting learning rate to 0.000050
+
+
+
+epoch [8 0] from [10 5]
+training time per iterations 3.941775[ms]
+testing on 20000 items
+testing done
+average error 0.001813
+min error     0.000000
+max error     0.234685
+
+
+
+epoch [8 1] from [10 5]
+training time per iterations 3.972661[ms]
+testing on 20000 items
+testing done
+average error 0.001759
+min error     0.000000
+max error     0.237791
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.001759
+
+
+
+epoch [8 2] from [10 5]
+training time per iterations 4.009414[ms]
+testing on 20000 items
+testing done
+average error 0.001806
+min error     0.000000
+max error     0.239300
+
+
+
+epoch [8 3] from [10 5]
+training time per iterations 3.954555[ms]
+testing on 20000 items
+testing done
+average error 0.001787
+min error     0.000000
+max error     0.234043
+
+
+
+epoch [8 4] from [10 5]
+training time per iterations 3.967029[ms]
+testing on 20000 items
+testing done
+average error 0.001795
+min error     0.000000
+max error     0.240329
+
+
+
+epoch [9 0] from [10 5]
+training time per iterations 4.014546[ms]
+testing on 20000 items
+testing done
+average error 0.001771
+min error     0.000000
+max error     0.232819
+
+
+
+epoch [9 1] from [10 5]
+training time per iterations 3.970922[ms]
+testing on 20000 items
+testing done
+average error 0.001750
+min error     0.000000
+max error     0.238826
+saving best net
+best net saved to networks/disc16x16x3_no_gaussian/net_6/trained/, with error 0.001750
+
+
+
+epoch [9 2] from [10 5]
+training time per iterations 3.990613[ms]
+testing on 20000 items
+testing done
+average error 0.001797
+min error     0.000000
+max error     0.232108
+
+
+
+epoch [9 3] from [10 5]
+training time per iterations 4.018342[ms]
+testing on 20000 items
+testing done
+average error 0.001769
+min error     0.000000
+max error     0.232996
+
+
+
+epoch [9 4] from [10 5]
+training time per iterations 4.026463[ms]
+testing on 20000 items
+testing done
+average error 0.001810
+min error     0.000000
+max error     0.232949
+training done
