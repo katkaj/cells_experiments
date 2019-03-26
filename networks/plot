@@ -1,0 +1,51 @@
+cd disc8x8x3
+./plot
+cd ..
+
+cd disc8x8x3_no_gaussian
+./plot
+cd ..
+
+cd disc8x8x3_no_gaussian_window_size_4
+#./plot
+cd ..
+
+cd disc8x8x3_window_size_4
+#./plot
+cd ..
+
+
+
+cd disc16x16x3
+./plot
+cd ..
+
+cd disc16x16x3_no_gaussian
+./plot
+cd ..
+
+cd disc16x16x3_no_gaussian_window_size_4
+#./plot
+cd ..
+
+cd disc16x16x3_window_size_4
+#./plot
+cd ..
+
+
+
+cd disc40x20x3
+./plot
+cd ..
+
+cd disc40x20x3_no_gaussian
+./plot
+cd ..
+
+cd disc40x20x3_no_gaussian_window_size_4
+#./plot
+cd ..
+
+cd disc40x20x3_window_size_4
+#./plot
+cd ..

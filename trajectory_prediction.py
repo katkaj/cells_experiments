@@ -30,7 +30,6 @@ def process_trajectory(tensor_config, network_config, result_file_name):
 # process_trajectory("parameters/disc16x16x3/spatial_tensor_depth.json", "networks/disc16x16x3/net_4_depth/trained/cnn_config.json", "trajectory_result/disc16x16x3_net_4_depth.json")
 
 '''
-
 process_trajectory("parameters/disc8x8x3/spatial_tensor.json", "networks/disc8x8x3/net_4/trained/cnn_config.json", "trajectory_result/disc8x8x3/net_4.json")
 process_trajectory("parameters/disc8x8x3/spatial_tensor_depth.json", "networks/disc8x8x3/net_4_depth/trained/cnn_config.json", "trajectory_result/disc8x8x3/net_4_depth.json")
 process_trajectory("parameters/disc8x8x3/spatial_tensor.json", "networks/disc8x8x3/net_5/trained/cnn_config.json", "trajectory_result/disc8x8x3/net_5.json")
@@ -39,8 +38,6 @@ process_trajectory("parameters/disc8x8x3/spatial_tensor.json", "networks/disc8x8
 process_trajectory("parameters/disc8x8x3/spatial_tensor_depth.json", "networks/disc8x8x3/net_6_depth/trained/cnn_config.json", "trajectory_result/disc8x8x3/net_6_depth.json")
 process_trajectory("parameters/disc8x8x3/spatial_tensor.json", "networks/disc8x8x3/net_7/trained/cnn_config.json", "trajectory_result/disc8x8x3/net_7.json")
 process_trajectory("parameters/disc8x8x3/spatial_tensor_depth.json", "networks/disc8x8x3/net_7_depth/trained/cnn_config.json", "trajectory_result/disc8x8x3/net_7_depth.json")
-
-
 
 process_trajectory("parameters/disc16x16x3/spatial_tensor.json", "networks/disc16x16x3/net_4/trained/cnn_config.json", "trajectory_result/disc16x16x3/net_4.json")
 process_trajectory("parameters/disc16x16x3/spatial_tensor_depth.json", "networks/disc16x16x3/net_4_depth/trained/cnn_config.json", "trajectory_result/disc16x16x3/net_4_depth.json")
@@ -59,7 +56,6 @@ process_trajectory("parameters/disc40x20x3/spatial_tensor.json", "networks/disc4
 process_trajectory("parameters/disc40x20x3/spatial_tensor_depth.json", "networks/disc40x20x3/net_6_depth/trained/cnn_config.json", "trajectory_result/disc40x20x3/net_6_depth.json")
 process_trajectory("parameters/disc40x20x3/spatial_tensor.json", "networks/disc40x20x3/net_7/trained/cnn_config.json", "trajectory_result/disc40x20x3/net_7.json")
 process_trajectory("parameters/disc40x20x3/spatial_tensor_depth.json", "networks/disc40x20x3/net_7_depth/trained/cnn_config.json", "trajectory_result/disc40x20x3/net_7_depth.json")
-
 '''
 
 
@@ -93,6 +89,10 @@ process_trajectory("parameters/disc40x20x3/spatial_tensor_no_gaussian.json", "ne
 process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian.json", "networks/disc40x20x3_no_gaussian/net_6_depth/trained/cnn_config.json", "trajectory_result/disc40x20x3_no_gaussian/net_6_depth.json")
 process_trajectory("parameters/disc40x20x3/spatial_tensor_no_gaussian.json", "networks/disc40x20x3_no_gaussian/net_7/trained/cnn_config.json", "trajectory_result/disc40x20x3_no_gaussian/net_7.json")
 process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian.json", "networks/disc40x20x3_no_gaussian/net_7_depth/trained/cnn_config.json", "trajectory_result/disc40x20x3_no_gaussian/net_7_depth.json")
+
+
+
+
 
 
 print("program done")

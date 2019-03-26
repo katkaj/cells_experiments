@@ -1,0 +1,31 @@
+cd net_4
+./plot
+cd ..
+
+cd net_4_depth
+./plot
+cd ..
+
+cd net_5
+./plot
+cd ..
+
+cd net_5_depth
+./plot
+cd ..
+
+cd net_6
+./plot
+cd ..
+
+cd net_6_depth
+./plot
+cd ..
+
+cd net_7
+./plot
+cd ..
+
+cd net_7_depth
+./plot
+cd ..

@@ -1,0 +1,31 @@
+cd net_4
+./clean
+cd ..
+
+cd net_4_depth
+./clean
+cd ..
+
+cd net_5
+./clean
+cd ..
+
+cd net_5_depth
+./clean
+cd ..
+
+cd net_6
+./clean
+cd ..
+
+cd net_6_depth
+./clean
+cd ..
+
+cd net_7
+./clean
+cd ..
+
+cd net_7_depth
+./clean
+cd ..
