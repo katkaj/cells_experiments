@@ -49,7 +49,7 @@ experiment_disc16x16x3_no_gaussian_net_6_depth_tensor = tensor_load.TensorLoad(r
 experiment_disc16x16x3_no_gaussian_net_7_tensor = tensor_load.TensorLoad(result_path + "trajectory_result/disc16x16x3_no_gaussian/net_7.json", load_start_offset, load_reshaped)
 experiment_disc16x16x3_no_gaussian_net_7_depth_tensor = tensor_load.TensorLoad(result_path + "trajectory_result/disc16x16x3_no_gaussian/net_7_depth.json", load_start_offset, load_reshaped)
 
-'''
+
 experiment_disc40x20x3_no_gaussian_net_4_tensor = tensor_load.TensorLoad(result_path + "trajectory_result/disc40x20x3_no_gaussian/net_4.json", load_start_offset, load_reshaped)
 experiment_disc40x20x3_no_gaussian_net_4_depth_tensor = tensor_load.TensorLoad(result_path + "trajectory_result/disc40x20x3_no_gaussian/net_4_depth.json", load_start_offset, load_reshaped)
 experiment_disc40x20x3_no_gaussian_net_5_tensor = tensor_load.TensorLoad(result_path + "trajectory_result/disc40x20x3_no_gaussian/net_5.json", load_start_offset, load_reshaped)
@@ -58,7 +58,7 @@ experiment_disc40x20x3_no_gaussian_net_6_tensor = tensor_load.TensorLoad(result_
 experiment_disc40x20x3_no_gaussian_net_6_depth_tensor = tensor_load.TensorLoad(result_path + "trajectory_result/disc40x20x3_no_gaussian/net_6_depth.json", load_start_offset, load_reshaped)
 experiment_disc40x20x3_no_gaussian_net_7_tensor = tensor_load.TensorLoad(result_path + "trajectory_result/disc40x20x3_no_gaussian/net_7.json", load_start_offset, load_reshaped)
 experiment_disc40x20x3_no_gaussian_net_7_depth_tensor = tensor_load.TensorLoad(result_path + "trajectory_result/disc40x20x3_no_gaussian/net_7_depth.json", load_start_offset, load_reshaped)
-'''
+
 
 print()
 print("computing errors")
@@ -86,7 +86,7 @@ json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.g
 json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.get(), experiment_disc16x16x3_no_gaussian_net_7_tensor.get(), "disc16x16x3_no_gaussian_net_7"))
 json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.get(), experiment_disc16x16x3_no_gaussian_net_7_depth_tensor.get(), "disc16x16x3_no_gaussian_net_7_depth"))
 
-'''
+
 json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.get(), experiment_disc40x20x3_no_gaussian_net_4_tensor.get(), "disc40x20x3_no_gaussian_net_4"))
 json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.get(), experiment_disc40x20x3_no_gaussian_net_4_depth_tensor.get(), "disc40x20x3_no_gaussian_net_4_depth"))
 json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.get(), experiment_disc40x20x3_no_gaussian_net_5_tensor.get(), "disc40x20x3_no_gaussian_net_5"))
@@ -95,7 +95,7 @@ json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.g
 json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.get(), experiment_disc40x20x3_no_gaussian_net_6_depth_tensor.get(), "disc40x20x3_no_gaussian_net_6_depth"))
 json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.get(), experiment_disc40x20x3_no_gaussian_net_7_tensor.get(), "disc40x20x3_no_gaussian_net_7"))
 json_result["results"].append(libs_compute_errors.compute_errors(target_tensor.get(), experiment_disc40x20x3_no_gaussian_net_7_depth_tensor.get(), "disc40x20x3_no_gaussian_net_7_depth"))
-'''
+
 
 
 print("saving results")
