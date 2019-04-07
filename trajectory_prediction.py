@@ -56,11 +56,6 @@ process_trajectory("parameters/disc40x20x3/spatial_tensor.json", "networks/disc4
 process_trajectory("parameters/disc40x20x3/spatial_tensor_depth.json", "networks/disc40x20x3/net_6_depth/trained/cnn_config.json", "trajectory_result/disc40x20x3/net_6_depth.json")
 process_trajectory("parameters/disc40x20x3/spatial_tensor.json", "networks/disc40x20x3/net_7/trained/cnn_config.json", "trajectory_result/disc40x20x3/net_7.json")
 process_trajectory("parameters/disc40x20x3/spatial_tensor_depth.json", "networks/disc40x20x3/net_7_depth/trained/cnn_config.json", "trajectory_result/disc40x20x3/net_7_depth.json")
-'''
-
-
-
-
 
 
 process_trajectory("parameters/disc8x8x3/spatial_tensor_no_gaussian.json", "networks/disc8x8x3_no_gaussian/net_4/trained/cnn_config.json", "trajectory_result/disc8x8x3_no_gaussian/net_4.json")
@@ -89,9 +84,68 @@ process_trajectory("parameters/disc40x20x3/spatial_tensor_no_gaussian.json", "ne
 process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian.json", "networks/disc40x20x3_no_gaussian/net_6_depth/trained/cnn_config.json", "trajectory_result/disc40x20x3_no_gaussian/net_6_depth.json")
 process_trajectory("parameters/disc40x20x3/spatial_tensor_no_gaussian.json", "networks/disc40x20x3_no_gaussian/net_7/trained/cnn_config.json", "trajectory_result/disc40x20x3_no_gaussian/net_7.json")
 process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian.json", "networks/disc40x20x3_no_gaussian/net_7_depth/trained/cnn_config.json", "trajectory_result/disc40x20x3_no_gaussian/net_7_depth.json")
+'''
 
 
 
+
+
+process_trajectory("parameters/disc8x8x3/spatial_tensor_window_size_4.json", "networks/disc8x8x3_window_size_4/net_4/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/gaussian/net_4.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_depth_window_size_4.json", "networks/disc8x8x3_window_size_4/net_4_depth/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/gaussian/net_4_depth.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_window_size_4.json", "networks/disc8x8x3_window_size_4/net_5/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/gaussian/net_5.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_depth_window_size_4.json", "networks/disc8x8x3_window_size_4/net_5_depth/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/gaussian/net_5_depth.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_window_size_4.json", "networks/disc8x8x3_window_size_4/net_6/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_6/gaussian/net_6.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_depth_window_size_4.json", "networks/disc8x8x3_window_size_4/net_6_depth/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_6/gaussian/net_6_depth.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_window_size_4.json", "networks/disc8x8x3_window_size_4/net_7/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_7/gaussian/net_7.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_depth_window_size_4.json", "networks/disc8x8x3_window_size_4/net_7_depth/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/gaussian/net_7_depth.json")
+
+process_trajectory("parameters/disc16x16x3/spatial_tensor_window_size_4.json", "networks/disc16x16x3_window_size_4/net_4/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/gaussian/net_4.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_depth_window_size_4.json", "networks/disc16x16x3_window_size_4/net_4_depth/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/gaussian/net_4_depth.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_window_size_4.json", "networks/disc16x16x3_window_size_4/net_5/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/gaussian/net_5.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_depth_window_size_4.json", "networks/disc16x16x3_window_size_4/net_5_depth/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/gaussian/net_5_depth.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_window_size_4.json", "networks/disc16x16x3_window_size_4/net_6/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/gaussian/net_6.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_depth_window_size_4.json", "networks/disc16x16x3_window_size_4/net_6_depth/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/gaussian/net_6_depth.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_window_size_4.json", "networks/disc16x16x3_window_size_4/net_7/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/gaussian/net_7.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_depth_window_size_4.json", "networks/disc16x16x3_window_size_4/net_7_depth/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/gaussian/net_7_depth.json")
+
+process_trajectory("parameters/disc40x20x3/spatial_tensor_window_size_4.json", "networks/disc40x20x3_window_size_4/net_4/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/gaussian/net_4.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_window_size_4.json", "networks/disc40x20x3_window_size_4/net_4_depth/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/gaussian/net_4_depth.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_window_size_4.json", "networks/disc40x20x3_window_size_4/net_5/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/gaussian/net_5.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_window_size_4.json", "networks/disc40x20x3_window_size_4/net_5_depth/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/gaussian/net_5_depth.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_window_size_4.json", "networks/disc40x20x3_window_size_4/net_6/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/gaussian/net_6.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_window_size_4.json", "networks/disc40x20x3_window_size_4/net_6_depth/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/gaussian/net_6_depth.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_window_size_4.json", "networks/disc40x20x3_window_size_4/net_7/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/gaussian/net_7.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_window_size_4.json", "networks/disc40x20x3_window_size_4/net_7_depth/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/gaussian/net_7_depth.json")
+
+
+
+
+process_trajectory("parameters/disc8x8x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc8x8x3_no_gaussian_window_size_4/net_4/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/point/net_4.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc8x8x3_no_gaussian_window_size_4/net_4_depth/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/point/net_4_depth.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc8x8x3_no_gaussian_window_size_4/net_5/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/point/net_5.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc8x8x3_no_gaussian_window_size_4/net_5_depth/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/point/net_5_depth.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc8x8x3_no_gaussian_window_size_4/net_6/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/point/net_6.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc8x8x3_no_gaussian_window_size_4/net_6_depth/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/point/net_6_depth.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc8x8x3_no_gaussian_window_size_4/net_7/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/point/net_7.json")
+process_trajectory("parameters/disc8x8x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc8x8x3_no_gaussian_window_size_4/net_7_depth/trained/cnn_config.json", "trajectory_result/discretisation_8x8x3/window_size_4/point/net_7_depth.json")
+
+process_trajectory("parameters/disc16x16x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc16x16x3_no_gaussian/net_4/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/point/net_4.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc16x16x3_no_gaussian/net_4_depth/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/point/net_4_depth.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc16x16x3_no_gaussian/net_5/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/point/net_5.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc16x16x3_no_gaussian/net_5_depth/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/point/net_5.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc16x16x3_no_gaussian/net_6/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/point/net_6.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc16x16x3_no_gaussian/net_6_depth/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/point/net_6.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc16x16x3_no_gaussian/net_7/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/point/net_7.json")
+process_trajectory("parameters/disc16x16x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc16x16x3_no_gaussian/net_7_depth/trained/cnn_config.json", "trajectory_result/discretisation_16x16x3/window_size_4/point/net_7.json")
+
+process_trajectory("parameters/disc40x20x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc40x20x3_no_gaussian_window_size_4/net_4/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/point/net_4.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc40x20x3_no_gaussian_window_size_4/net_4_depth/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/point/net_4_depth.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc40x20x3_no_gaussian_window_size_4/net_5/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/point/net_5.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc40x20x3_no_gaussian_window_size_4/net_5_depth/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/point/net_5_deth.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc40x20x3_no_gaussian_window_size_4/net_6/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/point/net_6.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc40x20x3_no_gaussian_window_size_4/net_6_depth/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/point/net_6_depth.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_no_gaussian_window_size_4.json", "networks/disc40x20x3_no_gaussian_window_size_4/net_7/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/point/net_7.json")
+process_trajectory("parameters/disc40x20x3/spatial_tensor_depth_no_gaussian_window_size_4.json", "networks/disc40x20x3_no_gaussian_window_size_4/net_7_depth/trained/cnn_config.json", "trajectory_result/discretisation_40x20x3/window_size_4/point/net_7_depth.json")
 
 
 
