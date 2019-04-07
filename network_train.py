@@ -25,6 +25,8 @@ def experiment(tensor_config, network_config):
     experiment = pyphy.RegressionExperiment(dataset, network_config)
     experiment.run()
 
+
+
 '''
 #8x8x3 discretisation, no gaussian kernel, no depth + depth
 experiment("parameters/disc8x8x3/spatial_tensor_no_gaussian.json","networks/disc8x8x3_no_gaussian/net_4/")

@@ -1,0 +1,7 @@
+cd gaussian
+gnuplot plot_script
+cd ..
+
+cd point
+gnuplot plot_script
+cd ..
