@@ -17,12 +17,12 @@ def compute_axis_error(target_tensor, computed_tensor):
 
     absolute        = numpy.mean(numpy.absolute(error))
 
-    decimal_places = 2
-    mean = round(mean, decimal_places)
-    sigma = round(sigma, decimal_places)
-    absolute = round(absolute, decimal_places)
-    rms = round(rms, decimal_places)
-    rms_relative = round(rms_relative, decimal_places)
+    decimal_places  = 2
+    mean            = round(mean, decimal_places)
+    sigma           = round(sigma, decimal_places)
+    absolute        = round(absolute, decimal_places)
+    rms             = round(rms, decimal_places)
+    rms_relative    = round(rms_relative, decimal_places)
 
 
     #return [rms, rms_relative]

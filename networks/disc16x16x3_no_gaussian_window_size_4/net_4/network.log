@@ -1,0 +1,29 @@
+network init start
+
+hyperparameters
+init_weight_range 0.000000 ,xavier
+learning_rate 0.000050
+lambda1 0.000000
+lambda2 0.000000
+dropout 0.020000
+minibatch size 32
+
+   DENSE CONVOLUTION  [   16    16    12] [    3     3     8] [   16    16    20] [       864          8][    223232]
+                RELU  [   16    16    20] [    1     1     1] [   16    16    20] [         0          0][     10240]
+   DENSE CONVOLUTION  [   16    16    20] [    3     3     8] [   16    16    28] [      1440          8][    370688]
+                RELU  [   16    16    28] [    1     1     1] [   16    16    28] [         0          0][     14336]
+   DENSE CONVOLUTION  [   16    16    28] [    3     3     8] [   16    16    36] [      2016          8][    518144]
+                RELU  [   16    16    36] [    1     1     1] [   16    16    36] [         0          0][     18432]
+   DENSE CONVOLUTION  [   16    16    36] [    3     3     8] [   16    16    44] [      2592          8][    665600]
+                RELU  [   16    16    44] [    1     1     1] [   16    16    44] [         0          0][     22528]
+         CONVOLUTION  [   16    16    44] [    1     1    32] [   16    16    32] [      1408         32][    368640]
+                RELU  [   16    16    32] [    1     1     1] [   16    16    32] [         0          0][     16384]
+             DROPOUT  [   16    16    32] [    1     1     1] [   16    16    32] [         0          0][     16384]
+                  FC  [   16    16    32] [    1     1     3] [    1     1     3] [     24576          3][     49158]
+
+input_geometry  [16 16 12]
+output_geometry [1 1 3]
+network flops operations 2293766 FLOPS, 0.002294 GFLOPS
+init DONE
+
+network destructor done

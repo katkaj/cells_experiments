@@ -5,7 +5,7 @@ class TensorLoad:
 
     def __init__(self, file_name, load_start_offset = 0, load_reshaped = False):
         with open(file_name) as f:
-            print("loading ", file_name)
+            #print("loading ", file_name)
             json_tensor = json.load(f)
 
         if load_reshaped:
