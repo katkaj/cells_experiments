@@ -30,7 +30,7 @@ def compute_axis_error(target_tensor, computed_tensor):
     return [mean, sigma, absolute, rms, rms_relative]
 
 
-def compute_errors(target_tensor, computed_tensor, id = 0, verbose = False):
+def compute_errors(target_tensor, computed_tensor, verbose = False):
 
     json_result = {}
 
@@ -39,14 +39,12 @@ def compute_errors(target_tensor, computed_tensor, id = 0, verbose = False):
     result_z = compute_axis_error(target_tensor[2], computed_tensor[2])
     result_total = compute_axis_error(target_tensor, computed_tensor)
 
-    print(id, end=" ")
-    #print(result_x[0], result_x[1], result_x[2], result_x[3], result_x[4])
-    #print(result_y[0], result_y[1], result_y[2], result_y[3], result_y[4])
-    #print(result_z[0], result_z[1], result_z[2], result_z[3], result_z[4])
-    print(result_total[0], result_total[1], result_total[2], result_total[3], result_total[4], end=" ")
-    print()
-
-    json_result["id"] = id
+    if verbose:
+        print(result_x[0], result_x[1], result_x[2], result_x[3], result_x[4])
+        print(result_y[0], result_y[1], result_y[2], result_y[3], result_y[4])
+        print(result_z[0], result_z[1], result_z[2], result_z[3], result_z[4])
+        print(result_total[0], result_total[1], result_total[2], result_total[3], result_total[4], end=" ")
+        print()
 
     json_result["x"] = {}
     json_result["x"]["mean"] = result_x[0]
