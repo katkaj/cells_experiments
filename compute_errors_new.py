@@ -66,7 +66,7 @@ for discretisation in discretisations:
 
 print("computing done")
 
-#print("saving results")
-#save_results(result_path + "/errors", json_result)
+print("saving results")
+save_results(result_path + "/errors", json_result)
 
 print("program done")
