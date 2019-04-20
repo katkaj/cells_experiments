@@ -56,22 +56,65 @@ def compute_errors(target_tensor, computed_tensor, verbose = False):
     json_result["y"] = {}
     json_result["y"]["mean"] = result_y[0]
     json_result["y"]["sigma"] = result_y[1]
-    json_result["y"]["error_absolute"] = result_x[2]
+    json_result["y"]["error_absolute"] = result_y[2]
     json_result["y"]["rms"] = result_y[3]
     json_result["y"]["rms_relative"] = result_y[4]
 
     json_result["z"] = {}
     json_result["z"]["mean"] = result_z[0]
     json_result["z"]["sigma"] = result_z[1]
-    json_result["z"]["error_absolute"] = result_x[2]
+    json_result["z"]["error_absolute"] = result_z[2]
     json_result["z"]["rms"] = result_z[3]
     json_result["z"]["rms_relative"] = result_z[4]
 
     json_result["total"] = {}
     json_result["total"]["mean"] = result_total[0]
     json_result["total"]["sigma"] = result_total[1]
-    json_result["total"]["error_absolute"] = result_x[2]
+    json_result["total"]["error_absolute"] = result_total[2]
     json_result["total"]["rms"] = result_total[3]
     json_result["total"]["rms_relative"] = result_total[4]
 
     return json_result
+
+
+def compute_error_field(target_tensor, computed_tensor, decimation, file_name, reshaped):
+    error = target_tensor - computed_tensor
+
+
+    decimal_places = 3
+
+    file = open(file_name, "w")
+    if reshaped:
+
+        dim   = len(error)
+        time_steps  = len(error[0])
+        cells_count   = len(error[0][0])
+
+        #print(">>>>> ", dim, time_steps, cells_count)
+
+        for time in range(0, time_steps):
+                for cell in range(0, cells_count):
+                    if time%decimation == 0:
+
+                        err = 0.0
+                        err+= error[0][time][cell]*error[0][time][cell]
+                        err+= error[1][time][cell]*error[1][time][cell]
+                        err+= error[2][time][cell]*error[2][time][cell]
+                        err = err**0.5
+
+                        result = ""
+                        result+= str(round(target_tensor[0][time][cell], decimal_places)) + " "
+                        result+= str(round(target_tensor[1][time][cell], decimal_places)) + " "
+                        result+= str(round(target_tensor[2][time][cell], decimal_places)) + " "
+
+                        result+= str(round(computed_tensor[0][time][cell], decimal_places)) + " "
+                        result+= str(round(computed_tensor[1][time][cell], decimal_places)) + " "
+                        result+= str(round(computed_tensor[2][time][cell], decimal_places)) + " "
+
+                        result+= str(round(error[0][time][cell], decimal_places)) + " "
+                        result+= str(round(error[1][time][cell], decimal_places)) + " "
+                        result+= str(round(error[2][time][cell], decimal_places)) + " "
+
+                        result+= str(round(err, decimal_places)) + "\n"
+
+                        file.write(result);

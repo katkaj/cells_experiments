@@ -77,6 +77,15 @@ class TensorLoad:
     def get(self):
         return self.tensor
 
+    def get_width(self):
+        return self.width
+
+    def get_height(self):
+        return self.height
+
+    def get_depth(self):
+        return self.depth
+
     def print_info(self):
         #print some info
 

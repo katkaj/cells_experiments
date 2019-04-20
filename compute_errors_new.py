@@ -21,7 +21,7 @@ result_path         = "/home/michal/programming/cells_results/sim26/"
 discretisations     = ["discretisation_8x8x3", "discretisation_16x16x3", "discretisation_40x20x3"]
 window_sizes        = ["window_size_4", "window_size_8"]
 filter_modes        = ["gaussian", "point"]
-networks            = ["net_4.json", "net_4_depth.json", "net_5.json", "net_5_depth.json", "net_6.json", "net_6_depth.json", "net_7.json", "net_7_depth.json"]
+networks            = ["net_4", "net_4_depth", "net_5", "net_5_depth", "net_6", "net_6_depth", "net_7", "net_7_depth"]
 
 json_result = {}
 json_result["results"] = []
@@ -34,6 +34,8 @@ target_tensor.print_info()
 
 print("computing errors for ")
 
+
+decimation = 100
 id = 0
 for discretisation in discretisations:
     print("discretisation", discretisation)
@@ -43,7 +45,7 @@ for discretisation in discretisations:
             print("\t\tfilter_mode", filter_mode)
             for network in networks:
                 print("\t\t\tnetworks", network)
-                json_file_name = result_path + discretisation + "/" + window_size + "/" + filter_mode + "/" + network
+                json_file_name = result_path + discretisation + "/" + window_size + "/" + filter_mode + "/" + network + ".json"
 
                 experiment_tensor = tensor_load.TensorLoad(json_file_name, load_start_offset, load_reshaped)
 
@@ -55,6 +57,12 @@ for discretisation in discretisations:
                 parameters["network"]        = network
 
                 errors = libs_compute_errors.compute_errors(target_tensor.get(), experiment_tensor.get())
+
+
+                error_field_file_name = result_path + discretisation + "/" + window_size + "/" + filter_mode + "/" + network + "_error_field.dat"
+
+                libs_compute_errors.compute_error_field(target_tensor.get(), experiment_tensor.get(), decimation, error_field_file_name, load_reshaped)
+
                 print("\t\t\t\t", errors["total"]["rms_relative"])
 
                 experiment_result = {**parameters, **errors}
@@ -67,6 +75,6 @@ for discretisation in discretisations:
 print("computing done")
 
 print("saving results")
-save_results(result_path + "/errors", json_result)
+save_results(result_path + "/errors_new", json_result)
 
 print("program done")
