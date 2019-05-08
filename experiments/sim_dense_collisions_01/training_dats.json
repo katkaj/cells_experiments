@@ -1,0 +1,20 @@
+{
+  "normalise"       : "per column",
+  "normalise range" : [0.0, 1.0],
+
+  "values modulo" : [1, 90, 1000, 1000],
+
+  "dat files" :
+  [
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc0_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc1_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc2_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc3_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc4_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc5_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc6_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc7_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc8_sim_01.dat",
+    "/home/michal/dataset/cells/sim_dense_collisions_01/dat/rbc9_sim_01.dat"
+  ]
+}
