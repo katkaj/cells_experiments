@@ -9,7 +9,7 @@
     {
         "network_log_file_name" : "network.log",
 
-        "input_geometry"     : [16, 16, 24],
+        "input_geometry"     : [64, 64, 24],
         "output_geometry"    : [1, 1, 3],
 
         "hyperparameters" :
