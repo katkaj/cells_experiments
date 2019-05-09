@@ -3,9 +3,9 @@
   "output columns"          : [3, 4, 5],
 
   "time window size"        : 8,
-  "time step size"          : 1,
-  "prediction step size"    : 8,
-
+  "time step size"          : 10,
+  "prediction step size"    : 80,
+  
   "use depth"               : false,
   "use gaussian kernel"     : true,
 
