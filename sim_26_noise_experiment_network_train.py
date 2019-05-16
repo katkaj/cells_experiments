@@ -11,22 +11,24 @@ testing_dats_to_motion_tensor = pyphy.DatsToMotionTensor("experiments/sim_50/tes
 
 
 
-def experiment(tensor_config, network_config):
+def experiment(training_tensor_config, testing_tensor_config, network_config):
 
     print("\n\n\n\n")
-    print("startin experiment")
-    print(tensor_config)
+    print("starting experiment")
+    print("training_tensor_config ", training_tensor_config)
+    print("testing_tensor_config ", testing_tensor_config)
+
     print(network_config)
 
     #2, create network input making class - TensorSpatial
     print("creating training tensor")
-    training_tensor = pyphy.TensorSpatial(tensor_config, training_dats_to_motion_tensor.tensor())
+    training_tensor = pyphy.TensorSpatial(training_tensor_config, training_dats_to_motion_tensor.tensor())
 
     print("creating testing tensor")
-    testing_tensor  = pyphy.TensorSpatial(tensor_config, testing_dats_to_motion_tensor.tensor())
+    testing_tensor  = pyphy.TensorSpatial(testing_tensor_config, testing_dats_to_motion_tensor.tensor())
 
     #3, create dataset
-    testing_count = 1000
+    testing_count = 5000
     print("creating dataset")
     dataset = pyphy.DatasetTrajectoryRuntime(training_tensor, training_tensor, testing_count)
 
@@ -44,25 +46,27 @@ def experiment(tensor_config, network_config):
 
 #discretisation_64x64x16
 
-experiment_path = "experiments/sim26/discretisation_64x64x16/window_size_8/gaussian/"
+experiment_path = "experiments/sim26/discretisation_64x64x3/window_size_8/gaussian/"
+testing_tensor_config = experiment_path + "noise_0_0/spatial_tensor.json"
+testing_tensor_depth_config = experiment_path + "noise_0_0/spatial_tensor_depth.json"
 
 #experiments with output noise
-experiment(experiment_path + "noise_0_0/spatial_tensor.json", experiment_path + "noise_0_0/net_1/")
-experiment(experiment_path + "noise_0_0/spatial_tensor_depth.json", experiment_path + "noise_0_0/net_1_depth/")
-experiment(experiment_path + "noise_0_5/spatial_tensor.json", experiment_path + "noise_0_5/net_1/")
-experiment(experiment_path + "noise_0_5/spatial_tensor_depth.json", experiment_path + "noise_0_5/net_1_depth/")
-experiment(experiment_path + "noise_0_10/spatial_tensor.json", experiment_path + "noise_0_10/net_1/")
-experiment(experiment_path + "noise_0_10/spatial_tensor_depth.json", experiment_path + "noise_0_10/net_1_depth/")
-experiment(experiment_path + "noise_0_15/spatial_tensor.json", experiment_path + "noise_0_15/net_1/")
-experiment(experiment_path + "noise_0_15/spatial_tensor_depth.json", experiment_path + "noise_0_15/net_1_depth/")
-experiment(experiment_path + "noise_0_20/spatial_tensor.json", experiment_path + "noise_0_20/net_1/")
-experiment(experiment_path + "noise_0_20/spatial_tensor_depth.json", experiment_path + "noise_0_20/net_1_depth/")
-experiment(experiment_path + "noise_0_30/spatial_tensor.json", experiment_path + "noise_0_30/net_1/")
-experiment(experiment_path + "noise_0_30/spatial_tensor_depth.json", experiment_path + "noise_0_30/net_1_depth/")
-experiment(experiment_path + "noise_0_40/spatial_tensor.json", experiment_path + "noise_0_40/net_1/")
-experiment(experiment_path + "noise_0_40/spatial_tensor_depth.json", experiment_path + "noise_0_40/net_1_depth/")
-experiment(experiment_path + "noise_0_50/spatial_tensor.json", experiment_path + "noise_0_50/net_1/")
-experiment(experiment_path + "noise_0_50/spatial_tensor_depth.json", experiment_path + "noise_0_50/net_1_depth/")
+experiment(experiment_path + "noise_0_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_0_0/net_1/")
+experiment(experiment_path + "noise_0_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_0/net_1_depth/")
+experiment(experiment_path + "noise_0_5/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_5/net_1/")
+experiment(experiment_path + "noise_0_5/spatial_tensor_depth.json", testing_tensor_depth_config,experiment_path + "noise_0_5/net_1_depth/")
+experiment(experiment_path + "noise_0_10/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_0_10/net_1/")
+experiment(experiment_path + "noise_0_10/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_10/net_1_depth/")
+experiment(experiment_path + "noise_0_15/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_15/net_1/")
+experiment(experiment_path + "noise_0_15/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_15/net_1_depth/")
+experiment(experiment_path + "noise_0_20/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_20/net_1/")
+experiment(experiment_path + "noise_0_20/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_20/net_1_depth/")
+experiment(experiment_path + "noise_0_30/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_30/net_1/")
+experiment(experiment_path + "noise_0_30/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_30/net_1_depth/")
+experiment(experiment_path + "noise_0_40/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_40/net_1/")
+experiment(experiment_path + "noise_0_40/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_40/net_1_depth/")
+experiment(experiment_path + "noise_0_50/spatial_tensor.json", testing_tensor_depth_config, testing_tensor_config,experiment_path + "noise_0_50/net_1/")
+experiment(experiment_path + "noise_0_50/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_50/net_1_depth/")
 
 
 
