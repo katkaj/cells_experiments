@@ -1,0 +1,20 @@
+{
+  "input columns"           : [0, 1, 2],
+  "output columns"          : [3, 4, 5],
+
+  "time window size"        : 8,
+  "time step size"          : 10,
+  "prediction step size"    : 80,
+
+  "use depth"               : true,
+  "use gaussian kernel"     : true,
+
+  "discretization x"        : 64,
+  "discretization y"        : 64,
+  "discretization z"        : 16,
+
+  "input data corruption"                   : 0.0,
+  "input data corruption noise level"       : 0.0,
+  "output data corruption"                  : 0.5,
+  "output data corruption noise level"      : 1.0
+}

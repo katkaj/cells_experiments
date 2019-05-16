@@ -1,0 +1,7 @@
+cd net_0
+gnuplot plot_script
+cd ..
+
+cd net_0
+gnuplot plot_script
+cd ..

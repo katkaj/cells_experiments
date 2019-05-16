@@ -1,0 +1,584 @@
+initializing
+training size    : 95450
+testing size     : 1000
+epoch count      : 10
+sub epoch size   : 5
+
+epoch_learning_rate_decay   : 8
+learning_rate_decay         : 0.250000
+
+training
+
+
+
+epoch [0 0] from [10 5]
+training time per iterations 18.347826[ms]
+testing on 1000 items
+testing done
+average error 0.006784
+min error     0.000000
+max error     0.976391
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.006784
+
+
+
+epoch [0 1] from [10 5]
+training time per iterations 18.343112[ms]
+testing on 1000 items
+testing done
+average error 0.002433
+min error     0.000000
+max error     0.968742
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.002433
+
+
+
+epoch [0 2] from [10 5]
+training time per iterations 18.352174[ms]
+testing on 1000 items
+testing done
+average error 0.002021
+min error     0.000000
+max error     0.941234
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.002021
+
+
+
+epoch [0 3] from [10 5]
+training time per iterations 18.345678[ms]
+testing on 1000 items
+testing done
+average error 0.001813
+min error     0.000000
+max error     0.940112
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001813
+
+
+
+epoch [0 4] from [10 5]
+training time per iterations 18.344002[ms]
+testing on 1000 items
+testing done
+average error 0.001752
+min error     0.000000
+max error     0.941848
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001752
+
+
+
+epoch [1 0] from [10 5]
+training time per iterations 18.344264[ms]
+testing on 1000 items
+testing done
+average error 0.001645
+min error     0.000000
+max error     0.942434
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001645
+
+
+
+epoch [1 1] from [10 5]
+training time per iterations 18.352750[ms]
+testing on 1000 items
+testing done
+average error 0.001656
+min error     0.000000
+max error     0.913826
+
+
+
+epoch [1 2] from [10 5]
+training time per iterations 18.334887[ms]
+testing on 1000 items
+testing done
+average error 0.001619
+min error     0.000000
+max error     0.929656
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001619
+
+
+
+epoch [1 3] from [10 5]
+training time per iterations 18.354322[ms]
+testing on 1000 items
+testing done
+average error 0.001595
+min error     0.000000
+max error     0.924341
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001595
+
+
+
+epoch [1 4] from [10 5]
+training time per iterations 18.334416[ms]
+testing on 1000 items
+testing done
+average error 0.001557
+min error     0.000000
+max error     0.928813
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001557
+
+
+
+epoch [2 0] from [10 5]
+training time per iterations 18.349502[ms]
+testing on 1000 items
+testing done
+average error 0.001549
+min error     0.000000
+max error     0.928129
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001549
+
+
+
+epoch [2 1] from [10 5]
+training time per iterations 18.347040[ms]
+testing on 1000 items
+testing done
+average error 0.001508
+min error     0.000000
+max error     0.928198
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001508
+
+
+
+epoch [2 2] from [10 5]
+training time per iterations 18.354322[ms]
+testing on 1000 items
+testing done
+average error 0.001511
+min error     0.000000
+max error     0.916607
+
+
+
+epoch [2 3] from [10 5]
+training time per iterations 18.371608[ms]
+testing on 1000 items
+testing done
+average error 0.001508
+min error     0.000000
+max error     0.931753
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001508
+
+
+
+epoch [2 4] from [10 5]
+training time per iterations 18.349869[ms]
+testing on 1000 items
+testing done
+average error 0.001478
+min error     0.000000
+max error     0.931199
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001478
+
+
+
+epoch [3 0] from [10 5]
+training time per iterations 18.348559[ms]
+testing on 1000 items
+testing done
+average error 0.001482
+min error     0.000000
+max error     0.876277
+
+
+
+epoch [3 1] from [10 5]
+training time per iterations 18.338869[ms]
+testing on 1000 items
+testing done
+average error 0.001461
+min error     0.000000
+max error     0.926710
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001461
+
+
+
+epoch [3 2] from [10 5]
+training time per iterations 18.366265[ms]
+testing on 1000 items
+testing done
+average error 0.001448
+min error     0.000000
+max error     0.921315
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001448
+
+
+
+epoch [3 3] from [10 5]
+training time per iterations 18.330697[ms]
+testing on 1000 items
+testing done
+average error 0.001451
+min error     0.000000
+max error     0.900923
+
+
+
+epoch [3 4] from [10 5]
+training time per iterations 18.330225[ms]
+testing on 1000 items
+testing done
+average error 0.001467
+min error     0.000000
+max error     0.870853
+
+
+
+epoch [4 0] from [10 5]
+training time per iterations 18.343216[ms]
+testing on 1000 items
+testing done
+average error 0.001442
+min error     0.000000
+max error     0.943313
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001442
+
+
+
+epoch [4 1] from [10 5]
+training time per iterations 18.361079[ms]
+testing on 1000 items
+testing done
+average error 0.001430
+min error     0.000000
+max error     0.922674
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001430
+
+
+
+epoch [4 2] from [10 5]
+training time per iterations 18.332792[ms]
+testing on 1000 items
+testing done
+average error 0.001400
+min error     0.000000
+max error     0.935158
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001400
+
+
+
+epoch [4 3] from [10 5]
+training time per iterations 18.352069[ms]
+testing on 1000 items
+testing done
+average error 0.001388
+min error     0.000000
+max error     0.915055
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001388
+
+
+
+epoch [4 4] from [10 5]
+training time per iterations 18.332321[ms]
+testing on 1000 items
+testing done
+average error 0.001375
+min error     0.000000
+max error     0.911559
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001375
+
+
+
+epoch [5 0] from [10 5]
+training time per iterations 18.356155[ms]
+testing on 1000 items
+testing done
+average error 0.001365
+min error     0.000000
+max error     0.894065
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001365
+
+
+
+epoch [5 1] from [10 5]
+training time per iterations 18.351388[ms]
+testing on 1000 items
+testing done
+average error 0.001355
+min error     0.000000
+max error     0.920902
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001355
+
+
+
+epoch [5 2] from [10 5]
+training time per iterations 18.357517[ms]
+testing on 1000 items
+testing done
+average error 0.001351
+min error     0.000000
+max error     0.887255
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001351
+
+
+
+epoch [5 3] from [10 5]
+training time per iterations 18.342954[ms]
+testing on 1000 items
+testing done
+average error 0.001339
+min error     0.000000
+max error     0.902383
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001339
+
+
+
+epoch [5 4] from [10 5]
+training time per iterations 18.354584[ms]
+testing on 1000 items
+testing done
+average error 0.001343
+min error     0.000000
+max error     0.894127
+
+
+
+epoch [6 0] from [10 5]
+training time per iterations 18.338816[ms]
+testing on 1000 items
+testing done
+average error 0.001334
+min error     0.000000
+max error     0.916314
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001334
+
+
+
+epoch [6 1] from [10 5]
+training time per iterations 18.371870[ms]
+testing on 1000 items
+testing done
+average error 0.001335
+min error     0.000000
+max error     0.916231
+
+
+
+epoch [6 2] from [10 5]
+training time per iterations 18.354531[ms]
+testing on 1000 items
+testing done
+average error 0.001316
+min error     0.000000
+max error     0.858200
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001316
+
+
+
+epoch [6 3] from [10 5]
+training time per iterations 18.352803[ms]
+testing on 1000 items
+testing done
+average error 0.001308
+min error     0.000000
+max error     0.893330
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001308
+
+
+
+epoch [6 4] from [10 5]
+training time per iterations 18.357307[ms]
+testing on 1000 items
+testing done
+average error 0.001307
+min error     0.000000
+max error     0.907989
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001307
+
+
+
+epoch [7 0] from [10 5]
+training time per iterations 18.348821[ms]
+testing on 1000 items
+testing done
+average error 0.001309
+min error     0.000000
+max error     0.902416
+
+
+
+epoch [7 1] from [10 5]
+training time per iterations 18.334835[ms]
+testing on 1000 items
+testing done
+average error 0.001290
+min error     0.000000
+max error     0.892802
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001290
+
+
+
+epoch [7 2] from [10 5]
+training time per iterations 18.334311[ms]
+testing on 1000 items
+testing done
+average error 0.001282
+min error     0.000000
+max error     0.912918
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001282
+
+
+
+epoch [7 3] from [10 5]
+training time per iterations 18.320744[ms]
+testing on 1000 items
+testing done
+average error 0.001287
+min error     0.000000
+max error     0.911500
+
+
+
+epoch [7 4] from [10 5]
+training time per iterations 18.343164[ms]
+testing on 1000 items
+testing done
+average error 0.001272
+min error     0.000000
+max error     0.912918
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001272
+setting learning rate to 0.000050
+
+
+
+epoch [8 0] from [10 5]
+training time per iterations 18.344631[ms]
+testing on 1000 items
+testing done
+average error 0.001258
+min error     0.000000
+max error     0.923562
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001258
+
+
+
+epoch [8 1] from [10 5]
+training time per iterations 18.338397[ms]
+testing on 1000 items
+testing done
+average error 0.001261
+min error     0.000000
+max error     0.896203
+
+
+
+epoch [8 2] from [10 5]
+training time per iterations 18.350969[ms]
+testing on 1000 items
+testing done
+average error 0.001255
+min error     0.000000
+max error     0.919300
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001255
+
+
+
+epoch [8 3] from [10 5]
+training time per iterations 18.343583[ms]
+testing on 1000 items
+testing done
+average error 0.001257
+min error     0.000000
+max error     0.916631
+
+
+
+epoch [8 4] from [10 5]
+training time per iterations 18.365532[ms]
+testing on 1000 items
+testing done
+average error 0.001286
+min error     0.000000
+max error     0.902134
+
+
+
+epoch [9 0] from [10 5]
+training time per iterations 18.367103[ms]
+testing on 1000 items
+testing done
+average error 0.001248
+min error     0.000000
+max error     0.901048
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001248
+
+
+
+epoch [9 1] from [10 5]
+training time per iterations 18.352960[ms]
+testing on 1000 items
+testing done
+average error 0.001252
+min error     0.000000
+max error     0.898663
+
+
+
+epoch [9 2] from [10 5]
+training time per iterations 18.338921[ms]
+testing on 1000 items
+testing done
+average error 0.001247
+min error     0.000000
+max error     0.892805
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001247
+
+
+
+epoch [9 3] from [10 5]
+training time per iterations 18.353326[ms]
+testing on 1000 items
+testing done
+average error 0.001237
+min error     0.000000
+max error     0.900127
+saving best net
+best net saved to experiments/sim_50/discretisation_64x64x16/window_size_8/point/net_1_depth/trained/, with error 0.001237
+
+
+
+epoch [9 4] from [10 5]
+training time per iterations 18.346726[ms]
+testing on 1000 items
+testing done
+average error 0.001245
+min error     0.000000
+max error     0.903830
+training done

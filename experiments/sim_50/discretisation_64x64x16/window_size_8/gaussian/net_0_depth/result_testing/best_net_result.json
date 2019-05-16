@@ -1,0 +1,6557 @@
+{
+	"detailed" : 
+	[
+		{
+			"h_error" : 
+			[
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.95816028118133545
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.94761544466018677
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.93707054853439331
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : -0.92652571201324463
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.91598087549209595
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.90543597936630249
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.89489114284515381
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.88434630632400513
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.87380141019821167
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.86325657367706299
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.85271173715591431
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.84216684103012085
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.83162200450897217
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.82107716798782349
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.8105323314666748
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.79998743534088135
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.78944259881973267
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.77889776229858398
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.76835286617279053
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.75780802965164185
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.74726319313049316
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.73671829700469971
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.72617346048355103
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.71562862396240234
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.70508372783660889
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.69453889131546021
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.68399405479431152
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.67344915866851807
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.66290432214736938
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.6523594856262207
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.64181458950042725
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.63126975297927856
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.62072491645812988
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.61018002033233643
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.59963518381118774
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.58909034729003906
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.57854545116424561
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.56800061464309692
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.55745577812194824
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.54691088199615479
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.5363660454750061
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.52582120895385742
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.51527631282806396
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.50473147630691528
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.49418660998344421
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.48364174365997314
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.47309690713882446
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.46255204081535339
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.45200717449188232
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.44146233797073364
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.43091750144958496
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.4203726053237915
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.40982776880264282
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.39928293228149414
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.38873803615570068
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.378193199634552
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.36764836311340332
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.35710346698760986
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.34655863046646118
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.3360137939453125
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.32546889781951904
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.31492406129837036
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.30437922477722168
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.29383432865142822
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.28328949213027954
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.27274465560913086
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.2621997594833374
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.25165492296218872
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.24111008644104004
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.23056519031524658
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.2200203537940979
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.20947551727294922
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.19893062114715576
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.18838578462600708
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.1778409481048584
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.16729605197906494
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.15675121545791626
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.14620637893676758
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.13566148281097412
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.12511664628982544
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.11457180976867676
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.1040269136428833
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.093482077121734619
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.082937240600585938
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.07239234447479248
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.061847507953643799
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.051302671432495117
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.04075777530670166
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.030212938785552979
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : -0.019668102264404297
+				},
+				{
+					"count" : 291,
+					"normalised_count" : 0.29100000858306885,
+					"value" : -0.0091232061386108398
+				},
+				{
+					"count" : 603,
+					"normalised_count" : 0.6029999852180481,
+					"value" : 0.0014216303825378418
+				},
+				{
+					"count" : 36,
+					"normalised_count" : 0.035999998450279236,
+					"value" : 0.011966466903686523
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.02251136302947998
+				},
+				{
+					"count" : 11,
+					"normalised_count" : 0.010999999940395355,
+					"value" : 0.033056199550628662
+				},
+				{
+					"count" : 14,
+					"normalised_count" : 0.014000000432133675,
+					"value" : 0.043601036071777344
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.054145932197570801
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.064690709114074707
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.075235605239868164
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.085780501365661621
+				}
+			],
+			"h_required" : 
+			[
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.00044018030166625977
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.010531977750360966
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.020623775199055672
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.030715573579072952
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.040807370096445084
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.050899166613817215
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.060990966856479645
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.071082763373851776
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.081174559891223907
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.091266356408596039
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.10135815292596817
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.1114499494433403
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.12154175341129303
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.13163354992866516
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.14172534644603729
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.15181714296340942
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.16190893948078156
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.17200073599815369
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.18209253251552582
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.19218432903289795
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.20227612555027008
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.21236792206764221
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.22245971858501434
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.23255151510238647
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.2426433265209198
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.25273510813713074
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.26282691955566406
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.272918701171875
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.28301051259040833
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.29310229420661926
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.30319410562515259
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.31328588724136353
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.32337769865989685
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.33346951007843018
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.34356129169464111
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.35365310311317444
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.36374488472938538
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.3738366961479187
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.38392847776412964
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.39402028918266296
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.4041120707988739
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.41420388221740723
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.42429566383361816
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.43438747525215149
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.44447925686836243
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.45457106828689575
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.46466284990310669
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.47475466132164001
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.48484647274017334
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.49493825435638428
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.50503003597259521
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.51512187719345093
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.52521365880966187
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.5353054404258728
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.54539722204208374
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.55548906326293945
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.56558084487915039
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.57567262649536133
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.58576440811157227
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.59585624933242798
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.60594803094863892
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.61603981256484985
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.62613159418106079
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.6362234354019165
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.64631521701812744
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.65640699863433838
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.66649883985519409
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.67659062147140503
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.68668240308761597
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.6967741847038269
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.70686602592468262
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.71695780754089355
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.72704958915710449
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.73714137077331543
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.74723321199417114
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.75732499361038208
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.76741677522659302
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.77750855684280396
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.78760039806365967
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.79769217967987061
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.80778396129608154
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.81787580251693726
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.82796758413314819
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.83805936574935913
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.84815114736557007
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.85824298858642578
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.86833477020263672
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.87842655181884766
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.88851833343505859
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.89861017465591431
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.90870195627212524
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.91879373788833618
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.92888551950454712
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.93897736072540283
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.94906914234161377
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.95916092395782471
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.96925276517868042
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.97934454679489136
+				},
+				{
+					"count" : 993,
+					"normalised_count" : 0.99299997091293335,
+					"value" : 0.98943632841110229
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.99952811002731323
+				}
+			],
+			"h_resulted" : 
+			[
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.9069715142250061
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.90801292657852173
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.90905427932739258
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.9100956916809082
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.91113710403442383
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.91217845678329468
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.9132198691368103
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.91426128149032593
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.91530263423919678
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.9163440465927124
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.91738539934158325
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.91842681169509888
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.9194682240486145
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.92050957679748535
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.92155098915100098
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.9225924015045166
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.92363375425338745
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.92467516660690308
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.9257165789604187
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.92675793170928955
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.92779934406280518
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.9288407564163208
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.92988210916519165
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.93092352151870728
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.93196487426757812
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.93300628662109375
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.93404769897460938
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.93508905172348022
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.93613046407699585
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.93717187643051147
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.93821322917938232
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.93925464153289795
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.94029605388641357
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.94133740663528442
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.94237881898880005
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.94342023134231567
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.94446158409118652
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.94550299644470215
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.94654440879821777
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.94758576154708862
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.94862717390060425
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.9496685266494751
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.95070993900299072
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.95175135135650635
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.9527927041053772
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.95383411645889282
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.95487552881240845
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.9559168815612793
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.95695829391479492
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.95799970626831055
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.9590410590171814
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.96008247137069702
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.96112388372421265
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.9621652364730835
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.96320664882659912
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.96424806118011475
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.9652894139289856
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.96633082628250122
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.96737217903137207
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.9684135913848877
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.96945500373840332
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.97049635648727417
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.97153776884078979
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.97257918119430542
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.97362053394317627
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.97466194629669189
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.97570335865020752
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.97674471139907837
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.97778612375259399
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.97882753610610962
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.97986888885498047
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.98091030120849609
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.98195171356201172
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.98299306631088257
+				},
+				{
+					"count" : 11,
+					"normalised_count" : 0.010999999940395355,
+					"value" : 0.98403447866439819
+				},
+				{
+					"count" : 17,
+					"normalised_count" : 0.017000000923871994,
+					"value" : 0.98507583141326904
+				},
+				{
+					"count" : 28,
+					"normalised_count" : 0.028000000864267349,
+					"value" : 0.98611724376678467
+				},
+				{
+					"count" : 44,
+					"normalised_count" : 0.043999999761581421,
+					"value" : 0.98715865612030029
+				},
+				{
+					"count" : 39,
+					"normalised_count" : 0.039000000804662704,
+					"value" : 0.98820000886917114
+				},
+				{
+					"count" : 44,
+					"normalised_count" : 0.043999999761581421,
+					"value" : 0.98924142122268677
+				},
+				{
+					"count" : 89,
+					"normalised_count" : 0.089000001549720764,
+					"value" : 0.99028283357620239
+				},
+				{
+					"count" : 82,
+					"normalised_count" : 0.082000002264976501,
+					"value" : 0.99132418632507324
+				},
+				{
+					"count" : 104,
+					"normalised_count" : 0.10400000214576721,
+					"value" : 0.99236559867858887
+				},
+				{
+					"count" : 70,
+					"normalised_count" : 0.070000000298023224,
+					"value" : 0.99340701103210449
+				},
+				{
+					"count" : 83,
+					"normalised_count" : 0.082999996840953827,
+					"value" : 0.99444836378097534
+				},
+				{
+					"count" : 77,
+					"normalised_count" : 0.076999999582767487,
+					"value" : 0.99548977613449097
+				},
+				{
+					"count" : 66,
+					"normalised_count" : 0.065999999642372131,
+					"value" : 0.99653118848800659
+				},
+				{
+					"count" : 45,
+					"normalised_count" : 0.045000001788139343,
+					"value" : 0.99757254123687744
+				},
+				{
+					"count" : 33,
+					"normalised_count" : 0.032999999821186066,
+					"value" : 0.99861395359039307
+				},
+				{
+					"count" : 20,
+					"normalised_count" : 0.019999999552965164,
+					"value" : 0.99965536594390869
+				},
+				{
+					"count" : 20,
+					"normalised_count" : 0.019999999552965164,
+					"value" : 1.0006967782974243
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 1.0017380714416504
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : 1.002779483795166
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 1.0038208961486816
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 1.0048623085021973
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 1.0059037208557129
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 1.0069451332092285
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 1.0079864263534546
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 1.0090278387069702
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 1.0100692510604858
+				}
+			]
+		},
+		{
+			"h_error" : 
+			[
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.10981303453445435
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.10745080560445786
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.10508857667446136
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.10272634774446487
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.10036411881446838
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.098001889884471893
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.095639660954475403
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.093277424573898315
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.090915203094482422
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : -0.088552966713905334
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.086190745234489441
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.083828508853912354
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.081466279923915863
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.079104050993919373
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.076741822063922882
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.074379593133926392
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : -0.072017364203929901
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.069655135273933411
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : -0.06729290634393692
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.06493067741394043
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.062568448483943939
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.06020621582865715
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.05784398689866066
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : -0.055481757968664169
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : -0.053119529038667679
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : -0.050757300108671188
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : -0.048395071178674698
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : -0.046032838523387909
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : -0.043670609593391418
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : -0.041308380663394928
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : -0.038946151733398438
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : -0.036583922803401947
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : -0.034221693873405457
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : -0.031859464943408966
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : -0.029497236013412476
+				},
+				{
+					"count" : 20,
+					"normalised_count" : 0.019999999552965164,
+					"value" : -0.027135007083415985
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : -0.024772778153419495
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : -0.022410549223423004
+				},
+				{
+					"count" : 22,
+					"normalised_count" : 0.02199999988079071,
+					"value" : -0.020048320293426514
+				},
+				{
+					"count" : 32,
+					"normalised_count" : 0.032000001519918442,
+					"value" : -0.017686091363430023
+				},
+				{
+					"count" : 31,
+					"normalised_count" : 0.030999999493360519,
+					"value" : -0.015323862433433533
+				},
+				{
+					"count" : 40,
+					"normalised_count" : 0.039999999105930328,
+					"value" : -0.012961626052856445
+				},
+				{
+					"count" : 50,
+					"normalised_count" : 0.05000000074505806,
+					"value" : -0.010599397122859955
+				},
+				{
+					"count" : 44,
+					"normalised_count" : 0.043999999761581421,
+					"value" : -0.0082371681928634644
+				},
+				{
+					"count" : 59,
+					"normalised_count" : 0.059000000357627869,
+					"value" : -0.0058749392628669739
+				},
+				{
+					"count" : 85,
+					"normalised_count" : 0.085000000894069672,
+					"value" : -0.0035127103328704834
+				},
+				{
+					"count" : 59,
+					"normalised_count" : 0.059000000357627869,
+					"value" : -0.0011504814028739929
+				},
+				{
+					"count" : 71,
+					"normalised_count" : 0.071000002324581146,
+					"value" : 0.0012117475271224976
+				},
+				{
+					"count" : 69,
+					"normalised_count" : 0.068999998271465302,
+					"value" : 0.003573976457118988
+				},
+				{
+					"count" : 56,
+					"normalised_count" : 0.056000001728534698,
+					"value" : 0.0059362053871154785
+				},
+				{
+					"count" : 44,
+					"normalised_count" : 0.043999999761581421,
+					"value" : 0.008298434317111969
+				},
+				{
+					"count" : 39,
+					"normalised_count" : 0.039000000804662704,
+					"value" : 0.010660663247108459
+				},
+				{
+					"count" : 33,
+					"normalised_count" : 0.032999999821186066,
+					"value" : 0.01302289217710495
+				},
+				{
+					"count" : 20,
+					"normalised_count" : 0.019999999552965164,
+					"value" : 0.01538512110710144
+				},
+				{
+					"count" : 23,
+					"normalised_count" : 0.023000000044703484,
+					"value" : 0.017747357487678528
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : 0.020109578967094421
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.022471815347671509
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.024834036827087402
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.02719627320766449
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.029558494687080383
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.031920731067657471
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.034282952547073364
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.036645188927650452
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.039007410407066345
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.041369646787643433
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.04373188316822052
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.046094104647636414
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.048456341028213501
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.050818562507629395
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.053180798888206482
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.055543020367622375
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.057905256748199463
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.060267478227615356
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.062629714608192444
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.064991936087608337
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.067354172468185425
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.069716393947601318
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.072078630328178406
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.074440851807594299
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.076803088188171387
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.07916530966758728
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.081527546048164368
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.083889782428741455
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.086252003908157349
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.088614240288734436
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.09097646176815033
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.093338698148727417
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.095700919628143311
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.098063156008720398
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.10042537748813629
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.10278761386871338
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.10514983534812927
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.10751207172870636
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.10987429320812225
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.11223652958869934
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.11459875106811523
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.11696098744869232
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.11932322382926941
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.1216854453086853
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.12404768168926239
+				}
+			],
+			"h_required" : 
+			[
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.041944891214370728
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.050045419484376907
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.058145947754383087
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.066246472299098969
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.074347004294395447
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.082447528839111328
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.090548053383827209
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.098648577928543091
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.10674910992383957
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.11484963446855545
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.12295016646385193
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.13105069100856781
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.13915121555328369
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.14725175499916077
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.15535226464271545
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.16345280408859253
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.17155332863330841
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.17965385317802429
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.18775437772274017
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.19585491716861725
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.20395544171333313
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.21205596625804901
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.22015649080276489
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.22825701534748077
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.23635753989219666
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.24445807933807373
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.25255858898162842
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.26065912842750549
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.26875966787338257
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.27686017751693726
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.28496071696281433
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.29306122660636902
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.30116176605224609
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.30926230549812317
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.31736281514167786
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.32546335458755493
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.33356386423110962
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.34166440367698669
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.34976494312286377
+				},
+				{
+					"count" : 11,
+					"normalised_count" : 0.010999999940395355,
+					"value" : 0.35786545276641846
+				},
+				{
+					"count" : 15,
+					"normalised_count" : 0.014999999664723873,
+					"value" : 0.36596599221229553
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : 0.37406650185585022
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : 0.38216704130172729
+				},
+				{
+					"count" : 18,
+					"normalised_count" : 0.017999999225139618,
+					"value" : 0.39026758074760437
+				},
+				{
+					"count" : 23,
+					"normalised_count" : 0.023000000044703484,
+					"value" : 0.39836809039115906
+				},
+				{
+					"count" : 19,
+					"normalised_count" : 0.018999999389052391,
+					"value" : 0.40646862983703613
+				},
+				{
+					"count" : 24,
+					"normalised_count" : 0.024000000208616257,
+					"value" : 0.41456913948059082
+				},
+				{
+					"count" : 21,
+					"normalised_count" : 0.020999999716877937,
+					"value" : 0.4226696789264679
+				},
+				{
+					"count" : 23,
+					"normalised_count" : 0.023000000044703484,
+					"value" : 0.43077018857002258
+				},
+				{
+					"count" : 38,
+					"normalised_count" : 0.037999998778104782,
+					"value" : 0.43887072801589966
+				},
+				{
+					"count" : 40,
+					"normalised_count" : 0.039999999105930328,
+					"value" : 0.44697126746177673
+				},
+				{
+					"count" : 48,
+					"normalised_count" : 0.048000000417232513,
+					"value" : 0.45507177710533142
+				},
+				{
+					"count" : 43,
+					"normalised_count" : 0.043000001460313797,
+					"value" : 0.4631723165512085
+				},
+				{
+					"count" : 40,
+					"normalised_count" : 0.039999999105930328,
+					"value" : 0.47127282619476318
+				},
+				{
+					"count" : 39,
+					"normalised_count" : 0.039000000804662704,
+					"value" : 0.47937336564064026
+				},
+				{
+					"count" : 41,
+					"normalised_count" : 0.041000001132488251,
+					"value" : 0.48747390508651733
+				},
+				{
+					"count" : 35,
+					"normalised_count" : 0.035000000149011612,
+					"value" : 0.49557441473007202
+				},
+				{
+					"count" : 34,
+					"normalised_count" : 0.034000001847743988,
+					"value" : 0.50367498397827148
+				},
+				{
+					"count" : 21,
+					"normalised_count" : 0.020999999716877937,
+					"value" : 0.51177549362182617
+				},
+				{
+					"count" : 30,
+					"normalised_count" : 0.029999999329447746,
+					"value" : 0.51987600326538086
+				},
+				{
+					"count" : 17,
+					"normalised_count" : 0.017000000923871994,
+					"value" : 0.52797651290893555
+				},
+				{
+					"count" : 20,
+					"normalised_count" : 0.019999999552965164,
+					"value" : 0.53607702255249023
+				},
+				{
+					"count" : 18,
+					"normalised_count" : 0.017999999225139618,
+					"value" : 0.54417753219604492
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.55227816104888916
+				},
+				{
+					"count" : 19,
+					"normalised_count" : 0.018999999389052391,
+					"value" : 0.56037867069244385
+				},
+				{
+					"count" : 16,
+					"normalised_count" : 0.016000000759959221,
+					"value" : 0.56847918033599854
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.57657968997955322
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : 0.58468019962310791
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.5927807092666626
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.60088121891021729
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.60898184776306152
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.61708235740661621
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.6251828670501709
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.63328337669372559
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : 0.64138388633728027
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.64948439598083496
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.6575850248336792
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.66568553447723389
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.67378604412078857
+				},
+				{
+					"count" : 11,
+					"normalised_count" : 0.010999999940395355,
+					"value" : 0.68188655376434326
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.68998706340789795
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.69808757305145264
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.70618808269500732
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.71428871154785156
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.72238922119140625
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.73048973083496094
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.73859024047851562
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.74669075012207031
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.754791259765625
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.76289176940917969
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.77099239826202393
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.77909290790557861
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.7871934175491333
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.79529392719268799
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.80339443683624268
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.81149494647979736
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.81959545612335205
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.82769608497619629
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.83579659461975098
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.84389710426330566
+				}
+			],
+			"h_resulted" : 
+			[
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.079141035676002502
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.086787961423397064
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.094434894621372223
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.10208182036876678
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.10972874611616135
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.11737567186355591
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.12502260506153107
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.13266953825950623
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.14031645655632019
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.14796338975429535
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.15561032295227051
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.16325724124908447
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.17090417444705963
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.17855110764503479
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.18619802594184875
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.19384495913982391
+				},
+				{
+					"count" : 11,
+					"normalised_count" : 0.010999999940395355,
+					"value" : 0.20149189233779907
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.20913881063461304
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.2167857438325882
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.22443266212940216
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.23207959532737732
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.23972652852535248
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.24737344682216644
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.2550203800201416
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.26266729831695557
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.27031421661376953
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.27796116471290588
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : 0.28560811281204224
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.2932550311088562
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.30090194940567017
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.30854886770248413
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.3161957859992981
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.32384273409843445
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.3314896821975708
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.33913660049438477
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : 0.34678351879119873
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.3544304370880127
+				},
+				{
+					"count" : 15,
+					"normalised_count" : 0.014999999664723873,
+					"value" : 0.36207735538482666
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : 0.36972427368164062
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : 0.37737125158309937
+				},
+				{
+					"count" : 18,
+					"normalised_count" : 0.017999999225139618,
+					"value" : 0.38501816987991333
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.39266508817672729
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : 0.40031200647354126
+				},
+				{
+					"count" : 19,
+					"normalised_count" : 0.018999999389052391,
+					"value" : 0.40795892477035522
+				},
+				{
+					"count" : 20,
+					"normalised_count" : 0.019999999552965164,
+					"value" : 0.41560584306716919
+				},
+				{
+					"count" : 22,
+					"normalised_count" : 0.02199999988079071,
+					"value" : 0.42325282096862793
+				},
+				{
+					"count" : 26,
+					"normalised_count" : 0.026000000536441803,
+					"value" : 0.43089973926544189
+				},
+				{
+					"count" : 26,
+					"normalised_count" : 0.026000000536441803,
+					"value" : 0.43854665756225586
+				},
+				{
+					"count" : 35,
+					"normalised_count" : 0.035000000149011612,
+					"value" : 0.44619357585906982
+				},
+				{
+					"count" : 43,
+					"normalised_count" : 0.043000001460313797,
+					"value" : 0.45384049415588379
+				},
+				{
+					"count" : 41,
+					"normalised_count" : 0.041000001132488251,
+					"value" : 0.46148741245269775
+				},
+				{
+					"count" : 57,
+					"normalised_count" : 0.057000000029802322,
+					"value" : 0.46913439035415649
+				},
+				{
+					"count" : 38,
+					"normalised_count" : 0.037999998778104782,
+					"value" : 0.47678130865097046
+				},
+				{
+					"count" : 39,
+					"normalised_count" : 0.039000000804662704,
+					"value" : 0.48442822694778442
+				},
+				{
+					"count" : 34,
+					"normalised_count" : 0.034000001847743988,
+					"value" : 0.49207514524459839
+				},
+				{
+					"count" : 39,
+					"normalised_count" : 0.039000000804662704,
+					"value" : 0.49972206354141235
+				},
+				{
+					"count" : 28,
+					"normalised_count" : 0.028000000864267349,
+					"value" : 0.50736898183822632
+				},
+				{
+					"count" : 33,
+					"normalised_count" : 0.032999999821186066,
+					"value" : 0.51501595973968506
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.52266287803649902
+				},
+				{
+					"count" : 21,
+					"normalised_count" : 0.020999999716877937,
+					"value" : 0.53030979633331299
+				},
+				{
+					"count" : 17,
+					"normalised_count" : 0.017000000923871994,
+					"value" : 0.53795671463012695
+				},
+				{
+					"count" : 16,
+					"normalised_count" : 0.016000000759959221,
+					"value" : 0.54560363292694092
+				},
+				{
+					"count" : 15,
+					"normalised_count" : 0.014999999664723873,
+					"value" : 0.55325055122375488
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.56089752912521362
+				},
+				{
+					"count" : 14,
+					"normalised_count" : 0.014000000432133675,
+					"value" : 0.56854444742202759
+				},
+				{
+					"count" : 16,
+					"normalised_count" : 0.016000000759959221,
+					"value" : 0.57619136571884155
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.58383828401565552
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.59148520231246948
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.59913212060928345
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.60677903890609741
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.61442595720291138
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.62207293510437012
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.62971985340118408
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.63736677169799805
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.64501368999481201
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.65266060829162598
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.66030752658843994
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.66795450448989868
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.67560142278671265
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.68324834108352661
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.69089525938034058
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.69854217767715454
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.70618909597396851
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.71383607387542725
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.72148299217224121
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.72912991046905518
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.73677682876586914
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.74442374706268311
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.75207066535949707
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.75971764326095581
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.76736456155776978
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.77501147985458374
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.78265839815139771
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.79030531644821167
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.79795223474502563
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.80559921264648438
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.81324613094329834
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.8208930492401123
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.82853996753692627
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.83618688583374023
+				}
+			]
+		},
+		{
+			"h_error" : 
+			[
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.30731651186943054
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.30257675051689148
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.2978370189666748
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.29309725761413574
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.28835749626159668
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.28361773490905762
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.27887800335884094
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.27413824200630188
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.26939848065376282
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.26465871930122375
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.25991898775100708
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.25517922639846802
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.25043946504592896
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.24569971859455109
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.24095997214317322
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : -0.23622021079063416
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.23148044943809509
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.22674070298671722
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.22200095653533936
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.21726119518280029
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.21252143383026123
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.20778168737888336
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.20304194092750549
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.19830217957496643
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.19356243312358856
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : -0.18882268667221069
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.18408292531967163
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.17934316396713257
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.1746034175157547
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.16986365616321564
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.16512390971183777
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.16038414835929871
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.15564440190792084
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.15090465545654297
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : -0.14616489410400391
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.14142514765262604
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.13668538630008698
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : -0.13194563984870911
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.12720587849617004
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.12246613204479218
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : -0.11772637069225311
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.11298662424087524
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.10824686288833618
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.10350711643695831
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : -0.09876735508441925
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : -0.094027608633041382
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : -0.089287847280502319
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : -0.084548100829124451
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : -0.079808354377746582
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : -0.07506859302520752
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : -0.070328846573829651
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : -0.065589085221290588
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : -0.06084933876991272
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : -0.056109577417373657
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : -0.051369816064834595
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : -0.04663008451461792
+				},
+				{
+					"count" : 18,
+					"normalised_count" : 0.017999999225139618,
+					"value" : -0.041890323162078857
+				},
+				{
+					"count" : 30,
+					"normalised_count" : 0.029999999329447746,
+					"value" : -0.037150561809539795
+				},
+				{
+					"count" : 32,
+					"normalised_count" : 0.032000001519918442,
+					"value" : -0.032410800457000732
+				},
+				{
+					"count" : 22,
+					"normalised_count" : 0.02199999988079071,
+					"value" : -0.027671068906784058
+				},
+				{
+					"count" : 40,
+					"normalised_count" : 0.039999999105930328,
+					"value" : -0.022931307554244995
+				},
+				{
+					"count" : 45,
+					"normalised_count" : 0.045000001788139343,
+					"value" : -0.018191546201705933
+				},
+				{
+					"count" : 51,
+					"normalised_count" : 0.050999999046325684,
+					"value" : -0.01345178484916687
+				},
+				{
+					"count" : 64,
+					"normalised_count" : 0.064000003039836884,
+					"value" : -0.0087120532989501953
+				},
+				{
+					"count" : 62,
+					"normalised_count" : 0.061999998986721039,
+					"value" : -0.0039722919464111328
+				},
+				{
+					"count" : 69,
+					"normalised_count" : 0.068999998271465302,
+					"value" : 0.00076746940612792969
+				},
+				{
+					"count" : 70,
+					"normalised_count" : 0.070000000298023224,
+					"value" : 0.0055072009563446045
+				},
+				{
+					"count" : 61,
+					"normalised_count" : 0.061000000685453415,
+					"value" : 0.010246962308883667
+				},
+				{
+					"count" : 67,
+					"normalised_count" : 0.067000001668930054,
+					"value" : 0.014986723661422729
+				},
+				{
+					"count" : 47,
+					"normalised_count" : 0.046999998390674591,
+					"value" : 0.019726485013961792
+				},
+				{
+					"count" : 50,
+					"normalised_count" : 0.05000000074505806,
+					"value" : 0.024466216564178467
+				},
+				{
+					"count" : 34,
+					"normalised_count" : 0.034000001847743988,
+					"value" : 0.029205977916717529
+				},
+				{
+					"count" : 21,
+					"normalised_count" : 0.020999999716877937,
+					"value" : 0.033945739269256592
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : 0.038685500621795654
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.043425232172012329
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.048164993524551392
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.052904754877090454
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : 0.057644516229629517
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : 0.062384247779846191
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.067124009132385254
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.071863770484924316
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.076603502035140991
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.081343263387680054
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.086083024740219116
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.090822786092758179
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.095562517642974854
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.10030227899551392
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.10504204034805298
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.10978180170059204
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.11452153325080872
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.11926129460334778
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.12400105595588684
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.1287408173084259
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.13348054885864258
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.13822031021118164
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.1429600715637207
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.14769980311393738
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.15243956446647644
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.1571793258190155
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.16191908717155457
+				}
+			],
+			"h_required" : 
+			[
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.13456863164901733
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.13948284089565277
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.14439705014228821
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.14931127429008484
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.15422548353672028
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.15913969278335571
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.16405390202999115
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.16896811127662659
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.17388232052326202
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.17879652976989746
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.18371075391769409
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.18862496316432953
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.19353917241096497
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.1984533816576004
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.20336759090423584
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.20828181505203247
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.21319600939750671
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.21811023354530334
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.22302444279193878
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.22793865203857422
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.23285286128520966
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.23776707053184509
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.24268129467964172
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.24759548902511597
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.2525097131729126
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.25742393732070923
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.26233813166618347
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.26725232601165771
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.27216655015945435
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.27708077430725098
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.28199499845504761
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.28690919280052185
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.29182338714599609
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.29673761129379272
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.30165183544158936
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.3065660297870636
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.31148025393486023
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.31639444828033447
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.3213086724281311
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.32622289657592773
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.33113709092140198
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.33605128526687622
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.34096550941467285
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.34587973356246948
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.35079395771026611
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.35570815205574036
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.3606223464012146
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.36553657054901123
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.37045079469680786
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.37536501884460449
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.38027921319007874
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.38519340753555298
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.39010763168334961
+				},
+				{
+					"count" : 11,
+					"normalised_count" : 0.010999999940395355,
+					"value" : 0.39502185583114624
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.39993605017662048
+				},
+				{
+					"count" : 13,
+					"normalised_count" : 0.013000000268220901,
+					"value" : 0.40485027432441711
+				},
+				{
+					"count" : 18,
+					"normalised_count" : 0.017999999225139618,
+					"value" : 0.40976446866989136
+				},
+				{
+					"count" : 21,
+					"normalised_count" : 0.020999999716877937,
+					"value" : 0.41467869281768799
+				},
+				{
+					"count" : 18,
+					"normalised_count" : 0.017999999225139618,
+					"value" : 0.41959291696548462
+				},
+				{
+					"count" : 21,
+					"normalised_count" : 0.020999999716877937,
+					"value" : 0.42450711131095886
+				},
+				{
+					"count" : 33,
+					"normalised_count" : 0.032999999821186066,
+					"value" : 0.42942133545875549
+				},
+				{
+					"count" : 22,
+					"normalised_count" : 0.02199999988079071,
+					"value" : 0.43433552980422974
+				},
+				{
+					"count" : 37,
+					"normalised_count" : 0.037000000476837158,
+					"value" : 0.43924975395202637
+				},
+				{
+					"count" : 42,
+					"normalised_count" : 0.041999999433755875,
+					"value" : 0.44416394829750061
+				},
+				{
+					"count" : 45,
+					"normalised_count" : 0.045000001788139343,
+					"value" : 0.44907817244529724
+				},
+				{
+					"count" : 49,
+					"normalised_count" : 0.048999998718500137,
+					"value" : 0.45399239659309387
+				},
+				{
+					"count" : 77,
+					"normalised_count" : 0.076999999582767487,
+					"value" : 0.45890659093856812
+				},
+				{
+					"count" : 86,
+					"normalised_count" : 0.086000002920627594,
+					"value" : 0.46382081508636475
+				},
+				{
+					"count" : 69,
+					"normalised_count" : 0.068999998271465302,
+					"value" : 0.46873500943183899
+				},
+				{
+					"count" : 44,
+					"normalised_count" : 0.043999999761581421,
+					"value" : 0.47364923357963562
+				},
+				{
+					"count" : 50,
+					"normalised_count" : 0.05000000074505806,
+					"value" : 0.47856342792510986
+				},
+				{
+					"count" : 50,
+					"normalised_count" : 0.05000000074505806,
+					"value" : 0.48347765207290649
+				},
+				{
+					"count" : 39,
+					"normalised_count" : 0.039000000804662704,
+					"value" : 0.48839187622070312
+				},
+				{
+					"count" : 31,
+					"normalised_count" : 0.030999999493360519,
+					"value" : 0.49330607056617737
+				},
+				{
+					"count" : 20,
+					"normalised_count" : 0.019999999552965164,
+					"value" : 0.498220294713974
+				},
+				{
+					"count" : 19,
+					"normalised_count" : 0.018999999389052391,
+					"value" : 0.50313448905944824
+				},
+				{
+					"count" : 17,
+					"normalised_count" : 0.017000000923871994,
+					"value" : 0.50804871320724487
+				},
+				{
+					"count" : 7,
+					"normalised_count" : 0.0070000002160668373,
+					"value" : 0.5129629373550415
+				},
+				{
+					"count" : 15,
+					"normalised_count" : 0.014999999664723873,
+					"value" : 0.51787710189819336
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.52279138565063477
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.52770555019378662
+				},
+				{
+					"count" : 14,
+					"normalised_count" : 0.014000000432133675,
+					"value" : 0.53261977434158325
+				},
+				{
+					"count" : 11,
+					"normalised_count" : 0.010999999940395355,
+					"value" : 0.53753399848937988
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.54244816303253174
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.54736244678497314
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.552276611328125
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.55719083547592163
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.56210505962371826
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.56701922416687012
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.57193344831466675
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.57684767246246338
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.58176189661026001
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.58667612075805664
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.5915902853012085
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.59650450944900513
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.60141873359680176
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.60633295774459839
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.61124718189239502
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.61616134643554688
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.62107557058334351
+				}
+			],
+			"h_resulted" : 
+			[
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.38328617811203003
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.38500556349754333
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.38672497868537903
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.38844436407089233
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.39016377925872803
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.39188316464424133
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.39360255002975464
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.39532196521759033
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.39704135060310364
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.39876076579093933
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.40048015117645264
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.40219956636428833
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.40391895174980164
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.40563833713531494
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.40735775232315063
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.40907713770866394
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.41079655289649963
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.41251593828201294
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.41423532366752625
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.41595473885536194
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.41767412424087524
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.41939353942871094
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.42111292481422424
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.42283231019973755
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.42455172538757324
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.42627111077308655
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.42799052596092224
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.42970991134643555
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.43142932653427124
+				},
+				{
+					"count" : 6,
+					"normalised_count" : 0.0060000000521540642,
+					"value" : 0.43314871191978455
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.43486809730529785
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.43658751249313354
+				},
+				{
+					"count" : 10,
+					"normalised_count" : 0.0099999997764825821,
+					"value" : 0.43830689787864685
+				},
+				{
+					"count" : 14,
+					"normalised_count" : 0.014000000432133675,
+					"value" : 0.44002631306648254
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.44174569845199585
+				},
+				{
+					"count" : 22,
+					"normalised_count" : 0.02199999988079071,
+					"value" : 0.44346511363983154
+				},
+				{
+					"count" : 32,
+					"normalised_count" : 0.032000001519918442,
+					"value" : 0.44518449902534485
+				},
+				{
+					"count" : 22,
+					"normalised_count" : 0.02199999988079071,
+					"value" : 0.44690388441085815
+				},
+				{
+					"count" : 21,
+					"normalised_count" : 0.020999999716877937,
+					"value" : 0.44862329959869385
+				},
+				{
+					"count" : 35,
+					"normalised_count" : 0.035000000149011612,
+					"value" : 0.45034268498420715
+				},
+				{
+					"count" : 34,
+					"normalised_count" : 0.034000001847743988,
+					"value" : 0.45206207036972046
+				},
+				{
+					"count" : 31,
+					"normalised_count" : 0.030999999493360519,
+					"value" : 0.45378148555755615
+				},
+				{
+					"count" : 27,
+					"normalised_count" : 0.027000000700354576,
+					"value" : 0.45550090074539185
+				},
+				{
+					"count" : 59,
+					"normalised_count" : 0.059000000357627869,
+					"value" : 0.45722028613090515
+				},
+				{
+					"count" : 63,
+					"normalised_count" : 0.063000001013278961,
+					"value" : 0.45893967151641846
+				},
+				{
+					"count" : 57,
+					"normalised_count" : 0.057000000029802322,
+					"value" : 0.46065908670425415
+				},
+				{
+					"count" : 58,
+					"normalised_count" : 0.057999998331069946,
+					"value" : 0.46237847208976746
+				},
+				{
+					"count" : 54,
+					"normalised_count" : 0.054000001400709152,
+					"value" : 0.46409785747528076
+				},
+				{
+					"count" : 50,
+					"normalised_count" : 0.05000000074505806,
+					"value" : 0.46581727266311646
+				},
+				{
+					"count" : 48,
+					"normalised_count" : 0.048000000417232513,
+					"value" : 0.46753665804862976
+				},
+				{
+					"count" : 56,
+					"normalised_count" : 0.056000001728534698,
+					"value" : 0.46925607323646545
+				},
+				{
+					"count" : 26,
+					"normalised_count" : 0.026000000536441803,
+					"value" : 0.47097545862197876
+				},
+				{
+					"count" : 27,
+					"normalised_count" : 0.027000000700354576,
+					"value" : 0.47269487380981445
+				},
+				{
+					"count" : 20,
+					"normalised_count" : 0.019999999552965164,
+					"value" : 0.47441425919532776
+				},
+				{
+					"count" : 24,
+					"normalised_count" : 0.024000000208616257,
+					"value" : 0.47613364458084106
+				},
+				{
+					"count" : 15,
+					"normalised_count" : 0.014999999664723873,
+					"value" : 0.47785305976867676
+				},
+				{
+					"count" : 22,
+					"normalised_count" : 0.02199999988079071,
+					"value" : 0.47957244515419006
+				},
+				{
+					"count" : 16,
+					"normalised_count" : 0.016000000759959221,
+					"value" : 0.48129183053970337
+				},
+				{
+					"count" : 16,
+					"normalised_count" : 0.016000000759959221,
+					"value" : 0.48301124572753906
+				},
+				{
+					"count" : 14,
+					"normalised_count" : 0.014000000432133675,
+					"value" : 0.48473066091537476
+				},
+				{
+					"count" : 8,
+					"normalised_count" : 0.0080000003799796104,
+					"value" : 0.48645004630088806
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.48816943168640137
+				},
+				{
+					"count" : 12,
+					"normalised_count" : 0.012000000104308128,
+					"value" : 0.48988884687423706
+				},
+				{
+					"count" : 9,
+					"normalised_count" : 0.008999999612569809,
+					"value" : 0.49160823225975037
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.49332761764526367
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.49504703283309937
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.49676641821861267
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.49848583340644836
+				},
+				{
+					"count" : 4,
+					"normalised_count" : 0.0040000001899898052,
+					"value" : 0.50020521879196167
+				},
+				{
+					"count" : 3,
+					"normalised_count" : 0.0030000000260770321,
+					"value" : 0.50192463397979736
+				},
+				{
+					"count" : 5,
+					"normalised_count" : 0.004999999888241291,
+					"value" : 0.50364398956298828
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.50536340475082397
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.50708281993865967
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.50880217552185059
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.51052159070968628
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.51224100589752197
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.51396042108535767
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.51567983627319336
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.51739919185638428
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.51911860704421997
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.52083802223205566
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.52255737781524658
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.52427679300308228
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.52599620819091797
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.52771556377410889
+				},
+				{
+					"count" : 2,
+					"normalised_count" : 0.0020000000949949026,
+					"value" : 0.52943497896194458
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.53115439414978027
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.53287374973297119
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.53459316492080688
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.53631258010864258
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.53803199529647827
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.53975135087966919
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.54147076606750488
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.54319018125534058
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.54490959644317627
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.54662895202636719
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.54834836721420288
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.55006778240203857
+				},
+				{
+					"count" : 0,
+					"normalised_count" : 0,
+					"value" : 0.55178713798522949
+				},
+				{
+					"count" : 1,
+					"normalised_count" : 0.0010000000474974513,
+					"value" : 0.55350655317306519
+				}
+			]
+		}
+	],
+	"summary" : 
+	{
+		"count" : 3000,
+		"error_average" : 0.0025062558706849813,
+		"error_max" : 0.91807115077972412,
+		"error_min" : 0,
+		"h_error_squared" : 
+		[
+			{
+				"count" : 2960,
+				"normalised_count" : 0.98666667938232422,
+				"value" : 5.1159076974727213e-11
+			},
+			{
+				"count" : 22,
+				"normalised_count" : 0.0073333331383764744,
+				"value" : 0.0092734461650252342
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.018546892330050468
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : 0.027820337563753128
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.037093784660100937
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.046367231756448746
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.055640675127506256
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.064914122223854065
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.074187569320201874
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.083461016416549683
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.092734463512897491
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.1020079106092453
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.11128135025501251
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.12055479735136032
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.12982824444770813
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.13910169899463654
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.14837513864040375
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.15764857828617096
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.16692203283309937
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.17619547247886658
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.18546892702579498
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.19474236667156219
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.2040158212184906
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.21328926086425781
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.22256270051002502
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.23183615505695343
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.24110959470272064
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.25038304924964905
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.25965648889541626
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.26892992854118347
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.27820339798927307
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.28747683763504028
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.2967502772808075
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.30602371692657471
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.31529715657234192
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.32457062602043152
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.33384406566619873
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.34311750531196594
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.35239094495773315
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.36166441440582275
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.37093785405158997
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.38021129369735718
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.38948473334312439
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.3987581729888916
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.4080316424369812
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.41730508208274841
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.42657852172851562
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.43585196137428284
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.44512540102005005
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.45439887046813965
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.46367231011390686
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.47294574975967407
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.48221918940544128
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.49149265885353088
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.5007660984992981
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.5100395679473877
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.51931297779083252
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.52858644723892212
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.53785985708236694
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.54713332653045654
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.55640679597854614
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.56568020582199097
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.57495367527008057
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.58422708511352539
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.59350055456161499
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.60277402400970459
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.61204743385314941
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.62132090330123901
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.63059431314468384
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.63986778259277344
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.64914125204086304
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.65841466188430786
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.66768813133239746
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.67696154117584229
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.68623501062393188
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.69550848007202148
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.70478188991546631
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.71405535936355591
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.72332882881164551
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.73260223865509033
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.74187570810317993
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.75114911794662476
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.76042258739471436
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.76969605684280396
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.77896946668624878
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.78824293613433838
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.7975163459777832
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.8067898154258728
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.8160632848739624
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.82533669471740723
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.83461016416549683
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.84388357400894165
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.85315704345703125
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.86243051290512085
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.87170392274856567
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.88097739219665527
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.8902508020401001
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.8995242714881897
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.9087977409362793
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.91807115077972412
+			}
+		],
+		"h_error_summary" : 
+		[
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : -0.95816028118133545
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.9468463659286499
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.93553239107131958
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : -0.92421847581863403
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : -0.91290456056594849
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.90159058570861816
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.89027667045593262
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.87896275520324707
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.86764883995056152
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.8563348650932312
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.84502094984054565
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.83370703458786011
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.82239305973052979
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.81107914447784424
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.79976522922515869
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.78845131397247314
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.77713733911514282
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.76582342386245728
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.75450950860977173
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.74319553375244141
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.73188161849975586
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.72056770324707031
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.70925378799438477
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.69793981313705444
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.6866258978843689
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.67531192302703857
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.66399800777435303
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.65268409252166748
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.64137017726898193
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.63005626201629639
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.61874228715896606
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.60742837190628052
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.5961143970489502
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.58480048179626465
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.5734865665435791
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.56217265129089355
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.55085873603820801
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.53954476118087769
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.52823078632354736
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.51691687107086182
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.50560295581817627
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.49428904056549072
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.48297509551048279
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.47166115045547485
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.46034723520278931
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.44903331995010376
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.43771934509277344
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.42640542984008789
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.41509151458740234
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.40377753973007202
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.39246362447738647
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.38114970922470093
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.36983579397201538
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.35852181911468506
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.34720790386199951
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.33589398860931396
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.32458001375198364
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : -0.3132660984992981
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.30195218324661255
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.29063820838928223
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.27932429313659668
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.26801037788391113
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.25669646263122559
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : -0.24538248777389526
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.23406857252120972
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.22275465726852417
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.21144068241119385
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.2001267671585083
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : -0.18881285190582275
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.17749893665313721
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : -0.16618496179580688
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : -0.15487104654312134
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : -0.14355713129043579
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : -0.13224315643310547
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : -0.12092924118041992
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : -0.10961532592773438
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : -0.098301351070404053
+			},
+			{
+				"count" : 14,
+				"normalised_count" : 0.0046666665002703667,
+				"value" : -0.086987435817718506
+			},
+			{
+				"count" : 31,
+				"normalised_count" : 0.010333333164453506,
+				"value" : -0.075673520565032959
+			},
+			{
+				"count" : 29,
+				"normalised_count" : 0.0096666663885116577,
+				"value" : -0.064359605312347412
+			},
+			{
+				"count" : 46,
+				"normalised_count" : 0.015333333052694798,
+				"value" : -0.05304563045501709
+			},
+			{
+				"count" : 93,
+				"normalised_count" : 0.030999999493360519,
+				"value" : -0.041731715202331543
+			},
+			{
+				"count" : 132,
+				"normalised_count" : 0.043999999761581421,
+				"value" : -0.030417799949645996
+			},
+			{
+				"count" : 309,
+				"normalised_count" : 0.10300000011920929,
+				"value" : -0.019103825092315674
+			},
+			{
+				"count" : 902,
+				"normalised_count" : 0.30066666007041931,
+				"value" : -0.007789909839630127
+			},
+			{
+				"count" : 855,
+				"normalised_count" : 0.28499999642372131,
+				"value" : 0.0035240054130554199
+			},
+			{
+				"count" : 235,
+				"normalised_count" : 0.078333333134651184,
+				"value" : 0.014837980270385742
+			},
+			{
+				"count" : 118,
+				"normalised_count" : 0.03933333232998848,
+				"value" : 0.026151895523071289
+			},
+			{
+				"count" : 66,
+				"normalised_count" : 0.02199999988079071,
+				"value" : 0.037465810775756836
+			},
+			{
+				"count" : 46,
+				"normalised_count" : 0.015333333052694798,
+				"value" : 0.048779726028442383
+			},
+			{
+				"count" : 38,
+				"normalised_count" : 0.012666666880249977,
+				"value" : 0.06009364128112793
+			},
+			{
+				"count" : 25,
+				"normalised_count" : 0.0083333337679505348,
+				"value" : 0.071407675743103027
+			},
+			{
+				"count" : 13,
+				"normalised_count" : 0.0043333331122994423,
+				"value" : 0.082721590995788574
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.094035506248474121
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.10534942150115967
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : 0.11666333675384521
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.12797725200653076
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.13929116725921631
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.15060520172119141
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.16191911697387695
+			}
+		],
+		"h_required_summary" : 
+		[
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.00044018030166625977
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.010531977750360966
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.020623775199055672
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.030715573579072952
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.040807370096445084
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.050899166613817215
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.060990966856479645
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.071082763373851776
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.081174559891223907
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.091266356408596039
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.10135815292596817
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.1114499494433403
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.12154175341129303
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.13163354992866516
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.14172534644603729
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.15181714296340942
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.16190893948078156
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.17200073599815369
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.18209253251552582
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.19218432903289795
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.20227612555027008
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.21236792206764221
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.22245971858501434
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : 0.23255151510238647
+			},
+			{
+				"count" : 11,
+				"normalised_count" : 0.0036666665691882372,
+				"value" : 0.2426433265209198
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.25273510813713074
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.26282691955566406
+			},
+			{
+				"count" : 10,
+				"normalised_count" : 0.0033333334140479565,
+				"value" : 0.272918701171875
+			},
+			{
+				"count" : 13,
+				"normalised_count" : 0.0043333331122994423,
+				"value" : 0.28301051259040833
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.29310229420661926
+			},
+			{
+				"count" : 10,
+				"normalised_count" : 0.0033333334140479565,
+				"value" : 0.30319410562515259
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.31328588724136353
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.32337769865989685
+			},
+			{
+				"count" : 13,
+				"normalised_count" : 0.0043333331122994423,
+				"value" : 0.33346951007843018
+			},
+			{
+				"count" : 12,
+				"normalised_count" : 0.0040000001899898052,
+				"value" : 0.34356129169464111
+			},
+			{
+				"count" : 23,
+				"normalised_count" : 0.0076666665263473988,
+				"value" : 0.35365310311317444
+			},
+			{
+				"count" : 27,
+				"normalised_count" : 0.008999999612569809,
+				"value" : 0.36374488472938538
+			},
+			{
+				"count" : 28,
+				"normalised_count" : 0.0093333330005407333,
+				"value" : 0.3738366961479187
+			},
+			{
+				"count" : 29,
+				"normalised_count" : 0.0096666663885116577,
+				"value" : 0.38392847776412964
+			},
+			{
+				"count" : 44,
+				"normalised_count" : 0.014666666276752949,
+				"value" : 0.39402028918266296
+			},
+			{
+				"count" : 58,
+				"normalised_count" : 0.019333332777023315,
+				"value" : 0.4041120707988739
+			},
+			{
+				"count" : 66,
+				"normalised_count" : 0.02199999988079071,
+				"value" : 0.41420388221740723
+			},
+			{
+				"count" : 87,
+				"normalised_count" : 0.028999999165534973,
+				"value" : 0.42429566383361816
+			},
+			{
+				"count" : 96,
+				"normalised_count" : 0.032000001519918442,
+				"value" : 0.43438747525215149
+			},
+			{
+				"count" : 142,
+				"normalised_count" : 0.047333333641290665,
+				"value" : 0.44447925686836243
+			},
+			{
+				"count" : 194,
+				"normalised_count" : 0.064666666090488434,
+				"value" : 0.45457106828689575
+			},
+			{
+				"count" : 198,
+				"normalised_count" : 0.065999999642372131,
+				"value" : 0.46466284990310669
+			},
+			{
+				"count" : 154,
+				"normalised_count" : 0.051333334296941757,
+				"value" : 0.47475466132164001
+			},
+			{
+				"count" : 128,
+				"normalised_count" : 0.042666666209697723,
+				"value" : 0.48484647274017334
+			},
+			{
+				"count" : 99,
+				"normalised_count" : 0.032999999821186066,
+				"value" : 0.49493825435638428
+			},
+			{
+				"count" : 60,
+				"normalised_count" : 0.019999999552965164,
+				"value" : 0.50503003597259521
+			},
+			{
+				"count" : 62,
+				"normalised_count" : 0.020666666328907013,
+				"value" : 0.51512187719345093
+			},
+			{
+				"count" : 39,
+				"normalised_count" : 0.013000000268220901,
+				"value" : 0.52521365880966187
+			},
+			{
+				"count" : 43,
+				"normalised_count" : 0.014333332888782024,
+				"value" : 0.5353054404258728
+			},
+			{
+				"count" : 34,
+				"normalised_count" : 0.01133333332836628,
+				"value" : 0.54539722204208374
+			},
+			{
+				"count" : 28,
+				"normalised_count" : 0.0093333330005407333,
+				"value" : 0.55548906326293945
+			},
+			{
+				"count" : 31,
+				"normalised_count" : 0.010333333164453506,
+				"value" : 0.56558084487915039
+			},
+			{
+				"count" : 13,
+				"normalised_count" : 0.0043333331122994423,
+				"value" : 0.57567262649536133
+			},
+			{
+				"count" : 17,
+				"normalised_count" : 0.0056666666641831398,
+				"value" : 0.58576440811157227
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.59585624933242798
+			},
+			{
+				"count" : 11,
+				"normalised_count" : 0.0036666665691882372,
+				"value" : 0.60594803094863892
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.61603981256484985
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.62613159418106079
+			},
+			{
+				"count" : 13,
+				"normalised_count" : 0.0043333331122994423,
+				"value" : 0.6362234354019165
+			},
+			{
+				"count" : 12,
+				"normalised_count" : 0.0040000001899898052,
+				"value" : 0.64631521701812744
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.65640699863433838
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.66649883985519409
+			},
+			{
+				"count" : 10,
+				"normalised_count" : 0.0033333334140479565,
+				"value" : 0.67659062147140503
+			},
+			{
+				"count" : 11,
+				"normalised_count" : 0.0036666665691882372,
+				"value" : 0.68668240308761597
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.6967741847038269
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.70686602592468262
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.71695780754089355
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.72704958915710449
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.73714137077331543
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.74723321199417114
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.75732499361038208
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.76741677522659302
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : 0.77750855684280396
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : 0.78760039806365967
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.79769217967987061
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.80778396129608154
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.81787580251693726
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.82796758413314819
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.83805936574935913
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.84815114736557007
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.85824298858642578
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.86833477020263672
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.87842655181884766
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.88851833343505859
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.89861017465591431
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.90870195627212524
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.91879373788833618
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.92888551950454712
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.93897736072540283
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.94906914234161377
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.95916092395782471
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.96925276517868042
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.97934454679489136
+			},
+			{
+				"count" : 993,
+				"normalised_count" : 0.33100000023841858,
+				"value" : 0.98943632841110229
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.99952811002731323
+			}
+		],
+		"h_resulted_summary" : 
+		[
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.079141035676002502
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.088544353842735291
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.097947664558887482
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.10735098272562027
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : 0.11675429344177246
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.12615761160850525
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.13556092977523804
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.14496424794197083
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.15436756610870361
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.1637708842754364
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : 0.173174187541008
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.18257750570774078
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.19198082387447357
+			},
+			{
+				"count" : 12,
+				"normalised_count" : 0.0040000001899898052,
+				"value" : 0.20138412714004517
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.21078744530677795
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.22019076347351074
+			},
+			{
+				"count" : 7,
+				"normalised_count" : 0.0023333332501351833,
+				"value" : 0.22959408164024353
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.23899739980697632
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.24840071797370911
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.25780403614044189
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.26720732450485229
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.27661067247390747
+			},
+			{
+				"count" : 11,
+				"normalised_count" : 0.0036666665691882372,
+				"value" : 0.28601396083831787
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.29541730880737305
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.30482059717178345
+			},
+			{
+				"count" : 10,
+				"normalised_count" : 0.0033333334140479565,
+				"value" : 0.31422391533851624
+			},
+			{
+				"count" : 12,
+				"normalised_count" : 0.0040000001899898052,
+				"value" : 0.32362723350524902
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.33303052186965942
+			},
+			{
+				"count" : 12,
+				"normalised_count" : 0.0040000001899898052,
+				"value" : 0.3424338698387146
+			},
+			{
+				"count" : 10,
+				"normalised_count" : 0.0033333334140479565,
+				"value" : 0.351837158203125
+			},
+			{
+				"count" : 18,
+				"normalised_count" : 0.0060000000521540642,
+				"value" : 0.36124050617218018
+			},
+			{
+				"count" : 15,
+				"normalised_count" : 0.004999999888241291,
+				"value" : 0.37064379453659058
+			},
+			{
+				"count" : 18,
+				"normalised_count" : 0.0060000000521540642,
+				"value" : 0.38004714250564575
+			},
+			{
+				"count" : 21,
+				"normalised_count" : 0.0070000002160668373,
+				"value" : 0.38945043087005615
+			},
+			{
+				"count" : 17,
+				"normalised_count" : 0.0056666666641831398,
+				"value" : 0.39885377883911133
+			},
+			{
+				"count" : 27,
+				"normalised_count" : 0.008999999612569809,
+				"value" : 0.40825706720352173
+			},
+			{
+				"count" : 33,
+				"normalised_count" : 0.010999999940395355,
+				"value" : 0.4176604151725769
+			},
+			{
+				"count" : 52,
+				"normalised_count" : 0.017333332449197769,
+				"value" : 0.4270637035369873
+			},
+			{
+				"count" : 100,
+				"normalised_count" : 0.033333335071802139,
+				"value" : 0.43646699190139771
+			},
+			{
+				"count" : 214,
+				"normalised_count" : 0.071333333849906921,
+				"value" : 0.44587033987045288
+			},
+			{
+				"count" : 329,
+				"normalised_count" : 0.10966666787862778,
+				"value" : 0.45527362823486328
+			},
+			{
+				"count" : 301,
+				"normalised_count" : 0.10033333301544189,
+				"value" : 0.46467697620391846
+			},
+			{
+				"count" : 164,
+				"normalised_count" : 0.054666668176651001,
+				"value" : 0.47408026456832886
+			},
+			{
+				"count" : 106,
+				"normalised_count" : 0.035333331674337387,
+				"value" : 0.48348361253738403
+			},
+			{
+				"count" : 57,
+				"normalised_count" : 0.018999999389052391,
+				"value" : 0.49288690090179443
+			},
+			{
+				"count" : 55,
+				"normalised_count" : 0.018333332613110542,
+				"value" : 0.50229024887084961
+			},
+			{
+				"count" : 40,
+				"normalised_count" : 0.013333333656191826,
+				"value" : 0.51169353723526001
+			},
+			{
+				"count" : 23,
+				"normalised_count" : 0.0076666665263473988,
+				"value" : 0.52109688520431519
+			},
+			{
+				"count" : 26,
+				"normalised_count" : 0.0086666662245988846,
+				"value" : 0.53050017356872559
+			},
+			{
+				"count" : 19,
+				"normalised_count" : 0.0063333334401249886,
+				"value" : 0.53990346193313599
+			},
+			{
+				"count" : 19,
+				"normalised_count" : 0.0063333334401249886,
+				"value" : 0.54930680990219116
+			},
+			{
+				"count" : 13,
+				"normalised_count" : 0.0043333331122994423,
+				"value" : 0.55871009826660156
+			},
+			{
+				"count" : 18,
+				"normalised_count" : 0.0060000000521540642,
+				"value" : 0.56811344623565674
+			},
+			{
+				"count" : 18,
+				"normalised_count" : 0.0060000000521540642,
+				"value" : 0.57751673460006714
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.58692002296447754
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.59632337093353271
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.60572665929794312
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.61513000726699829
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.62453329563140869
+			},
+			{
+				"count" : 10,
+				"normalised_count" : 0.0033333334140479565,
+				"value" : 0.63393664360046387
+			},
+			{
+				"count" : 10,
+				"normalised_count" : 0.0033333334140479565,
+				"value" : 0.64333993196487427
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.65274327993392944
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.66214656829833984
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.67154991626739502
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.68095320463180542
+			},
+			{
+				"count" : 10,
+				"normalised_count" : 0.0033333334140479565,
+				"value" : 0.69035649299621582
+			},
+			{
+				"count" : 5,
+				"normalised_count" : 0.0016666667070239782,
+				"value" : 0.699759840965271
+			},
+			{
+				"count" : 7,
+				"normalised_count" : 0.0023333332501351833,
+				"value" : 0.7091631293296814
+			},
+			{
+				"count" : 3,
+				"normalised_count" : 0.0010000000474974513,
+				"value" : 0.71856647729873657
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.72796976566314697
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.73737311363220215
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.74677640199661255
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.75617974996566772
+			},
+			{
+				"count" : 8,
+				"normalised_count" : 0.0026666666381061077,
+				"value" : 0.76558303833007812
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.7749863862991333
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.7843896746635437
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.7937929630279541
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.80319631099700928
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.81259959936141968
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 0.82200294733047485
+			},
+			{
+				"count" : 2,
+				"normalised_count" : 0.00066666665952652693,
+				"value" : 0.83140623569488525
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.84080958366394043
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.85021287202835083
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.85961621999740601
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.86901950836181641
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.87842285633087158
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.88782614469528198
+			},
+			{
+				"count" : 0,
+				"normalised_count" : 0,
+				"value" : 0.89722943305969238
+			},
+			{
+				"count" : 4,
+				"normalised_count" : 0.0013333333190530539,
+				"value" : 0.90663278102874756
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.91603606939315796
+			},
+			{
+				"count" : 6,
+				"normalised_count" : 0.0020000000949949026,
+				"value" : 0.92543941736221313
+			},
+			{
+				"count" : 11,
+				"normalised_count" : 0.0036666665691882372,
+				"value" : 0.93484270572662354
+			},
+			{
+				"count" : 13,
+				"normalised_count" : 0.0043333331122994423,
+				"value" : 0.94424605369567871
+			},
+			{
+				"count" : 9,
+				"normalised_count" : 0.0030000000260770321,
+				"value" : 0.95364934206008911
+			},
+			{
+				"count" : 7,
+				"normalised_count" : 0.0023333332501351833,
+				"value" : 0.96305269002914429
+			},
+			{
+				"count" : 20,
+				"normalised_count" : 0.0066666668280959129,
+				"value" : 0.97245597839355469
+			},
+			{
+				"count" : 273,
+				"normalised_count" : 0.090999998152256012,
+				"value" : 0.98185932636260986
+			},
+			{
+				"count" : 589,
+				"normalised_count" : 0.19633333384990692,
+				"value" : 0.99126261472702026
+			},
+			{
+				"count" : 58,
+				"normalised_count" : 0.019333332777023315,
+				"value" : 1.0006659030914307
+			},
+			{
+				"count" : 1,
+				"normalised_count" : 0.00033333332976326346,
+				"value" : 1.0100692510604858
+			}
+		]
+	}
+}
