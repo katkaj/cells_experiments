@@ -16,5 +16,5 @@
   "input data corruption"                   : 0.0,
   "input data corruption noise level"       : 0.0,
   "output data corruption"                  : 0.5,
-  "output data corruption noise level"      : 1.0
+  "output data corruption noise level"      : 0.125
 }
