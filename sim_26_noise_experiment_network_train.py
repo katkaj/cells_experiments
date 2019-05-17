@@ -92,4 +92,46 @@ experiment(experiment_path + "noise_50_0/spatial_tensor_depth.json", testing_ten
 
 
 
+
+
+#experiments with output noise
+experiment(experiment_path + "noise_0_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_0_0/net_0/")
+experiment(experiment_path + "noise_0_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_0/net_0_depth/")
+experiment(experiment_path + "noise_0_5/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_5/net_0/")
+experiment(experiment_path + "noise_0_5/spatial_tensor_depth.json", testing_tensor_depth_config,experiment_path + "noise_0_5/net_0_depth/")
+experiment(experiment_path + "noise_0_10/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_0_10/net_0/")
+experiment(experiment_path + "noise_0_10/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_10/net_0_depth/")
+experiment(experiment_path + "noise_0_15/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_15/net_0/")
+experiment(experiment_path + "noise_0_15/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_15/net_0_depth/")
+experiment(experiment_path + "noise_0_20/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_20/net_0/")
+experiment(experiment_path + "noise_0_20/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_20/net_0_depth/")
+experiment(experiment_path + "noise_0_30/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_30/net_0/")
+experiment(experiment_path + "noise_0_30/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_30/net_0_depth/")
+experiment(experiment_path + "noise_0_40/spatial_tensor.json", testing_tensor_config,experiment_path + "noise_0_40/net_0/")
+experiment(experiment_path + "noise_0_40/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_40/net_0_depth/")
+experiment(experiment_path + "noise_0_50/spatial_tensor.json", testing_tensor_depth_config, testing_tensor_config,experiment_path + "noise_0_50/net_0/")
+experiment(experiment_path + "noise_0_50/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_50/net_0_depth/")
+
+
+
+#experiments with input noise
+experiment(experiment_path + "noise_0_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_0_0/net_0/")
+experiment(experiment_path + "noise_0_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_0_0/net_0_depth/")
+experiment(experiment_path + "noise_5_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_5_0/net_0/")
+experiment(experiment_path + "noise_5_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_5_0/net_0_depth/")
+experiment(experiment_path + "noise_10_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_10_0/net_0/")
+experiment(experiment_path + "noise_10_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_10_0/net_0_depth/")
+experiment(experiment_path + "noise_15_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_15_0/net_0/")
+experiment(experiment_path + "noise_15_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_15_0/net_0_depth/")
+experiment(experiment_path + "noise_20_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_20_0/net_0/")
+experiment(experiment_path + "noise_20_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_20_0/net_0_depth/")
+experiment(experiment_path + "noise_30_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_30_0/net_0/")
+experiment(experiment_path + "noise_30_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_30_0/net_0_depth/")
+experiment(experiment_path + "noise_40_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_40_0/net_0/")
+experiment(experiment_path + "noise_40_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_40_0/net_0_depth/")
+experiment(experiment_path + "noise_50_0/spatial_tensor.json", testing_tensor_config, experiment_path + "noise_50_0/net_0/")
+experiment(experiment_path + "noise_50_0/spatial_tensor_depth.json", testing_tensor_depth_config, experiment_path + "noise_50_0/net_0_depth/")
+
+
+
 print("program done")
