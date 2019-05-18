@@ -5,6 +5,9 @@
   "dat files" :
   [
     "/home/michal/dataset/cells/sim26/testing/rbc0_data_sim26a.dat",
+    "/home/michal/dataset/cells/sim26/testing/rbc1_data_sim26a.dat",
+    "/home/michal/dataset/cells/sim26/testing/rbc2_data_sim26a.dat",
+    "/home/michal/dataset/cells/sim26/testing/rbc3_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc4_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc5_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc6_data_sim26a.dat",
@@ -30,11 +33,8 @@
     "/home/michal/dataset/cells/sim26/testing/rbc26_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc27_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc28_data_sim26a.dat",
-    "/home/michal/dataset/cells/sim26/testing/rbc3_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc29_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc30_data_sim26a.dat",
-    "/home/michal/dataset/cells/sim26/testing/rbc1_data_sim26a.dat",
-    "/home/michal/dataset/cells/sim26/testing/rbc2_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc31_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc32_data_sim26a.dat",
     "/home/michal/dataset/cells/sim26/testing/rbc33_data_sim26a.dat",
