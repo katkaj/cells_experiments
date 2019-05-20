@@ -22,12 +22,11 @@ def process_trajectory(tensor_config, network_config, result_file_name):
     prediction.get_result().save_json(result_file_name)
 
 
-#process_trajectory("spatial_tensor_single.json", "networks/net_0_single/trained/cnn_config.json", "trajectory_result/net_0_single.json")
-#process_trajectory("spatial_tensor_all.json", "networks/net_0_all/trained/cnn_config.json", "trajectory_result/net_0_all.json")
-#process_trajectory("spatial_tensor_single.json", "networks/net_1_single/trained/cnn_config.json", "trajectory_result/net_1_single.json")
-#process_trajectory("spatial_tensor_all.json", "networks/net_1_all/trained/cnn_config.json", "trajectory_result/net_1_all.json")
-
-
 process_trajectory("spatial_tensor_single.json", "networks/net_0_single/trained/cnn_config.json", "trajectory_result/net_0_single.json")
+process_trajectory("spatial_tensor_all.json", "networks/net_0_all/trained/cnn_config.json", "trajectory_result/net_0_all.json")
+process_trajectory("spatial_tensor_single.json", "networks/net_1_single/trained/cnn_config.json", "trajectory_result/net_1_single.json")
+process_trajectory("spatial_tensor_all.json", "networks/net_1_all/trained/cnn_config.json", "trajectory_result/net_1_all.json")
+
+#process_trajectory("spatial_tensor_single.json", "networks/net_0_single/trained/cnn_config.json", "trajectory_result/net_0_single.json")
 
 print("program done")

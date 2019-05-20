@@ -15,9 +15,11 @@ target.load_json("trajectory_result/target_trajectory.json")
 
 
 #load trajectory result
-result = pyphy.MotionTensor()
-result.load_json("trajectory_result/net_0_single.json")
+result_net_0_single = pyphy.MotionTensor()
+result_net_0_single.load_json("trajectory_result/net_1_single.json")
 
+result_net_0_all = pyphy.MotionTensor()
+result_net_0_all.load_json("trajectory_result/net_1_all.json")
 
 #use only 200 points for render
 visualisation = pyphy.MotionTensorVisualisation(200)
@@ -25,5 +27,6 @@ visualisation = pyphy.MotionTensorVisualisation(200)
 while True:
     visualisation.start()
     visualisation.render(target, 1.0, 0.0, 0.0)
-    visualisation.render(result, 0.0, 0.0, 1.0)
+    visualisation.render(result_net_0_single, 0.0, 0.0, 1.0)
+    visualisation.render(result_net_0_all, 0.0, 1.0, 0.0)
     visualisation.finish()
