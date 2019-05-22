@@ -9,9 +9,9 @@
     "use depth"               : false,
     "use gaussian kernel"     : true,
 
-    "discretization x"        : 64,
-    "discretization y"        : 64,
-    "discretization z"        : 3,
+    "discretization x"        : 12,
+    "discretization y"        : 16,
+    "discretization z"        : 16,
 
 
     "input data corruption"                   : 0.0,            "_comment" : "podiel trenovacich dat, ktore budu zasumene z int. 0,1",

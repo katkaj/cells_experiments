@@ -1,0 +1,19 @@
+{
+  "normalise"       : "per column",
+  "normalise range" : [0.0, 1.0],
+
+  "dat files" :
+  [
+    "/home/michal/dataset/cells/sim27/testing/rbc0_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc1_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc2_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc3_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc4_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc5_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc6_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc7_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc8_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc9_data_sim27a.dat",
+    "/home/michal/dataset/cells/sim27/testing/rbc10_data_sim27a.dat"    
+  ]
+}
