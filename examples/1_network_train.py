@@ -43,9 +43,13 @@ training_dats_to_motion_tensor = pyphy.DatsToMotionTensor("training_dats.json", 
 testing_dats_to_motion_tensor = pyphy.DatsToMotionTensor("testing_dats.json", "motion_tensor.json", training_dats_to_motion_tensor.tensor())
 
 #train four networks
+'''
 train_network("spatial_tensor_single.json", "spatial_tensor_single.json",  "networks/net_0_single/")
 train_network("spatial_tensor_all.json", "spatial_tensor_all.json",  "networks/net_0_all/")
 train_network("spatial_tensor_single.json", "spatial_tensor_single.json",  "networks/net_1_single/")
 train_network("spatial_tensor_all.json", "spatial_tensor_all.json",  "networks/net_1_all/")
+'''
+
+train_network("spatial_tensor_all_big.json", "spatial_tensor_all_big.json",  "networks/net_1_all/")
 
 print("program done")
