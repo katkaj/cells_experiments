@@ -1577,6 +1577,32 @@ class DatsToMotionTensor(_object):
 DatsToMotionTensor_swigregister = _pyphy.DatsToMotionTensor_swigregister
 DatsToMotionTensor_swigregister(DatsToMotionTensor)
 
+class sDatasetItem(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, sDatasetItem, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, sDatasetItem, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["input"] = _pyphy.sDatasetItem_input_set
+    __swig_getmethods__["input"] = _pyphy.sDatasetItem_input_get
+    if _newclass:
+        input = _swig_property(_pyphy.sDatasetItem_input_get, _pyphy.sDatasetItem_input_set)
+    __swig_setmethods__["output"] = _pyphy.sDatasetItem_output_set
+    __swig_getmethods__["output"] = _pyphy.sDatasetItem_output_get
+    if _newclass:
+        output = _swig_property(_pyphy.sDatasetItem_output_get, _pyphy.sDatasetItem_output_set)
+
+    def __init__(self):
+        this = _pyphy.new_sDatasetItem()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _pyphy.delete_sDatasetItem
+    __del__ = lambda self: None
+sDatasetItem_swigregister = _pyphy.sDatasetItem_swigregister
+sDatasetItem_swigregister(sDatasetItem)
+
 class TensorInterface(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, TensorInterface, name, value)
@@ -1687,32 +1713,6 @@ class TensorSpatial(TensorInterface):
 TensorSpatial_swigregister = _pyphy.TensorSpatial_swigregister
 TensorSpatial_swigregister(TensorSpatial)
 
-class sDatasetItem(_object):
-    __swig_setmethods__ = {}
-    __setattr__ = lambda self, name, value: _swig_setattr(self, sDatasetItem, name, value)
-    __swig_getmethods__ = {}
-    __getattr__ = lambda self, name: _swig_getattr(self, sDatasetItem, name)
-    __repr__ = _swig_repr
-    __swig_setmethods__["input"] = _pyphy.sDatasetItem_input_set
-    __swig_getmethods__["input"] = _pyphy.sDatasetItem_input_get
-    if _newclass:
-        input = _swig_property(_pyphy.sDatasetItem_input_get, _pyphy.sDatasetItem_input_set)
-    __swig_setmethods__["output"] = _pyphy.sDatasetItem_output_set
-    __swig_getmethods__["output"] = _pyphy.sDatasetItem_output_get
-    if _newclass:
-        output = _swig_property(_pyphy.sDatasetItem_output_get, _pyphy.sDatasetItem_output_set)
-
-    def __init__(self):
-        this = _pyphy.new_sDatasetItem()
-        try:
-            self.this.append(this)
-        except __builtin__.Exception:
-            self.this = this
-    __swig_destroy__ = _pyphy.delete_sDatasetItem
-    __del__ = lambda self: None
-sDatasetItem_swigregister = _pyphy.sDatasetItem_swigregister
-sDatasetItem_swigregister(sDatasetItem)
-
 class DatasetInterface(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, DatasetInterface, name, value)
@@ -1720,8 +1720,8 @@ class DatasetInterface(_object):
     __getattr__ = lambda self, name: _swig_getattr(self, DatasetInterface, name)
     __repr__ = _swig_repr
 
-    def __init__(self):
-        this = _pyphy.new_DatasetInterface()
+    def __init__(self, *args):
+        this = _pyphy.new_DatasetInterface(*args)
         try:
             self.this.append(this)
         except __builtin__.Exception:
@@ -1729,74 +1729,74 @@ class DatasetInterface(_object):
     __swig_destroy__ = _pyphy.delete_DatasetInterface
     __del__ = lambda self: None
 
+    def get_input_shape(self):
+        return _pyphy.DatasetInterface_get_input_shape(self)
+
+    def get_output_shape(self):
+        return _pyphy.DatasetInterface_get_output_shape(self)
+
+    def get_training_count(self):
+        return _pyphy.DatasetInterface_get_training_count(self)
+
+    def get_testing_count(self):
+        return _pyphy.DatasetInterface_get_testing_count(self)
+
+    def get_classes_count(self):
+        return _pyphy.DatasetInterface_get_classes_count(self)
+
+    def set_training_idx(self, idx):
+        return _pyphy.DatasetInterface_set_training_idx(self, idx)
+
+    def set_random_training_idx(self):
+        return _pyphy.DatasetInterface_set_random_training_idx(self)
+
+    def get_training_input(self):
+        return _pyphy.DatasetInterface_get_training_input(self)
+
+    def get_training_output(self):
+        return _pyphy.DatasetInterface_get_training_output(self)
+
+    def get_training_input_all(self):
+        return _pyphy.DatasetInterface_get_training_input_all(self)
+
+    def get_training_output_all(self):
+        return _pyphy.DatasetInterface_get_training_output_all(self)
+
+    def get_testing_input(self, idx):
+        return _pyphy.DatasetInterface_get_testing_input(self, idx)
+
+    def get_testing_output(self, idx):
+        return _pyphy.DatasetInterface_get_testing_output(self, idx)
+
+    def get_testing_input_all(self):
+        return _pyphy.DatasetInterface_get_testing_input_all(self)
+
+    def get_testing_output_all(self):
+        return _pyphy.DatasetInterface_get_testing_output_all(self)
+
+    def set_input_shape(self, input_shape):
+        return _pyphy.DatasetInterface_set_input_shape(self, input_shape)
+
+    def set_output_shape(self, output_shape):
+        return _pyphy.DatasetInterface_set_output_shape(self, output_shape)
+
+    def add_training(self, input, output):
+        return _pyphy.DatasetInterface_add_training(self, input, output)
+
+    def add_testing(self, input, output):
+        return _pyphy.DatasetInterface_add_testing(self, input, output)
+
     def _print(self):
         return _pyphy.DatasetInterface__print(self)
 
-    def get_random_training(self):
-        return _pyphy.DatasetInterface_get_random_training(self)
+    def clear(self):
+        return _pyphy.DatasetInterface_clear(self)
 
-    def get_training(self, class_idx, idx):
-        return _pyphy.DatasetInterface_get_training(self, class_idx, idx)
+    def normalise_input(self):
+        return _pyphy.DatasetInterface_normalise_input(self)
 
-    def get_class_items_count(self, class_idx):
-        return _pyphy.DatasetInterface_get_class_items_count(self, class_idx)
-
-    def get_testing(self, idx):
-        return _pyphy.DatasetInterface_get_testing(self, idx)
-
-    def get_random_testing(self):
-        return _pyphy.DatasetInterface_get_random_testing(self)
-
-    def get_unlabeled(self, idx):
-        return _pyphy.DatasetInterface_get_unlabeled(self, idx)
-
-    def get_random_unlabeled(self):
-        return _pyphy.DatasetInterface_get_random_unlabeled(self)
-
-    def get_training_size(self):
-        return _pyphy.DatasetInterface_get_training_size(self)
-
-    def get_testing_size(self):
-        return _pyphy.DatasetInterface_get_testing_size(self)
-
-    def get_unlabeled_size(self):
-        return _pyphy.DatasetInterface_get_unlabeled_size(self)
-
-    def get_input_size(self):
-        return _pyphy.DatasetInterface_get_input_size(self)
-
-    def get_output_size(self):
-        return _pyphy.DatasetInterface_get_output_size(self)
-
-    def get_width(self):
-        return _pyphy.DatasetInterface_get_width(self)
-
-    def get_height(self):
-        return _pyphy.DatasetInterface_get_height(self)
-
-    def get_channels(self):
-        return _pyphy.DatasetInterface_get_channels(self)
-
-    def print_testing_item(self, idx):
-        return _pyphy.DatasetInterface_print_testing_item(self, idx)
-
-    def export_h_testing(self, file_name, count):
-        return _pyphy.DatasetInterface_export_h_testing(self, file_name, count)
-
-    def save_to_json(self, file_name):
-        return _pyphy.DatasetInterface_save_to_json(self, file_name)
-
-    def save_to_txt_training(self, file_name):
-        return _pyphy.DatasetInterface_save_to_txt_training(self, file_name)
-
-    def save_to_txt_testing(self, file_name):
-        return _pyphy.DatasetInterface_save_to_txt_testing(self, file_name)
-
-    def save_to_binary(self, training_file_name, testing_file_name, unlabeled_file_name):
-        return _pyphy.DatasetInterface_save_to_binary(self, training_file_name, testing_file_name, unlabeled_file_name)
-
-    def save_images(self, training_file_name_prefix, testing_file_name_prefix):
-        return _pyphy.DatasetInterface_save_images(self, training_file_name_prefix, testing_file_name_prefix)
+    def normalise_output(self):
+        return _pyphy.DatasetInterface_normalise_output(self)
 DatasetInterface_swigregister = _pyphy.DatasetInterface_swigregister
 DatasetInterface_swigregister(DatasetInterface)
 
@@ -1864,17 +1864,26 @@ class DatasetTrajectoryRuntime(DatasetInterface):
     __swig_destroy__ = _pyphy.delete_DatasetTrajectoryRuntime
     __del__ = lambda self: None
 
-    def get_training_size(self):
-        return _pyphy.DatasetTrajectoryRuntime_get_training_size(self)
+    def get_training_count(self):
+        return _pyphy.DatasetTrajectoryRuntime_get_training_count(self)
 
-    def get_random_training(self):
-        return _pyphy.DatasetTrajectoryRuntime_get_random_training(self)
+    def get_testing_count(self):
+        return _pyphy.DatasetTrajectoryRuntime_get_testing_count(self)
 
-    def get_testing(self, idx):
-        return _pyphy.DatasetTrajectoryRuntime_get_testing(self, idx)
+    def set_random_training_idx(self):
+        return _pyphy.DatasetTrajectoryRuntime_set_random_training_idx(self)
 
-    def get_testing_size(self):
-        return _pyphy.DatasetTrajectoryRuntime_get_testing_size(self)
+    def get_training_input(self):
+        return _pyphy.DatasetTrajectoryRuntime_get_training_input(self)
+
+    def get_training_output(self):
+        return _pyphy.DatasetTrajectoryRuntime_get_training_output(self)
+
+    def get_testing_input(self, idx):
+        return _pyphy.DatasetTrajectoryRuntime_get_testing_input(self, idx)
+
+    def get_testing_output(self, idx):
+        return _pyphy.DatasetTrajectoryRuntime_get_testing_output(self, idx)
 DatasetTrajectoryRuntime_swigregister = _pyphy.DatasetTrajectoryRuntime_swigregister
 DatasetTrajectoryRuntime_swigregister(DatasetTrajectoryRuntime)
 
@@ -1961,8 +1970,8 @@ class JsonConfig(_object):
     def save(self, file_name):
         return _pyphy.JsonConfig_save(self, file_name)
 
-    def get_result(self):
-        return _pyphy.JsonConfig_get_result(self)
+    def get(self):
+        return _pyphy.JsonConfig_get(self)
 JsonConfig_swigregister = _pyphy.JsonConfig_swigregister
 JsonConfig_swigregister(JsonConfig)
 
@@ -1973,8 +1982,8 @@ class RegressionExperiment(_object):
     __getattr__ = lambda self, name: _swig_getattr(self, RegressionExperiment, name)
     __repr__ = _swig_repr
 
-    def __init__(self, dataset, config_dir):
-        this = _pyphy.new_RegressionExperiment(dataset, config_dir)
+    def __init__(self, dataset, experiment_dir, network_config_file):
+        this = _pyphy.new_RegressionExperiment(dataset, experiment_dir, network_config_file)
         try:
             self.this.append(this)
         except __builtin__.Exception:
