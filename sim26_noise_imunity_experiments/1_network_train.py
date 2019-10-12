@@ -32,12 +32,11 @@ def train_network(training_tensor_config, testing_tensor_config, network_config)
     print("training done")
     print("\n\n\n\n")
 
-skip = True
-def experiment(experiment_path):
+
+def experiment(experiment_path, skip = False):
     #train networks
 
     if skip == True:
-        skip = False
         train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_0_single/")
         train_network(experiment_path + "spatial_tensor_all.json",      experiment_path + "spatial_tensor_all.json",     experiment_path + "net_0_all/")
         train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_1_single/")
@@ -56,7 +55,7 @@ training_dats_to_motion_tensor = pyphy.DatsToMotionTensor("training_dats.json", 
 #load testing data, for normalisation use range from testing tensor
 testing_dats_to_motion_tensor = pyphy.DatsToMotionTensor("testing_dats.json", "motion_tensor.json", training_dats_to_motion_tensor.tensor())
 
-experiment("networks/noise_0_0/")
+experiment("networks/noise_0_0/", True)
 
 experiment("networks/noise_5_0/")
 experiment("networks/noise_10_0/")
