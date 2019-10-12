@@ -32,12 +32,18 @@ def train_network(training_tensor_config, testing_tensor_config, network_config)
     print("training done")
     print("\n\n\n\n")
 
+skip = True
 def experiment(experiment_path):
     #train networks
-    train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_0_single/")
-    train_network(experiment_path + "spatial_tensor_all.json",      experiment_path + "spatial_tensor_all.json",     experiment_path + "net_0_all/")
-    train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_1_single/")
-    train_network(experiment_path + "spatial_tensor_all.json",      experiment_path + "spatial_tensor_all.json",     experiment_path + "net_1_all/")
+
+    if skip == True:
+        skip = False
+        train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_0_single/")
+        train_network(experiment_path + "spatial_tensor_all.json",      experiment_path + "spatial_tensor_all.json",     experiment_path + "net_0_all/")
+        train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_1_single/")
+        train_network(experiment_path + "spatial_tensor_all.json",      experiment_path + "spatial_tensor_all.json",     experiment_path + "net_1_all/")
+
+
     train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_2_single/")
     train_network(experiment_path + "spatial_tensor_all.json",      experiment_path + "spatial_tensor_all.json",     experiment_path + "net_2_all/")
 
