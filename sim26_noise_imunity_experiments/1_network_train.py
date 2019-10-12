@@ -36,7 +36,7 @@ def train_network(training_tensor_config, testing_tensor_config, network_config)
 def experiment(experiment_path, skip = False):
     #train networks
 
-    if skip == True:
+    if skip != True:
         train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_0_single/")
         train_network(experiment_path + "spatial_tensor_all.json",      experiment_path + "spatial_tensor_all.json",     experiment_path + "net_0_all/")
         train_network(experiment_path + "spatial_tensor_single.json",   experiment_path + "spatial_tensor_single.json",  experiment_path + "net_1_single/")
