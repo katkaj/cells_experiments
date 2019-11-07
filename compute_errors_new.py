@@ -17,7 +17,7 @@ def save_results(file_name_prefix, json_result):
 load_start_offset   = 800
 load_reshaped       = True
 
-result_path         = "/home/michal/programming/cells_results/sim26/"
+result_path         = "/mnt/d/doktorandske/cells_results/sim26/"
 discretisations     = ["discretisation_8x8x3", "discretisation_16x16x3", "discretisation_40x20x3"]
 window_sizes        = ["window_size_4", "window_size_8"]
 filter_modes        = ["gaussian", "point"]
