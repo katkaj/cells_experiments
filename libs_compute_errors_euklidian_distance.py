@@ -43,16 +43,16 @@ def compute_euklidian_distance_error(target_tensor, computed_tensor, decimation,
         cells_count   = len(error[0][0])
 
         #print(">>>>> ", dim, time_steps, cells_count)
-
+        error_euclidian = numpy.zeros(time_steps, cells_count)
         for time in range(0, time_steps):
-                for cell in range(0, cells_count):
-                    if time%decimation == 0:
+            for cell in range(0, cells_count):
 
-                        err = 0.0
-                        err+= error[0][time][cell]*error[0][time][cell]
-                        err+= error[1][time][cell]*error[1][time][cell]
-                        err+= error[2][time][cell]*error[2][time][cell]
-                        err = err**0.5                                        # s tym cyklom to je ok?
+                err = 0.0
+                err+= error[0][time][cell]*error[0][time][cell]
+                err+= error[1][time][cell]*error[1][time][cell]
+                err+= error[2][time][cell]*error[2][time][cell]
+                err = err**0.5
+                error[time][cell] = err                                      # s tym cyklom to je ok?
 
         eps = 10**-20
 
@@ -62,14 +62,14 @@ def compute_euklidian_distance_error(target_tensor, computed_tensor, decimation,
         min_err_x     = target_tensor[0].min()
         min_err_y     = target_tensor[1].min()
         min_err_z     = target_tensor[2].min()
-        max_distance  = numpy.sqrt(max_err_x*max_err_x + max_err_y*max_err_y + max_err_z*max_err_z)
-        mean_err    = err.mean()
-        sigma_err   = numpy.std(err)
+        max_distance  = numpy.sqrt(max_err_x*max_err_x + max_err_y*max_err_y + max_err_z*max_err_z) - numpy.sqrt(min_err_x*min_err_x + min_err_y*min_err_y + min_err_z*min_err_z)
+        mean_err    = error_euclidian.mean()
+        #sigma_err   = numpy.std(err)
 
-        rms_err             = numpy.sqrt(numpy.mean(numpy.square(err)))
+        rms_err             = numpy.sqrt(numpy.mean(numpy.square(error_euclidian)))
         rms_relative_err    = 100.0*rms/(max_distance + eps)
 
-        absolute_err        = numpy.mean(numpy.absolute(err))
+        absolute_err        = numpy.mean(numpy.absolute(error_euclidian))
 
         decimal_places  = 2
         mean            = round(mean_err, decimal_places)

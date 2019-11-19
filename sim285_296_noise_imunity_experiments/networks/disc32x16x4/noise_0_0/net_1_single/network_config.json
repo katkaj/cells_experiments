@@ -18,6 +18,9 @@
             "type"      : "elu"
         },
         {
+            "type"      : "spatial_attention"
+        },
+        {
             "type"      : "max pooling",
             "shape"     : [2, 2, 1]
         },
@@ -31,17 +34,7 @@
             "type"      : "elu"
         },
         {
-            "type"      : "max pooling",
-            "shape"     : [2, 2, 1]
-        },
-
-
-        {
-            "type"      : "convolution",
-            "shape"     : [3, 3, 64]
-        },
-        {
-            "type"      : "elu"
+            "type"      : "spatial_attention"
         },
         {
             "type"      : "max pooling",
@@ -57,9 +50,29 @@
             "type"      : "elu"
         },
         {
+            "type"      : "spatial_attention"
+        },
+        {
             "type"      : "max pooling",
             "shape"     : [2, 2, 1]
         },
+
+
+        {
+            "type"      : "convolution",
+            "shape"     : [3, 3, 64]
+        },
+        {
+            "type"      : "elu"
+        },
+        {
+            "type"      : "spatial_attention"
+        },
+        {
+            "type"      : "max pooling",
+            "shape"     : [2, 2, 1]
+        },
+
 
         {
             "type"      : "dropout"
