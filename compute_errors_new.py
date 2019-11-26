@@ -2,7 +2,7 @@ import json
 import numpy
 import tensor_load
 
-import libs_compute_errors
+import libs_compute_errors_euklidian_distance
 
 def save_results(file_name_prefix, json_result):
 
@@ -46,6 +46,7 @@ for discretisation in discretisations:
             for network in networks:
                 print("\t\t\tnetworks", network)
                 json_file_name = result_path + discretisation + "/" + window_size + "/" + filter_mode + "/" + network + ".json"
+                euklidian_distance_histogram_file_name = result_path + discretisation + "/" + window_size + "/" + filter_mode + "/" + network + "histogram_euclidian_distance_error.png"
 
                 experiment_tensor = tensor_load.TensorLoad(json_file_name, load_start_offset, load_reshaped)
 
@@ -56,12 +57,17 @@ for discretisation in discretisations:
                 parameters["filter_mode"]    = filter_mode
                 parameters["network"]        = network
 
-                errors = libs_compute_errors.compute_errors(target_tensor.get(), experiment_tensor.get())
+                errors = libs_compute_errors_euklidian_distance.compute_errors(target_tensor.get(), experiment_tensor.get())
 
+                plt.hist(errors.["euklidian"]["histogram"]["n"], errors.["euklidian"]["histogram"]["bins"], facecolor='blue', alpha=0.5)
+		        plt.xlabel('error value')
+		        #plt.ylabel('Probability')
+	    	    plt.title('Histogram of trajectories residuals')
+		        plt.savefig(euklidian_distance_histogram_file_name)
 
                 error_field_file_name = result_path + discretisation + "/" + window_size + "/" + filter_mode + "/" + network + "_error_field.dat"
 
-                libs_compute_errors.compute_error_field(target_tensor.get(), experiment_tensor.get(), decimation, error_field_file_name, load_reshaped)
+                libs_compute_errors_euklidian_distance.compute_error_field(target_tensor.get(), experiment_tensor.get(), decimation, error_field_file_name, load_reshaped)
 
                 print("\t\t\t\t", errors["total"]["rms_relative"])
 

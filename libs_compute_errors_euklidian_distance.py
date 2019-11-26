@@ -1,6 +1,8 @@
 import json
 import numpy
 import tensor_load
+import matplotlib.mlab as mlab
+import matplotlib.pyplot as plt
 
 def compute_axis_error(target_tensor, computed_tensor):
     error = target_tensor - computed_tensor
@@ -29,6 +31,19 @@ def compute_axis_error(target_tensor, computed_tensor):
 
     return [mean, sigma, absolute, rms, rms_relative]
 
+def histogram(values):
+    #values = error_euclidian.reshape(time_steps*cells_count)
+    #n, bins, patches = plt.hist(values, bins='auto', facecolor='blue', alpha=0.5)
+    n, bins = numpy.histogram(values, bins='auto', density = True)
+
+    #plt.xlabel('Residual')
+    #plt.ylabel('Probability')
+    #plt.title('Histogram of trajectories residuals')
+
+    #plt.show()
+    #plt.savefig('histogram.png')
+    return [n, bins]
+
 def compute_euklidian_distance_error(target_tensor, computed_tensor, decimation, file_name, reshaped):
     error = target_tensor - computed_tensor
 
@@ -43,7 +58,7 @@ def compute_euklidian_distance_error(target_tensor, computed_tensor, decimation,
         cells_count   = len(error[0][0])
 
         #print(">>>>> ", dim, time_steps, cells_count)
-        error_euclidian = numpy.zeros(time_steps, cells_count)
+        error_euclidian = numpy.zeros(time_steps, cells_count)          #residuals of target and predicted value in euclidian distance
         for time in range(0, time_steps):
             for cell in range(0, cells_count):
 
@@ -52,7 +67,7 @@ def compute_euklidian_distance_error(target_tensor, computed_tensor, decimation,
                 err+= error[1][time][cell]*error[1][time][cell]
                 err+= error[2][time][cell]*error[2][time][cell]
                 err = err**0.5
-                error[time][cell] = err                                      # s tym cyklom to je ok?
+                error_euclidian[time][cell] = err                                      # s tym cyklom to je ok?
 
         eps = 10**-20
 
@@ -77,11 +92,13 @@ def compute_euklidian_distance_error(target_tensor, computed_tensor, decimation,
         absolute        = round(absolute_err, decimal_places)
         rms             = round(rms_err, decimal_places)
         rms_relative    = round(rms_relative_err, decimal_places)
-
+        histogram_n, histogram_bins = histogram(error_euclidian.reshape(time_steps*cells_count))
 
         #return [rms, rms_relative]
 
-        return [mean_err, sigma_err, absolute_err, rms_err, rms_relative_err]
+        return [mean_err, sigma_err, absolute_err, rms_err, rms_relative_err, histogram_n, histogram_bins]
+
+
 
 def compute_errors(target_tensor, computed_tensor, verbose = False):
 
@@ -133,8 +150,10 @@ def compute_errors(target_tensor, computed_tensor, verbose = False):
     json_result["euklidian"]["mean"] = result_total_euklidian[0]
     json_result["euklidian"]["sigma"] = result_total_euklidian[1]
     json_result["euklidian"]["error_absolute"] = result_total_euklidian[2]
-    json_result["euklidian"]["rms"] = result_total[3]
+    json_result["euklidian"]["rms"] = result_total_euklidian[3]
     json_result["euklidian"]["rms_relative"] = result_total_euklidian[4]
+    json_result["euklidian"]["histogram"]["n"] = result_total_euklidian[5]
+    json_result["euklidian"]["histogram"]["bins"] = result_total_euklidian[6]
 
     return json_result
 
