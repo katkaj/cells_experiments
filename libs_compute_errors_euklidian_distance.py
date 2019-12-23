@@ -169,7 +169,7 @@ def compute_errors(target_tensor, computed_tensor, verbose = False):
     json_result["euklidian"]["histogram"]["n"] = result_total_euklidian[7]
     json_result["euklidian"]["histogram"]["bins"] = result_total_euklidian[8]
 
-    json_result_cells
+    #json_result_cells
 
     return json_result
 

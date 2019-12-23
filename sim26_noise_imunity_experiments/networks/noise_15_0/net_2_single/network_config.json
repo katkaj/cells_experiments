@@ -7,50 +7,7 @@
 		"minibatch_size": 32
 	},
 
-	"layers": [{
-			"type": "dense convolution",
-			"shape": [3, 3, 8]
-		},
-		{
-			"type": "elu"
-		},
-		{
-			"type": "dense convolution",
-			"shape": [3, 3, 8]
-		},
-		{
-			"type": "elu"
-		},
-		{
-			"type": "dense convolution",
-			"shape": [3, 3, 8]
-		},
-		{
-			"type": "elu"
-		},
-		{
-			"type": "dense convolution",
-			"shape": [3, 3, 8]
-		},
-		{
-			"type": "elu"
-		},
-		{
-			"type": "convolution",
-			"shape": [1, 1, 32]
-		},
-		{
-			"type": "elu"
-		},
-		{
-			"type": "spatial attention"
-		},
-		{
-			"type": "max pooling",
-			"shape": [2, 2, 1]
-		},
-
-
+	"layers": [
 		{
 			"type": "dense convolution",
 			"shape": [3, 3, 8]
@@ -96,7 +53,51 @@
 
 
 		{
+			"type": "dense convolution",
+			"shape": [3, 3, 8]
+		},
+		{
+			"type": "elu"
+		},
+		{
+			"type": "dense convolution",
+			"shape": [3, 3, 8]
+		},
+		{
+			"type": "elu"
+		},
+		{
+			"type": "dense convolution",
+			"shape": [3, 3, 8]
+		},
+		{
+			"type": "elu"
+		},
+		{
+			"type": "dense convolution",
+			"shape": [3, 3, 8]
+		},
+		{
+			"type": "elu"
+		},
+		{
 			"type": "convolution",
+			"shape": [1, 1, 32]
+		},
+		{
+			"type": "elu"
+		},
+		{
+			"type": "spatial attention"
+		},
+		{
+			"type": "max pooling",
+			"shape": [2, 2, 1]
+		},
+
+
+		{
+			"type": "dense convolution",
 			"shape": [3, 3, 8]
 		},
 		{

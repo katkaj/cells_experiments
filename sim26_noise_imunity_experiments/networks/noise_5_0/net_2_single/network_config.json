@@ -97,7 +97,7 @@
 
 
 		{
-			"type": "convolution",
+			"type": "dense convolution",
 			"shape": [3, 3, 8]
 		},
 		{

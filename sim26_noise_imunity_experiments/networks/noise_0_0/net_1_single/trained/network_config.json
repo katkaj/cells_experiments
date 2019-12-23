@@ -69,6 +69,28 @@
 			],
 			"output_shape" : 
 			[
+				64,
+				64,
+				32
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_2"
+		},
+		{
+			"input_shape" : 
+			[
+				64,
+				64,
+				32
+			],
+			"output_shape" : 
+			[
 				32,
 				32,
 				32
@@ -80,28 +102,6 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_2"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				32
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
-				32
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				32
-			],
-			"type" : "convolution",
 			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_3"
 		},
 		{
@@ -119,11 +119,11 @@
 			],
 			"shape" : 
 			[
-				0,
-				0,
-				0
+				3,
+				3,
+				32
 			],
-			"type" : "elu",
+			"type" : "convolution",
 			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_4"
 		},
 		{
@@ -135,6 +135,50 @@
 			],
 			"output_shape" : 
 			[
+				32,
+				32,
+				32
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "elu",
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_5"
+		},
+		{
+			"input_shape" : 
+			[
+				32,
+				32,
+				32
+			],
+			"output_shape" : 
+			[
+				32,
+				32,
+				32
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_6"
+		},
+		{
+			"input_shape" : 
+			[
+				32,
+				32,
+				32
+			],
+			"output_shape" : 
+			[
 				16,
 				16,
 				32
@@ -146,50 +190,6 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_5"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				32
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				64
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				64
-			],
-			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_6"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				64
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				64
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
 			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_7"
 		},
 		{
@@ -197,34 +197,12 @@
 			[
 				16,
 				16,
-				64
+				32
 			],
 			"output_shape" : 
 			[
-				8,
-				8,
-				64
-			],
-			"shape" : 
-			[
-				2,
-				2,
-				1
-			],
-			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_8"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				64
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
+				16,
+				16,
 				64
 			],
 			"shape" : 
@@ -234,19 +212,19 @@
 				64
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_9"
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_8"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				16,
+				16,
 				64
 			],
 			"output_shape" : 
 			[
-				8,
-				8,
+				16,
+				16,
 				64
 			],
 			"shape" : 
@@ -256,19 +234,41 @@
 				0
 			],
 			"type" : "elu",
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_9"
+		},
+		{
+			"input_shape" : 
+			[
+				16,
+				16,
+				64
+			],
+			"output_shape" : 
+			[
+				16,
+				16,
+				64
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
 			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_10"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				16,
+				16,
 				64
 			],
 			"output_shape" : 
 			[
-				4,
-				4,
+				8,
+				8,
 				64
 			],
 			"shape" : 
@@ -279,6 +279,94 @@
 			],
 			"type" : "max pooling",
 			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_11"
+		},
+		{
+			"input_shape" : 
+			[
+				8,
+				8,
+				64
+			],
+			"output_shape" : 
+			[
+				8,
+				8,
+				64
+			],
+			"shape" : 
+			[
+				3,
+				3,
+				64
+			],
+			"type" : "convolution",
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_12"
+		},
+		{
+			"input_shape" : 
+			[
+				8,
+				8,
+				64
+			],
+			"output_shape" : 
+			[
+				8,
+				8,
+				64
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "elu",
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_13"
+		},
+		{
+			"input_shape" : 
+			[
+				8,
+				8,
+				64
+			],
+			"output_shape" : 
+			[
+				8,
+				8,
+				64
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_14"
+		},
+		{
+			"input_shape" : 
+			[
+				8,
+				8,
+				64
+			],
+			"output_shape" : 
+			[
+				4,
+				4,
+				64
+			],
+			"shape" : 
+			[
+				2,
+				2,
+				1
+			],
+			"type" : "max pooling",
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_15"
 		},
 		{
 			"input_shape" : 
@@ -300,7 +388,7 @@
 				0
 			],
 			"type" : "dropout",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_12"
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_16"
 		},
 		{
 			"input_shape" : 
@@ -322,7 +410,7 @@
 				256
 			],
 			"type" : "fc",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_13"
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_17"
 		},
 		{
 			"input_shape" : 
@@ -344,7 +432,7 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_14"
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_18"
 		},
 		{
 			"input_shape" : 
@@ -366,7 +454,7 @@
 				0
 			],
 			"type" : "output",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_15"
+			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_19"
 		}
 	],
 	"output_shape" : 
