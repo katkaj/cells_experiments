@@ -84,6 +84,19 @@ def compute_euklidian_distance_error(target_tensor, computed_tensor, decimation,
         rms_err             = numpy.sqrt(numpy.mean(numpy.square(error_euclidian)))
         rms_relative_err    = 100.0*rms/(max_distance + eps)
 
+        rms_err_cell = numpy.zeros(cells_count)   #tento czyklus treba skontrolovat
+        rms_relative_err_cell = numpy.zeros(cells_count)   
+        for cell in range(0, cells_count):
+            rms_err_cell[cell] = numpy.sqrt(numpy.mean(numpy.square(error_euclidian[:,cell])))
+            max_err_cell_x    = target_tensor[0,:,cell].max()
+            max_err_cell_y    = target_tensor[1,:,cell].max()
+            max_err_cell_z    = target_tensor[2,:,cell].max()
+            min_err_cell_x    = target_tensor[0,:,cell].min()
+            min_err_cell_y    = target_tensor[1,:,cell].min()
+            min_err_cell_z    = target_tensor[2,:,cell].min()
+            max_distance_cell  = numpy.sqrt(max_err_cell_x*max_err_cell_x + max_err_cell_y*max_err_cell_y + max_err_cell_z*max_err_cell_z) - numpy.sqrt(min_err_cell_x*min_err_cell_x + min_err_cell_y*min_err_cell_y + min_err_cell_z*min_err_cell_z)
+            rms_relative_err_cell[cell] = 100.0*rms/(max_distance_cell + eps)
+
         absolute_err        = numpy.mean(numpy.absolute(error_euclidian))
 
         decimal_places  = 2
@@ -96,14 +109,13 @@ def compute_euklidian_distance_error(target_tensor, computed_tensor, decimation,
 
         #return [rms, rms_relative]
 
-        return [mean_err, sigma_err, absolute_err, rms_err, rms_relative_err, histogram_n, histogram_bins]
+        return [mean_err, sigma_err, absolute_err, rms_err, rms_relative_err, rms_err_cell, rms_relative_err_cell, histogram_n, histogram_bins]
 
 
 
 def compute_errors(target_tensor, computed_tensor, verbose = False):
 
     json_result = {}
-
     result_x = compute_axis_error(target_tensor[0], computed_tensor[0])
     result_y = compute_axis_error(target_tensor[1], computed_tensor[1])
     result_z = compute_axis_error(target_tensor[2], computed_tensor[2])
@@ -115,7 +127,7 @@ def compute_errors(target_tensor, computed_tensor, verbose = False):
         print(result_y[0], result_y[1], result_y[2], result_y[3], result_y[4])
         print(result_z[0], result_z[1], result_z[2], result_z[3], result_z[4])
         print(result_total[0], result_total[1], result_total[2], result_total[3], result_total[4])
-        print(result_total_euklidian[0], result_total_euklidian[1], result_total_euklidian[2], result_total_euklidian[3], result_total_euklidian[4], end=" ")
+        print(result_total_euklidian[0], result_total_euklidian[1], result_total_euklidian[2], result_total_euklidian[3], result_total_euklidian[4], result_total_euklidian[5], result_total_euklidian[6], result_total_euklidian[7], result_total_euklidian[8], end=" ")
         print()
 
     json_result["x"] = {}
@@ -152,8 +164,12 @@ def compute_errors(target_tensor, computed_tensor, verbose = False):
     json_result["euklidian"]["error_absolute"] = result_total_euklidian[2]
     json_result["euklidian"]["rms"] = result_total_euklidian[3]
     json_result["euklidian"]["rms_relative"] = result_total_euklidian[4]
-    json_result["euklidian"]["histogram"]["n"] = result_total_euklidian[5]
-    json_result["euklidian"]["histogram"]["bins"] = result_total_euklidian[6]
+    json_result["euklidian"]["rms_cell"] = result_total_euklidian[5]              #da sa to zapisat aj inak? je to vektor v jednom riadku. rozdelit do riadkov...
+    json_result["euklidian"]["rms_relative_cell"] = result_total_euklidian[6]
+    json_result["euklidian"]["histogram"]["n"] = result_total_euklidian[7]
+    json_result["euklidian"]["histogram"]["bins"] = result_total_euklidian[8]
+
+    json_result_cells
 
     return json_result
 
