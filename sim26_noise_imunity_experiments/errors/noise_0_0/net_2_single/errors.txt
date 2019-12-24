@@ -1,0 +1,29 @@
+x mean -3.17
+x sigma 21.75
+x error_absolute 8.2
+x rms 21.98
+x rms_relative 4.26
+
+y mean -3.58
+y sigma 3.78
+y error_absolute 3.89
+y rms 5.21
+y rms_relative 5.79
+
+z mean -0.06
+z sigma 0.1
+z error_absolute 0.09
+z rms 0.12
+z rms_relative 49.98
+
+total mean -2.27
+total sigma 12.85
+total error_absolute 4.06
+total rms 13.04
+total rms_relative 2.35
+
+euklidian mean 9.979394719599805
+euklidian sigma 20.27047563554483
+euklidian rms 22.59381555782009
+euklidian rms_relative 4.311185868054701
+

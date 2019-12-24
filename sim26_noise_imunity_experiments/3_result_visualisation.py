@@ -16,7 +16,7 @@ target.load_json("trajectory_result/target_trajectory.json")
 
 #load trajectory result
 result = pyphy.MotionTensor()
-result.load_json("trajectory_result/net_0_single.json")
+result.load_json("networks/noise_5_0/net_2_single/trajectory_result/trajectory.json")
 
 #use only 200 points for render
 visualisation = pyphy.MotionTensorVisualisation(200)
