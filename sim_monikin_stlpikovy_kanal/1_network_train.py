@@ -26,7 +26,7 @@ def train_network(training_tensor_config, testing_tensor_config, network_config)
 
     #4, run experiments, train network
     print("training")
-    experiment = pyphy.RegressionExperiment(dataset, network_config)
+    experiment = pyphy.RegressionExperiment(dataset, network_config, "network_config.json")
     experiment.run()
 
     print("training done")
