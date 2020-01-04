@@ -51,13 +51,13 @@ training_dats_to_motion_tensor = pyphy.DatsToMotionTensor("training_dats.json", 
 #load testing data, for normalisation use range from testing tensor
 testing_dats_to_motion_tensor = pyphy.DatsToMotionTensor("testing_dats.json", "motion_tensor.json", training_dats_to_motion_tensor.tensor())
 
-experiment("networks/noise_0_0/")
+experiment("networks/disc32x16x10/noise_0_0/")
 
-experiment("networks/noise_5_0/")
-experiment("networks/noise_10_0/")
+experiment("networks/disc32x16x10/noise_5_0/")
+experiment("networks/disc32x16x10/noise_10_0/")
 
-experiment("networks/noise_0_5/")
-experiment("networks/noise_0_10/")
+experiment("networks/disc32x16x10/noise_0_5/")
+experiment("networks/disc32x16x10/noise_0_10/")
 
 
 
