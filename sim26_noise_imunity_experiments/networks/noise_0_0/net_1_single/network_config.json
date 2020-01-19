@@ -80,14 +80,6 @@
 
 
         {
-            "type"      : "fc",
-            "shape"     : [1, 1, 256]
-        },
-        {
-            "type"      : "elu"
-        },
-
-        {
             "type"      : "output"
         }
     ]

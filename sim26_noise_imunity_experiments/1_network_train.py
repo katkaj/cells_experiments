@@ -56,9 +56,6 @@ experiment("networks/noise_0_0/")
 experiment("networks/noise_5_0/")
 experiment("networks/noise_10_0/")
 experiment("networks/noise_15_0/")
-experiment("networks/noise_20_0/")
-experiment("networks/noise_25_0/")
-experiment("networks/noise_30_0/")
 
 
 print("program done")

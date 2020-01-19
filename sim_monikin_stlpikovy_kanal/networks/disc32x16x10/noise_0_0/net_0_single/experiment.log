@@ -1,0 +1,2579 @@
+regression experiment start
+
+training_items_count 86900
+testing_items_count  5000
+epoch_count          10
+batch_size           4096
+batches_per_epoch    21
+input_shape  [32 16 80]
+output_shape [1 1 3]
+network_config_file  networks/disc32x16x10/noise_0_0/net_0_single/network_config.json
+====================================================================================================
+
+
+
+
+initialising batch with size 4096  required memory 671.137817[MB]
+batch init done
+
+
+initialising network from file networks/disc32x16x10/noise_0_0/net_0_single/network_config.json
+network init done
+network init result : 
+CONVOLUTION	[32 16 80]	[3 3 32]	[32 16 32]	[23072 11796480]	
+ELU		[32 16 32]	[32 16 32]	[0 32768]	
+MAX POOLING	[32 16 32]	[16 8 32]	[0 32768]	
+CONVOLUTION	[16 8 32]	[3 3 32]	[16 8 32]	[9248 1179648]	
+ELU		[16 8 32]	[16 8 32]	[0 8192]	
+MAX POOLING	[16 8 32]	[8 4 32]	[0 8192]	
+CONVOLUTION	[8 4 32]	[3 3 64]	[8 4 64]	[18496 589824]	
+ELU		[8 4 64]	[8 4 64]	[0 4096]	
+MAX POOLING	[8 4 64]	[4 2 64]	[0 4096]	
+CONVOLUTION	[4 2 64]	[3 3 64]	[4 2 64]	[36928 294912]	
+ELU		[4 2 64]	[4 2 64]	[0 1024]	
+MAX POOLING	[4 2 64]	[2 1 64]	[0 1024]	
+DROPOUT		[2 1 64]	[2 1 64]	[0 256]	
+FC			[2 1 64]	[1 1 256]	[33024 66048]	
+ELU		[1 1 256]	[1 1 256]	[0 512]	
+FC			[1 1 256]	[1 1 3]	[771 1542]	
+
+
+GFLOPS = 0.014021
+FLOPS = 14021382
+TRAINABLE PARAMETERS = 121539
+
+====================================================================================================
+
+
+
+
+
+
+starting training
+
+creating batch 0
+training epoch 0 batch id0 done = 0.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.230744
+testing error_std 0.135394
+saving new best net with result = 0.230744
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 0 batch id1 done = 0.476190[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201281
+testing error_std 0.131612
+saving new best net with result = 0.201281
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 0 batch id2 done = 0.952381[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203917
+testing error_std 0.133507
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 0 batch id3 done = 1.428571[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205410
+testing error_std 0.133888
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 0 batch id4 done = 1.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204528
+testing error_std 0.132790
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 0 batch id5 done = 2.380952[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203690
+testing error_std 0.133112
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 0 batch id6 done = 2.857143[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202160
+testing error_std 0.131405
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 0 batch id7 done = 3.333333[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203654
+testing error_std 0.133257
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 0 batch id8 done = 3.809524[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203563
+testing error_std 0.133031
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 0 batch id9 done = 4.285714[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205061
+testing error_std 0.133384
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 0 batch id10 done = 4.761905[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202720
+testing error_std 0.133227
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 0 batch id11 done = 5.238095[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203103
+testing error_std 0.132939
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 0 batch id12 done = 5.714286[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203758
+testing error_std 0.133178
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 0 batch id13 done = 6.190476[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203761
+testing error_std 0.133512
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 0 batch id14 done = 6.666667[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202777
+testing error_std 0.132801
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 0 batch id15 done = 7.142857[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202820
+testing error_std 0.132407
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 0 batch id16 done = 7.619048[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204309
+testing error_std 0.133510
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 0 batch id17 done = 8.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204370
+testing error_std 0.133332
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 0 batch id18 done = 8.571428[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203054
+testing error_std 0.132698
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 0 batch id19 done = 9.047619[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205328
+testing error_std 0.133603
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 0 batch id20 done = 9.523809[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.200678
+testing error_std 0.131462
+saving new best net with result = 0.200678
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 1 batch id0 done = 10.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206025
+testing error_std 0.134031
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 1 batch id1 done = 10.476191[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202348
+testing error_std 0.131842
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 1 batch id2 done = 10.952381[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204926
+testing error_std 0.133501
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 1 batch id3 done = 11.428572[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202617
+testing error_std 0.132500
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 1 batch id4 done = 11.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203026
+testing error_std 0.132400
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 1 batch id5 done = 12.380953[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203941
+testing error_std 0.133726
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 1 batch id6 done = 12.857142[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205892
+testing error_std 0.134033
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 1 batch id7 done = 13.333333[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204184
+testing error_std 0.133420
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 1 batch id8 done = 13.809524[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204677
+testing error_std 0.133451
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 1 batch id9 done = 14.285714[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203096
+testing error_std 0.132772
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 1 batch id10 done = 14.761905[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205210
+testing error_std 0.133992
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 1 batch id11 done = 15.238095[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203355
+testing error_std 0.132490
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 1 batch id12 done = 15.714286[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204153
+testing error_std 0.133321
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 1 batch id13 done = 16.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204701
+testing error_std 0.133934
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 1 batch id14 done = 16.666666[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205543
+testing error_std 0.134333
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 1 batch id15 done = 17.142857[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204833
+testing error_std 0.133765
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 1 batch id16 done = 17.619047[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203488
+testing error_std 0.132548
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 1 batch id17 done = 18.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206299
+testing error_std 0.134839
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 1 batch id18 done = 18.571428[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201554
+testing error_std 0.131994
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 1 batch id19 done = 19.047619[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203452
+testing error_std 0.132855
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 1 batch id20 done = 19.523809[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203667
+testing error_std 0.133204
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 2 batch id0 done = 20.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204756
+testing error_std 0.133693
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 2 batch id1 done = 20.476191[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204141
+testing error_std 0.132611
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 2 batch id2 done = 20.952381[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205614
+testing error_std 0.133878
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 2 batch id3 done = 21.428572[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.200951
+testing error_std 0.130992
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 2 batch id4 done = 21.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201505
+testing error_std 0.131419
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 2 batch id5 done = 22.380953[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204991
+testing error_std 0.133675
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 2 batch id6 done = 22.857143[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206450
+testing error_std 0.134985
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 2 batch id7 done = 23.333334[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202476
+testing error_std 0.132090
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 2 batch id8 done = 23.809525[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203303
+testing error_std 0.132592
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 2 batch id9 done = 24.285715[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204673
+testing error_std 0.134021
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 2 batch id10 done = 24.761906[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202679
+testing error_std 0.133073
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 2 batch id11 done = 25.238094[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202151
+testing error_std 0.132067
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 2 batch id12 done = 25.714285[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205155
+testing error_std 0.134151
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 2 batch id13 done = 26.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203380
+testing error_std 0.132430
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 2 batch id14 done = 26.666666[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206220
+testing error_std 0.134357
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 2 batch id15 done = 27.142857[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205547
+testing error_std 0.134132
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 2 batch id16 done = 27.619047[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202494
+testing error_std 0.133065
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 2 batch id17 done = 28.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.207845
+testing error_std 0.135694
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 2 batch id18 done = 28.571428[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206767
+testing error_std 0.135031
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 2 batch id19 done = 29.047619[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205676
+testing error_std 0.134848
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 2 batch id20 done = 29.523809[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.200733
+testing error_std 0.132095
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 3 batch id0 done = 30.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202854
+testing error_std 0.132862
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 3 batch id1 done = 30.476191[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205207
+testing error_std 0.134223
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 3 batch id2 done = 30.952381[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202648
+testing error_std 0.132633
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 3 batch id3 done = 31.428572[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.207492
+testing error_std 0.134946
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 3 batch id4 done = 31.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204478
+testing error_std 0.133783
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 3 batch id5 done = 32.380951[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205035
+testing error_std 0.133767
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 3 batch id6 done = 32.857143[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205525
+testing error_std 0.133960
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 3 batch id7 done = 33.333332[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205012
+testing error_std 0.134289
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 3 batch id8 done = 33.809525[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203377
+testing error_std 0.132651
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 3 batch id9 done = 34.285713[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204780
+testing error_std 0.133582
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 3 batch id10 done = 34.761906[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.200461
+testing error_std 0.131322
+saving new best net with result = 0.200461
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 3 batch id11 done = 35.238094[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204810
+testing error_std 0.133875
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 3 batch id12 done = 35.714287[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205930
+testing error_std 0.134314
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 3 batch id13 done = 36.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.200565
+testing error_std 0.130601
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 3 batch id14 done = 36.666668[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203596
+testing error_std 0.133137
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 3 batch id15 done = 37.142857[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203591
+testing error_std 0.132670
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 3 batch id16 done = 37.619049[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202801
+testing error_std 0.132501
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 3 batch id17 done = 38.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202612
+testing error_std 0.132118
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 3 batch id18 done = 38.571430[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205064
+testing error_std 0.134007
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 3 batch id19 done = 39.047619[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201954
+testing error_std 0.131992
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 3 batch id20 done = 39.523811[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201748
+testing error_std 0.132249
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 4 batch id0 done = 40.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203965
+testing error_std 0.132744
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 4 batch id1 done = 40.476189[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204866
+testing error_std 0.133983
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 4 batch id2 done = 40.952381[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204131
+testing error_std 0.133338
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 4 batch id3 done = 41.428570[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203561
+testing error_std 0.133029
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 4 batch id4 done = 41.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202999
+testing error_std 0.132476
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 4 batch id5 done = 42.380951[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205085
+testing error_std 0.134212
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 4 batch id6 done = 42.857143[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204831
+testing error_std 0.133439
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 4 batch id7 done = 43.333332[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205668
+testing error_std 0.134290
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 4 batch id8 done = 43.809525[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202666
+testing error_std 0.132562
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 4 batch id9 done = 44.285713[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204070
+testing error_std 0.133261
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 4 batch id10 done = 44.761906[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201269
+testing error_std 0.131605
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 4 batch id11 done = 45.238094[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205505
+testing error_std 0.133929
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 4 batch id12 done = 45.714287[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205265
+testing error_std 0.133446
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 4 batch id13 done = 46.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202969
+testing error_std 0.132866
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 4 batch id14 done = 46.666668[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202211
+testing error_std 0.132277
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 4 batch id15 done = 47.142857[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203559
+testing error_std 0.133154
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 4 batch id16 done = 47.619049[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202406
+testing error_std 0.132525
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 4 batch id17 done = 48.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202044
+testing error_std 0.132177
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 4 batch id18 done = 48.571430[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202663
+testing error_std 0.132838
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 4 batch id19 done = 49.047619[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201801
+testing error_std 0.131628
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 4 batch id20 done = 49.523811[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204545
+testing error_std 0.133325
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 5 batch id0 done = 50.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203237
+testing error_std 0.132938
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 5 batch id1 done = 50.476189[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203413
+testing error_std 0.132460
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 5 batch id2 done = 50.952381[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203927
+testing error_std 0.133080
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 5 batch id3 done = 51.428570[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206228
+testing error_std 0.134376
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 5 batch id4 done = 51.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204695
+testing error_std 0.132838
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 5 batch id5 done = 52.380951[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203917
+testing error_std 0.133130
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 5 batch id6 done = 52.857143[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202885
+testing error_std 0.132288
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 5 batch id7 done = 53.333332[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203538
+testing error_std 0.132115
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 5 batch id8 done = 53.809525[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203905
+testing error_std 0.133561
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 5 batch id9 done = 54.285713[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205394
+testing error_std 0.134283
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 5 batch id10 done = 54.761906[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205081
+testing error_std 0.134096
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 5 batch id11 done = 55.238094[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202485
+testing error_std 0.131967
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 5 batch id12 done = 55.714287[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202732
+testing error_std 0.132280
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 5 batch id13 done = 56.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201974
+testing error_std 0.132734
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 5 batch id14 done = 56.666668[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203474
+testing error_std 0.133321
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 5 batch id15 done = 57.142857[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203361
+testing error_std 0.132733
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 5 batch id16 done = 57.619049[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204178
+testing error_std 0.133741
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 5 batch id17 done = 58.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205325
+testing error_std 0.134353
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 5 batch id18 done = 58.571430[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202436
+testing error_std 0.132640
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 5 batch id19 done = 59.047619[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203957
+testing error_std 0.132926
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 5 batch id20 done = 59.523811[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203789
+testing error_std 0.132662
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 6 batch id0 done = 60.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203001
+testing error_std 0.132841
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 6 batch id1 done = 60.476189[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205495
+testing error_std 0.133640
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 6 batch id2 done = 60.952381[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204353
+testing error_std 0.133354
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 6 batch id3 done = 61.428570[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202760
+testing error_std 0.132648
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 6 batch id4 done = 61.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204415
+testing error_std 0.133409
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 6 batch id5 done = 62.380951[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203737
+testing error_std 0.133186
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 6 batch id6 done = 62.857143[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205751
+testing error_std 0.134497
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 6 batch id7 done = 63.333332[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202646
+testing error_std 0.132244
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 6 batch id8 done = 63.809525[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205808
+testing error_std 0.134575
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 6 batch id9 done = 64.285713[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204872
+testing error_std 0.133808
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 6 batch id10 done = 64.761902[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203145
+testing error_std 0.132901
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 6 batch id11 done = 65.238098[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201902
+testing error_std 0.132135
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 6 batch id12 done = 65.714287[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204637
+testing error_std 0.133605
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 6 batch id13 done = 66.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205867
+testing error_std 0.134858
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 6 batch id14 done = 66.666664[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203663
+testing error_std 0.132838
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 6 batch id15 done = 67.142860[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202730
+testing error_std 0.132882
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 6 batch id16 done = 67.619049[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204563
+testing error_std 0.133851
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 6 batch id17 done = 68.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.207562
+testing error_std 0.135114
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 6 batch id18 done = 68.571426[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204795
+testing error_std 0.133981
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 6 batch id19 done = 69.047623[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206932
+testing error_std 0.134549
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 6 batch id20 done = 69.523811[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204350
+testing error_std 0.133446
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 7 batch id0 done = 70.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204730
+testing error_std 0.133808
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 7 batch id1 done = 70.476189[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205106
+testing error_std 0.133893
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 7 batch id2 done = 70.952377[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202857
+testing error_std 0.132412
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 7 batch id3 done = 71.428574[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203092
+testing error_std 0.132416
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 7 batch id4 done = 71.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203504
+testing error_std 0.133420
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 7 batch id5 done = 72.380951[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.207118
+testing error_std 0.135224
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 7 batch id6 done = 72.857140[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203421
+testing error_std 0.133356
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 7 batch id7 done = 73.333336[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203609
+testing error_std 0.132766
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 7 batch id8 done = 73.809525[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203170
+testing error_std 0.132737
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 7 batch id9 done = 74.285713[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202893
+testing error_std 0.132402
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 7 batch id10 done = 74.761902[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204952
+testing error_std 0.133534
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 7 batch id11 done = 75.238098[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204294
+testing error_std 0.133445
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 7 batch id12 done = 75.714287[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203529
+testing error_std 0.132754
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 7 batch id13 done = 76.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206857
+testing error_std 0.134577
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 7 batch id14 done = 76.666664[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205436
+testing error_std 0.133807
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 7 batch id15 done = 77.142860[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203358
+testing error_std 0.132578
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 7 batch id16 done = 77.619049[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203072
+testing error_std 0.132984
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 7 batch id17 done = 78.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205934
+testing error_std 0.134619
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 7 batch id18 done = 78.571426[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202973
+testing error_std 0.132753
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 7 batch id19 done = 79.047623[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202219
+testing error_std 0.132850
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 7 batch id20 done = 79.523811[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204073
+testing error_std 0.133120
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 8 batch id0 done = 80.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.200938
+testing error_std 0.131033
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 8 batch id1 done = 80.476189[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204038
+testing error_std 0.133728
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 8 batch id2 done = 80.952377[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204985
+testing error_std 0.133800
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 8 batch id3 done = 81.428574[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203702
+testing error_std 0.132921
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 8 batch id4 done = 81.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203563
+testing error_std 0.133565
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 8 batch id5 done = 82.380951[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205538
+testing error_std 0.134130
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 8 batch id6 done = 82.857140[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206376
+testing error_std 0.134760
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 8 batch id7 done = 83.333336[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204474
+testing error_std 0.133488
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 8 batch id8 done = 83.809525[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204028
+testing error_std 0.134007
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 8 batch id9 done = 84.285713[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203619
+testing error_std 0.132565
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 8 batch id10 done = 84.761902[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.200983
+testing error_std 0.130901
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 8 batch id11 done = 85.238098[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205118
+testing error_std 0.134237
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 8 batch id12 done = 85.714287[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202471
+testing error_std 0.132457
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 8 batch id13 done = 86.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204700
+testing error_std 0.133620
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 8 batch id14 done = 86.666664[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203613
+testing error_std 0.132996
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 8 batch id15 done = 87.142860[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206872
+testing error_std 0.134939
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 8 batch id16 done = 87.619049[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202597
+testing error_std 0.132860
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 8 batch id17 done = 88.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203122
+testing error_std 0.132634
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 8 batch id18 done = 88.571426[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204764
+testing error_std 0.133770
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 8 batch id19 done = 89.047623[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203083
+testing error_std 0.133029
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 8 batch id20 done = 89.523811[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203716
+testing error_std 0.133365
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 9 batch id0 done = 90.000000[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.205151
+testing error_std 0.133586
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 9 batch id1 done = 90.476189[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202687
+testing error_std 0.132273
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 9 batch id2 done = 90.952377[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202346
+testing error_std 0.132453
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 9 batch id3 done = 91.428574[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203710
+testing error_std 0.133237
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 9 batch id4 done = 91.904762[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.199889
+testing error_std 0.130641
+saving new best net with result = 0.199889
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 9 batch id5 done = 92.380951[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204241
+testing error_std 0.133319
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 9 batch id6 done = 92.857140[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203981
+testing error_std 0.133326
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 9 batch id7 done = 93.333336[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202299
+testing error_std 0.132174
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 9 batch id8 done = 93.809525[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.201905
+testing error_std 0.131872
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 9 batch id9 done = 94.285713[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204554
+testing error_std 0.133974
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 9 batch id10 done = 94.761902[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204786
+testing error_std 0.134042
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 9 batch id11 done = 95.238098[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204819
+testing error_std 0.134204
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 9 batch id12 done = 95.714287[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203160
+testing error_std 0.132295
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 9 batch id13 done = 96.190475[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206238
+testing error_std 0.134568
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 9 batch id14 done = 96.666664[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.206081
+testing error_std 0.134315
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 9 batch id15 done = 97.142860[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.207824
+testing error_std 0.135201
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 9 batch id16 done = 97.619049[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202694
+testing error_std 0.132537
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 9 batch id17 done = 98.095238[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.202837
+testing error_std 0.132969
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 9 batch id18 done = 98.571426[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.203393
+testing error_std 0.132362
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 9 batch id19 done = 99.047623[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204084
+testing error_std 0.132995
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 9 batch id20 done = 99.523811[%]
+
+testing on testing
+testing on training
+testing error_average_euclidean 0.204023
+testing error_std 0.132922
+====================================================================================================
+
+
+
+
+training done

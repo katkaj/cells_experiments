@@ -5,28 +5,28 @@
 		"gradient_clip" : 10,
 		"lambda1" : 1.0000000116860974e-07,
 		"lambda2" : 1.0000000116860974e-07,
-		"learning_rate" : 0.0010000000474974513,
+		"learning_rate" : 0.00019999999494757503,
 		"minibatch_size" : 32
 	},
 	"input_shape" : 
 	[
-		64,
-		64,
-		24
+		32,
+		16,
+		80
 	],
 	"layers" : 
 	[
 		{
 			"input_shape" : 
 			[
-				64,
-				64,
-				24
+				32,
+				16,
+				80
 			],
 			"output_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"shape" : 
@@ -36,19 +36,19 @@
 				32
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_0"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_0"
 		},
 		{
 			"input_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"output_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"shape" : 
@@ -58,19 +58,41 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_1"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_1"
 		},
 		{
 			"input_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"output_shape" : 
 			[
 				32,
+				16,
+				32
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_2"
+		},
+		{
+			"input_shape" : 
+			[
 				32,
+				16,
+				32
+			],
+			"output_shape" : 
+			[
+				16,
+				8,
 				32
 			],
 			"shape" : 
@@ -80,19 +102,19 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_2"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_3"
 		},
 		{
 			"input_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"output_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"shape" : 
@@ -102,19 +124,19 @@
 				32
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_3"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_4"
 		},
 		{
 			"input_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"output_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"shape" : 
@@ -124,19 +146,41 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_4"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_5"
 		},
 		{
 			"input_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"output_shape" : 
 			[
 				16,
+				8,
+				32
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_6"
+		},
+		{
+			"input_shape" : 
+			[
 				16,
+				8,
+				32
+			],
+			"output_shape" : 
+			[
+				8,
+				4,
 				32
 			],
 			"shape" : 
@@ -146,19 +190,19 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_5"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_7"
 		},
 		{
 			"input_shape" : 
 			[
-				16,
-				16,
+				8,
+				4,
 				32
 			],
 			"output_shape" : 
 			[
-				16,
-				16,
+				8,
+				4,
 				64
 			],
 			"shape" : 
@@ -168,19 +212,19 @@
 				64
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_6"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_8"
 		},
 		{
 			"input_shape" : 
 			[
-				16,
-				16,
+				8,
+				4,
 				64
 			],
 			"output_shape" : 
 			[
-				16,
-				16,
+				8,
+				4,
 				64
 			],
 			"shape" : 
@@ -190,19 +234,41 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_7"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_9"
 		},
 		{
 			"input_shape" : 
 			[
-				16,
-				16,
+				8,
+				4,
 				64
 			],
 			"output_shape" : 
 			[
 				8,
+				4,
+				64
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_10"
+		},
+		{
+			"input_shape" : 
+			[
 				8,
+				4,
+				64
+			],
+			"output_shape" : 
+			[
+				4,
+				2,
 				64
 			],
 			"shape" : 
@@ -212,19 +278,19 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_8"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_11"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"output_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"shape" : 
@@ -234,19 +300,19 @@
 				64
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_9"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_12"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"output_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"shape" : 
@@ -256,19 +322,41 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_10"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_13"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"output_shape" : 
 			[
 				4,
+				2,
+				64
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_14"
+		},
+		{
+			"input_shape" : 
+			[
 				4,
+				2,
+				64
+			],
+			"output_shape" : 
+			[
+				2,
+				1,
 				64
 			],
 			"shape" : 
@@ -278,19 +366,19 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_11"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_15"
 		},
 		{
 			"input_shape" : 
 			[
-				4,
-				4,
+				2,
+				1,
 				64
 			],
 			"output_shape" : 
 			[
-				4,
-				4,
+				2,
+				1,
 				64
 			],
 			"shape" : 
@@ -300,13 +388,13 @@
 				0
 			],
 			"type" : "dropout",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_12"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_16"
 		},
 		{
 			"input_shape" : 
 			[
-				4,
-				4,
+				2,
+				1,
 				64
 			],
 			"output_shape" : 
@@ -322,7 +410,7 @@
 				256
 			],
 			"type" : "fc",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_13"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_17"
 		},
 		{
 			"input_shape" : 
@@ -344,7 +432,7 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_14"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_18"
 		},
 		{
 			"input_shape" : 
@@ -366,7 +454,7 @@
 				0
 			],
 			"type" : "output",
-			"weights_file_name" : "networks/noise_0_0/net_1_single/trained/layer_15"
+			"weights_file_name" : "networks/disc32x16x10/noise_0_10/net_1_single/trained/layer_19"
 		}
 	],
 	"output_shape" : 

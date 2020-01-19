@@ -5,9 +5,12 @@ import libs_python.pyphy as pyphy
 
 
 dats_to_motion_tensor = pyphy.DatsToMotionTensor("testing_dats.json", "motion_tensor.json")
-dats_to_motion_tensor.tensor().save_json("trajectory_result/target_trajectory.json")
+dats_to_motion_tensor.tensor()._print()
 
-prediction_offset = 800
+
+#dats_to_motion_tensor.tensor().save_json("trajectory_result/target_trajectory.json")
+
+prediction_offset = 80
 
 def process_trajectory(tensor_config, network_config, result_file_name):
 
@@ -24,9 +27,23 @@ def process_trajectory(tensor_config, network_config, result_file_name):
     prediction.get_result().save_json(result_file_name)
 
 
-process_trajectory("spatial_tensor_single.json", "networks/net_0_single/trained/cnn_config.json", "trajectory_result/net_0_single.json")
-#process_trajectory("spatial_tensor_all.json", "networks/net_0_all/trained/cnn_config.json", "trajectory_result/net_0_all.json")
-#process_trajectory("spatial_tensor_single.json", "networks/net_1_single/trained/cnn_config.json", "trajectory_result/net_1_single.json")
-#process_trajectory("spatial_tensor_all.json", "networks/net_1_all/trained/cnn_config.json", "trajectory_result/net_1_all.json")
+process_trajectory("networks/disc32x16x10/noise_0_0/spatial_tensor_single.json", "networks/disc32x16x10/noise_0_0/net_6_single/trained/network_config.json", "trajectory_result/noise_0_0_net_6_single.json")
+#process_trajectory("networks/disc32x16x10/noise_0_0/spatial_tensor_all.json", "networks/disc32x16x10/noise_0_0/net_6_all/trained/network_config.json", "trajectory_result/noise_0_0_net_6_all.json")
+
+#process_trajectory("networks/disc32x16x10/noise_0_5/spatial_tensor_single.json", "networks/disc32x16x10/noise_0_5/net_6_single/trained/network_config.json", "trajectory_result/noise_0_5_net_6_single.json")
+#process_trajectory("networks/disc32x16x10/noise_0_5/spatial_tensor_all.json", "networks/disc32x16x10/noise_0_5/net_6_all/trained/network_config.json", "trajectory_result/noise_0_5_net_6_all.json")
+
+#process_trajectory("networks/disc32x16x10/noise_0_10/spatial_tensor_single.json", "networks/disc32x16x10/noise_0_10/net_6_single/trained/network_config.json", "trajectory_result/noise_0_10_net_6_single.json")
+#process_trajectory("networks/disc32x16x10/noise_0_10/spatial_tensor_all.json", "networks/disc32x16x10/noise_0_10/net_6_all/trained/network_config.json", "trajectory_result/noise_0_10_net_6_all.json")
+
+
+
+'''
+process_trajectory("networks/disc32x16x10/noise_5_0/spatial_tensor_single.json", "networks/disc32x16x10/noise_5_0/net_6_single/trained/network_config.json", "trajectory_result/noise_5_0_net_6_single.json")
+process_trajectory("networks/disc32x16x10/noise_5_0/spatial_tensor_all.json", "networks/disc32x16x10/noise_5_0/net_6_all/trained/network_config.json", "trajectory_result/noise_5_0_net_6_all.json")
+
+process_trajectory("networks/disc32x16x10/noise_10_0/spatial_tensor_single.json", "networks/disc32x16x10/noise_10_0/net_6_single/trained/network_config.json", "trajectory_result/noise_10_0_net_6_single.json")
+process_trajectory("networks/disc32x16x10/noise_10_0/spatial_tensor_all.json", "networks/disc32x16x10/noise_10_0/net_6_all/trained/network_config.json", "trajectory_result/noise_10_0_net_6_all.json")
+'''
 
 print("program done")
