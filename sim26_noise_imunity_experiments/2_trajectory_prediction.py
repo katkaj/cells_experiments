@@ -5,7 +5,7 @@ import libs_python.pyphy as pyphy
 
 
 dats_to_motion_tensor = pyphy.DatsToMotionTensor("testing_dats.json", "motion_tensor.json")
-dats_to_motion_tensor.tensor().save_json("trajectory_result/target_trajectory.json")
+dats_to_motion_tensor.tensor().save_json("trajectory_result/target.json")
 
 prediction_offset = 800
 
@@ -24,9 +24,28 @@ def process_trajectory(tensor_config, network_config, result_file_name):
     prediction.get_result().save_json(result_file_name)
 
 
-process_trajectory("spatial_tensor_single.json", "networks/net_0_single/trained/cnn_config.json", "trajectory_result/net_0_single.json")
-#process_trajectory("spatial_tensor_all.json", "networks/net_0_all/trained/cnn_config.json", "trajectory_result/net_0_all.json")
-#process_trajectory("spatial_tensor_single.json", "networks/net_1_single/trained/cnn_config.json", "trajectory_result/net_1_single.json")
-#process_trajectory("spatial_tensor_all.json", "networks/net_1_all/trained/cnn_config.json", "trajectory_result/net_1_all.json")
+
+
+def experiment(path):
+    process_trajectory(path + "spatial_tensor_single.json", path + "net_0_single/trained/network_config.json", path + "net_0_single/trajectory_result/" + "trajectory.json")
+    process_trajectory(path + "spatial_tensor_single.json", path + "net_1_single/trained/network_config.json", path + "net_1_single/trajectory_result/" + "trajectory.json")
+    process_trajectory(path + "spatial_tensor_single.json", path + "net_2_single/trained/network_config.json", path + "net_2_single/trajectory_result/" + "trajectory.json")
+
+    process_trajectory(path + "spatial_tensor_all.json", path + "net_0_all/trained/network_config.json", path + "net_0_all/trajectory_result/" + "trajectory.json")
+    process_trajectory(path + "spatial_tensor_all.json", path + "net_1_all/trained/network_config.json", path + "net_1_all/trajectory_result/" + "trajectory.json")
+    process_trajectory(path + "spatial_tensor_all.json", path + "net_2_all/trained/network_config.json", path + "net_2_all/trajectory_result/" + "trajectory.json")
+
+    
+
+
+
+experiment("networks/noise_0_0/")
+experiment("networks/noise_5_0/")
+experiment("networks/noise_10_0/")
+experiment("networks/noise_15_0/")
+experiment("networks/noise_20_0/")
+experiment("networks/noise_25_0/")
+experiment("networks/noise_30_0/")
+
 
 print("program done")

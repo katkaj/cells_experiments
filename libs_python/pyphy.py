@@ -1547,6 +1547,9 @@ class MotionTensor(_object):
 
     def find_extremes(self):
         return _pyphy.MotionTensor_find_extremes(self)
+
+    def cut_period(self, dim=0):
+        return _pyphy.MotionTensor_cut_period(self, dim)
 MotionTensor_swigregister = _pyphy.MotionTensor_swigregister
 MotionTensor_swigregister(MotionTensor)
 

@@ -5,226 +5,50 @@
 		"gradient_clip" : 10,
 		"lambda1" : 1.0000000116860974e-07,
 		"lambda2" : 1.0000000116860974e-07,
-		"learning_rate" : 0.0010000000474974513,
+		"learning_rate" : 0.00019999999494757503,
 		"minibatch_size" : 32
 	},
 	"input_shape" : 
 	[
-		64,
-		64,
-		48
+		32,
+		16,
+		160
 	],
 	"layers" : 
 	[
 		{
 			"input_shape" : 
 			[
-				64,
-				64,
-				48
+				32,
+				16,
+				160
 			],
 			"output_shape" : 
 			[
-				64,
-				64,
-				56
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_0"
-		},
-		{
-			"input_shape" : 
-			[
-				64,
-				64,
-				56
-			],
-			"output_shape" : 
-			[
-				64,
-				64,
-				56
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_1"
-		},
-		{
-			"input_shape" : 
-			[
-				64,
-				64,
-				56
-			],
-			"output_shape" : 
-			[
-				64,
-				64,
-				64
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_2"
-		},
-		{
-			"input_shape" : 
-			[
-				64,
-				64,
-				64
-			],
-			"output_shape" : 
-			[
-				64,
-				64,
-				64
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_3"
-		},
-		{
-			"input_shape" : 
-			[
-				64,
-				64,
-				64
-			],
-			"output_shape" : 
-			[
-				64,
-				64,
-				72
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_4"
-		},
-		{
-			"input_shape" : 
-			[
-				64,
-				64,
-				72
-			],
-			"output_shape" : 
-			[
-				64,
-				64,
-				72
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_5"
-		},
-		{
-			"input_shape" : 
-			[
-				64,
-				64,
-				72
-			],
-			"output_shape" : 
-			[
-				64,
-				64,
-				80
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_6"
-		},
-		{
-			"input_shape" : 
-			[
-				64,
-				64,
-				80
-			],
-			"output_shape" : 
-			[
-				64,
-				64,
-				80
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_7"
-		},
-		{
-			"input_shape" : 
-			[
-				64,
-				64,
-				80
-			],
-			"output_shape" : 
-			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"shape" : 
 			[
-				1,
-				1,
+				3,
+				3,
 				32
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_8"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_0"
 		},
 		{
 			"input_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"output_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"shape" : 
@@ -234,19 +58,19 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_9"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_1"
 		},
 		{
 			"input_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"output_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"shape" : 
@@ -255,20 +79,20 @@
 				0,
 				0
 			],
-			"type" : "spatial attention",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_10"
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_2"
 		},
 		{
 			"input_shape" : 
 			[
-				64,
-				64,
+				32,
+				16,
 				32
 			],
 			"output_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"shape" : 
@@ -278,217 +102,41 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_11"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_3"
 		},
 		{
 			"input_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"output_shape" : 
 			[
-				32,
-				32,
-				40
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_12"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				40
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
-				40
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_13"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				40
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
-				48
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_14"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				48
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
-				48
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_15"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				48
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
-				56
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_16"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				56
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
-				56
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_17"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				56
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
-				64
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_18"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				64
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
-				64
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_19"
-		},
-		{
-			"input_shape" : 
-			[
-				32,
-				32,
-				64
-			],
-			"output_shape" : 
-			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"shape" : 
 			[
-				1,
-				1,
+				3,
+				3,
 				32
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_20"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_4"
 		},
 		{
 			"input_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"output_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"shape" : 
@@ -498,19 +146,19 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_21"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_5"
 		},
 		{
 			"input_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"output_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"shape" : 
@@ -519,20 +167,20 @@
 				0,
 				0
 			],
-			"type" : "spatial attention",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_22"
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_6"
 		},
 		{
 			"input_shape" : 
 			[
-				32,
-				32,
+				16,
+				8,
 				32
 			],
 			"output_shape" : 
 			[
-				16,
-				16,
+				8,
+				4,
 				32
 			],
 			"shape" : 
@@ -542,261 +190,85 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_23"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_7"
 		},
 		{
 			"input_shape" : 
 			[
-				16,
-				16,
+				8,
+				4,
 				32
 			],
 			"output_shape" : 
 			[
-				16,
-				16,
-				8
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_24"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				8
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				8
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_25"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				8
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				16
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_26"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				16
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				16
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_27"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				16
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				24
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_28"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				24
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				24
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_29"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				24
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				32
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_30"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				32
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				32
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_31"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				32
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
+				8,
+				4,
 				64
 			],
 			"shape" : 
 			[
-				1,
-				1,
+				3,
+				3,
 				64
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_32"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_8"
 		},
 		{
 			"input_shape" : 
 			[
-				16,
-				16,
-				64
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				64
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_33"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
-				64
-			],
-			"output_shape" : 
-			[
-				16,
-				16,
-				64
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "spatial attention",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_34"
-		},
-		{
-			"input_shape" : 
-			[
-				16,
-				16,
+				8,
+				4,
 				64
 			],
 			"output_shape" : 
 			[
 				8,
+				4,
+				64
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "elu",
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_9"
+		},
+		{
+			"input_shape" : 
+			[
 				8,
+				4,
+				64
+			],
+			"output_shape" : 
+			[
+				8,
+				4,
+				64
+			],
+			"shape" : 
+			[
+				0,
+				0,
+				0
+			],
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_10"
+		},
+		{
+			"input_shape" : 
+			[
+				8,
+				4,
+				64
+			],
+			"output_shape" : 
+			[
+				4,
+				2,
 				64
 			],
 			"shape" : 
@@ -806,217 +278,41 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_35"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_11"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"output_shape" : 
 			[
-				8,
-				8,
-				72
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_36"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				72
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
-				72
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_37"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				72
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
-				80
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_38"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				80
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
-				80
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_39"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				80
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
-				88
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_40"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				88
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
-				88
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_41"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				88
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
-				96
-			],
-			"shape" : 
-			[
-				3,
-				3,
-				8
-			],
-			"type" : "dense convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_42"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				96
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
-				96
-			],
-			"shape" : 
-			[
-				0,
-				0,
-				0
-			],
-			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_43"
-		},
-		{
-			"input_shape" : 
-			[
-				8,
-				8,
-				96
-			],
-			"output_shape" : 
-			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"shape" : 
 			[
-				1,
-				1,
+				3,
+				3,
 				64
 			],
 			"type" : "convolution",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_44"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_12"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"output_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"shape" : 
@@ -1026,19 +322,19 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_45"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_13"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"output_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"shape" : 
@@ -1047,20 +343,20 @@
 				0,
 				0
 			],
-			"type" : "spatial attention",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_46"
+			"type" : "spatial_attention",
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_14"
 		},
 		{
 			"input_shape" : 
 			[
-				8,
-				8,
+				4,
+				2,
 				64
 			],
 			"output_shape" : 
 			[
-				4,
-				4,
+				2,
+				1,
 				64
 			],
 			"shape" : 
@@ -1070,19 +366,19 @@
 				1
 			],
 			"type" : "max pooling",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_47"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_15"
 		},
 		{
 			"input_shape" : 
 			[
-				4,
-				4,
+				2,
+				1,
 				64
 			],
 			"output_shape" : 
 			[
-				4,
-				4,
+				2,
+				1,
 				64
 			],
 			"shape" : 
@@ -1092,13 +388,13 @@
 				0
 			],
 			"type" : "dropout",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_48"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_16"
 		},
 		{
 			"input_shape" : 
 			[
-				4,
-				4,
+				2,
+				1,
 				64
 			],
 			"output_shape" : 
@@ -1114,7 +410,7 @@
 				256
 			],
 			"type" : "fc",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_49"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_17"
 		},
 		{
 			"input_shape" : 
@@ -1136,7 +432,7 @@
 				0
 			],
 			"type" : "elu",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_50"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_18"
 		},
 		{
 			"input_shape" : 
@@ -1158,7 +454,7 @@
 				0
 			],
 			"type" : "output",
-			"weights_file_name" : "networks/noise_0_0/net_2_all/trained/layer_51"
+			"weights_file_name" : "networks/disc32x16x10/noise_10_0/net_2_all/trained/layer_19"
 		}
 	],
 	"output_shape" : 

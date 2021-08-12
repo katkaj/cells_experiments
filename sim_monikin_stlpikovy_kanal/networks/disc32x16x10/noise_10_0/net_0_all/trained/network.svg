@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1530" height="500" >
 <rect x="0" y="1" width="50" height="500" fill="rgb(200,200,0)" stroke-width="2" stroke="rgb(100,100,0)" />
-<text x="25" y="139" style="font-size: 30px; writing-mode: tb; ">input 64 64 48 </text>
+<text x="25" y="131" style="font-size: 30px; writing-mode: tb; ">input 32 16 160 </text>
 <rect x="90" y="1" width="50" height="500" fill="rgb(80,80,190)" stroke-width="2" stroke="rgb(40,40,95)" />
 <text x="115" y="109" style="font-size: 30px; writing-mode: tb; ">convolution 3 3 32 </text>
 <rect x="180" y="1" width="50" height="500" fill="rgb(190,80,80)" stroke-width="2" stroke="rgb(95,40,40)" />
